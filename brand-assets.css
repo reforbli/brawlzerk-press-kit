@@ -1,0 +1,208 @@
+.press-brand-assets {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: #0b0806;
+}
+
+.inline-scroll-link {
+  color: var(--gold);
+  font-weight: 850;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.inline-scroll-link:hover {
+  color: var(--paper);
+}
+
+.inline-scroll-link:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+#google-drive-download {
+  scroll-margin-top: 120px;
+}
+
+#google-drive-download:target {
+  border-color: var(--gold);
+}
+
+.press-brand-carousel {
+  outline: none;
+}
+
+.press-brand-carousel:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 6px;
+}
+
+.press-brand-stage {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  background-color: #120d0a;
+  background-image:
+    linear-gradient(45deg, rgba(255, 255, 255, 0.025) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(255, 255, 255, 0.025) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.025) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.025) 75%);
+  background-position: 0 0, 0 16px, 16px -16px, -16px 0;
+  background-size: 32px 32px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
+  user-select: none;
+}
+
+.press-brand-slide {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: clamp(24px, 5vw, 70px);
+}
+
+.press-brand-slide[hidden] {
+  display: none;
+}
+
+.press-brand-slide img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.34));
+  -webkit-user-drag: none;
+}
+
+.press-brand-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 4;
+  width: clamp(42px, 4.5vw, 58px);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  padding: 0 0 4px;
+  border: 1px solid rgba(255, 212, 61, 0.72);
+  border-radius: 50%;
+  color: var(--paper);
+  background: rgba(5, 4, 3, 0.78);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  line-height: 1;
+  transform: translateY(-50%);
+}
+
+.press-brand-arrow:hover {
+  color: var(--ink);
+  border-color: var(--gold);
+  background: var(--gold);
+}
+
+.press-brand-arrow-prev {
+  left: clamp(10px, 2vw, 24px);
+}
+
+.press-brand-arrow-next {
+  right: clamp(10px, 2vw, 24px);
+}
+
+.press-brand-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 78px;
+  padding: 17px 20px;
+  border: 1px solid var(--line-strong);
+  border-top: 0;
+  background: var(--ink-2);
+}
+
+.press-brand-meta-copy {
+  display: grid;
+  gap: 4px;
+}
+
+.press-brand-meta strong {
+  color: var(--paper);
+  font-size: 0.9rem;
+}
+
+.press-brand-meta span {
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.press-brand-original {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 13px;
+  border: 1px solid var(--line-strong);
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.press-brand-original:hover {
+  border-color: var(--gold);
+  color: var(--paper);
+}
+
+.press-brand-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 18px;
+}
+
+.press-brand-dot {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: 1px solid var(--muted);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.press-brand-dot:hover {
+  border-color: var(--paper);
+  transform: scale(1.2);
+}
+
+.press-brand-dot.is-active {
+  border-color: var(--gold);
+  background: var(--gold);
+}
+
+@media (max-width: 720px) {
+  .press-brand-stage {
+    aspect-ratio: 4 / 3;
+  }
+
+  .press-brand-slide {
+    padding: 22px 58px;
+  }
+
+  .press-brand-meta {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 13px;
+    padding: 15px;
+  }
+
+  .press-brand-original {
+    width: 100%;
+  }
+}

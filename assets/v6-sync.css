@@ -1,0 +1,238 @@
+.hero::before {
+  filter: brightness(1.12) saturate(1.06);
+}
+
+.hero::after {
+  background:
+    linear-gradient(90deg, rgba(8, 6, 5, 0.88) 0%, rgba(8, 6, 5, 0.52) 40%, rgba(8, 6, 5, 0.06) 68%, rgba(8, 6, 5, 0.28) 100%),
+    linear-gradient(0deg, rgba(10, 8, 7, 0.76) 0%, rgba(10, 8, 7, 0.02) 54%, rgba(10, 8, 7, 0.32) 100%);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  justify-self: end;
+  gap: 14px;
+}
+
+.header-email {
+  color: var(--paper-soft);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.015em;
+  white-space: nowrap;
+  transition: color 160ms ease;
+}
+
+.header-email:hover {
+  color: var(--gold);
+}
+
+.feature-card[hidden] {
+  display: none;
+}
+
+.feature-card[data-feature-index="4"] {
+  --feature-accent: var(--ember);
+}
+
+.feature-card[data-feature-index="4"] .feature-media {
+  order: 2;
+  border-right: 0;
+  border-left: 1px solid var(--line);
+}
+
+.trailer-embed iframe,
+.trailer-embed .trailer-local-video {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.trailer-embed .trailer-local-video {
+  object-fit: contain;
+  background: #000;
+}
+
+.screenshot-carousel {
+  margin-bottom: 64px;
+}
+
+.screenshot-carousel:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 6px;
+}
+
+.screenshot-stage {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  background: #050403;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
+  touch-action: pan-y pinch-zoom;
+  user-select: none;
+}
+
+.screenshot-slide {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.screenshot-slide[hidden] {
+  display: none;
+}
+
+.screenshot-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.screenshot-arrow {
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  padding: 0 0 4px;
+  border: 1px solid rgba(255, 212, 61, 0.72);
+  border-radius: 50%;
+  color: var(--paper);
+  background: rgba(5, 4, 3, 0.8);
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  line-height: 1;
+  transform: translateY(-50%);
+}
+
+.screenshot-arrow {
+  position: absolute;
+  top: 50%;
+  width: clamp(42px, 4.5vw, 58px);
+  aspect-ratio: 1;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+}
+
+.screenshot-arrow:hover {
+  color: var(--ink);
+  border-color: var(--gold);
+  background: var(--gold);
+}
+
+.screenshot-arrow-prev {
+  left: clamp(10px, 2vw, 24px);
+}
+
+.screenshot-arrow-next {
+  right: clamp(10px, 2vw, 24px);
+}
+
+.screenshot-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 18px;
+}
+
+.screenshot-dot {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: 1px solid var(--muted);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.screenshot-dot:hover {
+  border-color: var(--paper);
+  transform: scale(1.2);
+}
+
+.screenshot-dot.is-active {
+  border-color: var(--gold);
+  background: var(--gold);
+}
+
+.contact-email-only {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 980px) {
+  .feature-card[data-feature-index="4"] .feature-media {
+    order: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    border-left: 0;
+  }
+
+  .hero::after {
+    background:
+      linear-gradient(0deg, rgba(10, 8, 7, 0.8) 0%, rgba(10, 8, 7, 0.12) 54%, rgba(10, 8, 7, 0.42) 100%),
+      linear-gradient(90deg, rgba(8, 6, 5, 0.82), rgba(8, 6, 5, 0.08));
+  }
+}
+
+@media (max-width: 1150px) {
+  .header-email {
+    display: none;
+  }
+}
+
+@media (max-width: 1050px) {
+  .header-actions {
+    width: 100%;
+    min-width: 0;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-self: stretch;
+    gap: 0;
+  }
+
+  .header-actions .header-locale {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    flex: 1 1 0;
+    overflow: hidden;
+  }
+
+  .header-actions .header-locale .locale-button {
+    width: 20%;
+    max-width: 20%;
+    min-width: 0;
+    flex: 1 1 20%;
+  }
+}
+
+@media (max-width: 720px) {
+  .header-actions {
+    width: 100%;
+    min-width: 0;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-self: stretch;
+  }
+
+  .header-email {
+    display: none;
+  }
+
+  .screenshot-arrow {
+    width: 38px;
+    font-size: 1.65rem;
+  }
+}
+
+@media print {
+  .screenshot-carousel {
+    display: none !important;
+  }
+}

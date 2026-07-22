@@ -1,0 +1,2773 @@
+<!doctype html>
+<html lang="en" data-version="6" data-locale="en" data-route-locale="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="../">
+  <meta name="theme-color" content="#0b0907">
+  <meta name="description" content="The official press kit for BRAWLZERK, an isometric survivor-like action game built around hands-on attacks, defense, evasion, and reversals.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BRAWLZERK — Official Press Kit">
+  <meta property="og:description" content="Do not just run. Fight back. An isometric action game combining fighting-game exchanges with active skill cards.">
+  <meta property="og:image" content="https://reforbli.github.io/press-kit/assets/media/BRAWLZERK_store_main_1232x706.png">
+  <meta property="og:image:width" content="1232">
+  <meta property="og:image:height" content="706">
+  <meta property="og:image:alt" content="BRAWLZERK logo and combat key art">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>BRAWLZERK — Official Press Kit</title>
+
+  <link rel="canonical" href="https://reforbli.github.io/press-kit/en/">
+  <link rel="alternate" hreflang="en" href="https://reforbli.github.io/press-kit/en/">
+  <link rel="alternate" hreflang="ja" href="https://reforbli.github.io/press-kit/ja/">
+  <link rel="alternate" hreflang="ko" href="https://reforbli.github.io/press-kit/ko/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://reforbli.github.io/press-kit/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://reforbli.github.io/press-kit/zh-hant/">
+  <link rel="alternate" hreflang="x-default" href="https://reforbli.github.io/press-kit/">
+  <meta property="og:url" content="https://reforbli.github.io/press-kit/en/">
+  <link rel="icon" href="assets/media/BRAWLZERK_shortcut_icon_256.png" type="image/png">
+  <link rel="preload" href="assets/media/BRAWLZERK_library_hero_3840x1240.png" as="image" fetchpriority="high">
+
+  <script>
+    try {
+      if (window.localStorage.getItem("brawlzerk-presskit-v6-locale")) {
+        document.documentElement.classList.add("has-language-choice");
+      }
+    } catch (error) {
+      // The first-visit language prompt remains visible when storage is unavailable.
+    }
+  </script>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #0a0807;
+      --ink-2: #100c09;
+      --panel: #17110d;
+      --panel-2: #1d1510;
+      --paper: #f6ead7;
+      --paper-soft: #d6c2a5;
+      --muted: #a89378;
+      --gold: #ffd43d;
+      --gold-deep: #b78310;
+      --ember: #ff5826;
+      --ember-deep: #a92812;
+      --ice: #62d7ff;
+      --line: rgba(246, 234, 215, 0.16);
+      --line-strong: rgba(246, 234, 215, 0.29);
+      --max: 1220px;
+      --shadow: 0 28px 80px rgba(0, 0, 0, 0.48);
+      --display: Impact, Haettenschweiler, "Arial Narrow Bold", "Arial Black", "Malgun Gothic", "Yu Gothic", Meiryo, sans-serif;
+      --sans: Pretendard, "Noto Sans KR", "Noto Sans JP", "Apple SD Gothic Neo", "Malgun Gothic", "Yu Gothic", Meiryo, Arial, sans-serif;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 112px;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      color: var(--paper);
+      background:
+        radial-gradient(circle at 10% 7%, rgba(255, 88, 38, 0.11), transparent 30rem),
+        radial-gradient(circle at 92% 42%, rgba(255, 212, 61, 0.055), transparent 32rem),
+        var(--ink);
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      opacity: 0.14;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+      background-size: 52px 52px;
+      mask-image: linear-gradient(to bottom, black, transparent 88%);
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      color: inherit;
+      font: inherit;
+    }
+
+    button,
+    a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    ::selection {
+      color: var(--ink);
+      background: var(--gold);
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--ice);
+      outline-offset: 4px;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 200;
+      padding: 9px 13px;
+      color: var(--ink);
+      background: var(--gold);
+      font-weight: 900;
+      transform: translateY(-150%);
+      transition: transform 160ms ease;
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .container {
+      width: min(calc(100% - 40px), var(--max));
+      margin-inline: auto;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--line);
+      background: rgba(10, 8, 7, 0.91);
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.18);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+
+    .header-inner {
+      display: grid;
+      min-height: 80px;
+      grid-template-columns: 190px minmax(0, 1fr) auto;
+      gap: 24px;
+      align-items: center;
+    }
+
+    .brand {
+      display: inline-flex;
+      width: 184px;
+      align-items: center;
+    }
+
+    .brand img {
+      width: 100%;
+      height: auto;
+      filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.45));
+    }
+
+    .nav-list {
+      display: flex;
+      justify-content: center;
+      gap: clamp(18px, 2.5vw, 34px);
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .nav-list a {
+      position: relative;
+      display: block;
+      padding: 9px 0;
+      color: var(--paper-soft);
+      font-size: 0.82rem;
+      font-weight: 850;
+      white-space: nowrap;
+    }
+
+    .nav-list a::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 3px;
+      left: 0;
+      height: 2px;
+      background: var(--ember);
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 180ms ease;
+    }
+
+    .nav-list a:hover {
+      color: var(--paper);
+    }
+
+    .nav-list a:hover::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    .locale-switch {
+      display: inline-flex;
+      padding: 3px;
+      border: 1px solid var(--line-strong);
+      background: rgba(255, 255, 255, 0.035);
+    }
+
+    .locale-button {
+      min-height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 10px;
+      border: 0;
+      color: var(--muted);
+      background: transparent;
+      cursor: pointer;
+      font-size: 0.72rem;
+      font-weight: 900;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: color 160ms ease, background-color 160ms ease;
+    }
+
+    .locale-button:hover {
+      color: var(--paper);
+    }
+
+    .locale-button.is-active {
+      color: var(--ink);
+      background: var(--gold);
+    }
+
+    .language-cta {
+      position: relative;
+      z-index: 2;
+      border-bottom: 1px solid rgba(255, 212, 61, 0.28);
+      background:
+        linear-gradient(90deg, rgba(255, 212, 61, 0.09), rgba(255, 88, 38, 0.045) 58%, transparent),
+        #0d0a08;
+    }
+
+    .language-cta[hidden] {
+      display: none;
+    }
+
+    .language-cta-inner {
+      display: grid;
+      min-height: 92px;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 28px;
+      align-items: center;
+      padding: 15px 0;
+    }
+
+    .language-cta-copy {
+      display: flex;
+      min-width: 0;
+      align-items: baseline;
+      gap: 20px;
+    }
+
+    .language-cta-label {
+      flex: 0 0 auto;
+      color: var(--gold);
+      font-family: var(--display);
+      font-size: 1.02rem;
+      letter-spacing: 0.075em;
+      line-height: 1;
+    }
+
+    .language-cta-message {
+      display: flex;
+      min-width: 0;
+      flex-wrap: wrap;
+      gap: 4px 9px;
+      margin: 0;
+      color: var(--paper-soft);
+      font-size: 0.84rem;
+      font-weight: 720;
+      line-height: 1.5;
+    }
+
+    .language-cta-message > span[aria-hidden="true"] {
+      color: var(--ember);
+    }
+
+    .language-cta-switch {
+      border-color: rgba(255, 212, 61, 0.48);
+      background: rgba(0, 0, 0, 0.28);
+      box-shadow: 0 12px 34px rgba(0, 0, 0, 0.24);
+    }
+
+    .language-cta-switch .locale-button {
+      min-height: 44px;
+      padding: 7px 17px;
+      font-size: 0.76rem;
+    }
+
+    .hero {
+      position: relative;
+      min-height: 600px;
+      display: flex;
+      align-items: flex-end;
+      isolation: isolate;
+      overflow: hidden;
+      border-bottom: 1px solid var(--line);
+      background: #1a100b;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -3;
+      background-image: url("assets/media/BRAWLZERK_library_hero_3840x1240.png");
+      background-position: center 39%;
+      background-size: cover;
+      transform: scale(1.025);
+      animation: hero-drift 15s ease-in-out infinite alternate;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background:
+        linear-gradient(90deg, rgba(8, 6, 5, 0.97) 0%, rgba(8, 6, 5, 0.74) 40%, rgba(8, 6, 5, 0.18) 68%, rgba(8, 6, 5, 0.76) 100%),
+        linear-gradient(0deg, var(--ink) 0%, rgba(10, 8, 7, 0.16) 54%, rgba(10, 8, 7, 0.66) 100%);
+    }
+
+    @keyframes hero-drift {
+      from { transform: scale(1.025); }
+      to { transform: scale(1.07); }
+    }
+
+    .hero-grid {
+      display: grid;
+      width: 100%;
+      grid-template-columns: minmax(0, 820px);
+      gap: 0;
+      align-items: end;
+      padding: 92px 0 50px;
+    }
+
+    .hero-copy {
+      min-width: 0;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin: 0 0 15px;
+      color: var(--gold);
+      font-size: 0.75rem;
+      font-weight: 950;
+      letter-spacing: 0.17em;
+      line-height: 1.35;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 26px;
+      height: 3px;
+      background: currentColor;
+      box-shadow: 7px 0 0 rgba(255, 212, 61, 0.26);
+      transform: skewX(-26deg);
+    }
+
+    .hero h1,
+    .section-title,
+    .feature-copy h3 {
+      font-family: var(--display);
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    html[lang="ja"] .hero h1,
+    html[lang="ja"] .section-title,
+    html[lang="ja"] .feature-copy h3,
+    html[lang="ja"] .download-head h3 {
+      font-family: var(--sans);
+      text-transform: none;
+    }
+
+    html[lang="ja"] .download-head h3 {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+    }
+
+    .hero h1 {
+      max-width: 810px;
+      margin: 0 0 26px;
+      font-size: clamp(4.8rem, 9.6vw, 8.9rem);
+      letter-spacing: -0.047em;
+      line-height: 0.84;
+      text-wrap: balance;
+      text-shadow: 0 6px 32px rgba(0, 0, 0, 0.66);
+    }
+
+    .hero h1 span {
+      position: relative;
+      display: inline-block;
+      color: var(--gold);
+    }
+
+    .hero h1 span::after {
+      content: "";
+      position: absolute;
+      right: -4px;
+      bottom: 0.06em;
+      left: 3px;
+      z-index: -1;
+      height: 0.16em;
+      background: var(--ember-deep);
+      transform: rotate(-1.5deg) skewX(-15deg);
+    }
+
+    .hero-lead {
+      max-width: 710px;
+      margin: 0 0 31px;
+      color: #f8ead7;
+      font-size: clamp(1.05rem, 1.8vw, 1.3rem);
+      font-weight: 650;
+      line-height: 1.67;
+      text-shadow: 0 3px 16px rgba(0, 0, 0, 0.92);
+    }
+
+    html[lang="ko"] .hero-lead,
+    html[lang="ko"] .section-intro,
+    html[lang="ko"] .feature-copy h3,
+    html[lang="ko"] .feature-copy p,
+    html[lang="ko"] .about-copy p {
+      word-break: keep-all;
+      overflow-wrap: normal;
+    }
+
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .button {
+      position: relative;
+      display: inline-flex;
+      min-height: 50px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px 20px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      font-size: 0.88rem;
+      font-weight: 950;
+      line-height: 1.25;
+      clip-path: polygon(7px 0, 100% 0, calc(100% - 7px) 100%, 0 100%);
+      transition: transform 180ms ease, color 180ms ease, background-color 180ms ease, border-color 180ms ease;
+    }
+
+    .button:hover {
+      transform: translateY(-3px);
+    }
+
+    .button-primary {
+      color: var(--ink);
+      background: var(--gold);
+      border-color: var(--gold);
+      box-shadow: 7px 7px 0 rgba(169, 40, 18, 0.88);
+    }
+
+    .button-primary:hover {
+      background: #ffe675;
+    }
+
+    .button-ghost {
+      color: var(--paper);
+      background: rgba(10, 8, 7, 0.68);
+      border-color: var(--line-strong);
+    }
+
+    .button-ghost:hover {
+      border-color: var(--gold);
+    }
+
+    .fact-strip {
+      border-bottom: 1px solid var(--line);
+      background: var(--ink-2);
+    }
+
+    .fact-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      margin: 0;
+    }
+
+    .fact-item {
+      min-width: 0;
+      min-height: 118px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 22px 24px;
+      border-left: 1px solid var(--line);
+    }
+
+    .fact-item:last-child {
+      border-right: 1px solid var(--line);
+    }
+
+    .fact-item:nth-child(4n) {
+      border-right: 1px solid var(--line);
+    }
+
+    .fact-item:nth-child(n+5) {
+      border-top: 1px solid var(--line);
+    }
+
+    .fact-item dt {
+      margin-bottom: 7px;
+      color: var(--muted);
+      font-size: 0.68rem;
+      font-weight: 950;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .fact-item dd {
+      margin: 0;
+      font-size: 0.92rem;
+      font-weight: 850;
+      line-height: 1.45;
+    }
+
+    .fact-item a {
+      color: var(--paper);
+      overflow-wrap: anywhere;
+    }
+
+    .fact-item a:hover {
+      color: var(--gold);
+    }
+
+    .fact-item a[aria-disabled="true"] {
+      color: var(--muted);
+      cursor: not-allowed;
+      text-decoration: underline dashed;
+      text-underline-offset: 4px;
+    }
+
+    .section {
+      position: relative;
+      padding: 108px 0;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 0.95fr) minmax(300px, 0.55fr);
+      gap: clamp(36px, 7vw, 96px);
+      align-items: end;
+      margin-bottom: 55px;
+    }
+
+    .section-title {
+      max-width: 870px;
+      margin: 0;
+      font-size: clamp(3rem, 6.6vw, 6.1rem);
+      letter-spacing: -0.04em;
+      line-height: 0.94;
+      text-wrap: balance;
+    }
+
+    .section-title em {
+      color: var(--ember);
+      font-style: normal;
+    }
+
+    .section-intro {
+      max-width: 545px;
+      margin: 0;
+      color: var(--paper-soft);
+      font-size: clamp(1rem, 1.55vw, 1.14rem);
+    }
+
+    .about-section {
+      background:
+        linear-gradient(90deg, rgba(255, 88, 38, 0.045), transparent 38%),
+        var(--ink);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(300px, 0.72fr);
+      gap: clamp(35px, 7vw, 92px);
+      align-items: start;
+    }
+
+    .about-copy p {
+      margin: 0 0 22px;
+      color: var(--paper-soft);
+      font-size: 1.03rem;
+    }
+
+    .about-copy p:first-child {
+      color: var(--paper);
+      font-size: clamp(1.18rem, 2vw, 1.48rem);
+      font-weight: 800;
+      line-height: 1.62;
+    }
+
+    .about-quote {
+      margin: 0;
+      padding: 31px;
+      border-left: 4px solid var(--gold);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .about-quote p {
+      margin: 0 0 18px;
+      font-size: clamp(1.35rem, 2.5vw, 2rem);
+      font-weight: 900;
+      line-height: 1.38;
+    }
+
+    .about-quote cite {
+      color: var(--gold);
+      font-size: 0.72rem;
+      font-style: normal;
+      font-weight: 950;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .creator-section {
+      isolation: isolate;
+      overflow: hidden;
+      border-top: 1px solid var(--line);
+      background:
+        radial-gradient(circle at 88% 22%, rgba(255, 212, 61, 0.08), transparent 28rem),
+        linear-gradient(135deg, rgba(255, 88, 38, 0.055), transparent 42%),
+        var(--ink-2);
+    }
+
+    .creator-layout {
+      display: grid;
+      grid-template-columns: minmax(300px, 0.72fr) minmax(0, 1.28fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .creator-identity {
+      position: relative;
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 50px;
+      padding: clamp(30px, 4vw, 50px);
+      color: var(--ink);
+      background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.28), transparent 45%),
+        var(--gold);
+      box-shadow: 10px 10px 0 rgba(169, 40, 18, 0.82);
+      overflow: hidden;
+    }
+
+    .creator-identity::after {
+      content: "2015";
+      position: absolute;
+      right: -0.03em;
+      bottom: -0.25em;
+      color: rgba(10, 8, 7, 0.085);
+      font-family: var(--display);
+      font-size: clamp(7rem, 13vw, 11rem);
+      font-weight: 900;
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .creator-identity .eyebrow {
+      position: relative;
+      z-index: 1;
+      color: rgba(10, 8, 7, 0.7);
+    }
+
+    .creator-title {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+      font-size: clamp(3.1rem, 4.2vw, 4.1rem);
+      letter-spacing: -0.045em;
+      line-height: 0.9;
+      white-space: nowrap;
+    }
+
+    .creator-since {
+      position: relative;
+      z-index: 1;
+      max-width: 260px;
+      margin: 0;
+      font-size: 0.75rem;
+      font-weight: 950;
+      letter-spacing: 0.1em;
+      line-height: 1.5;
+      text-transform: uppercase;
+    }
+
+    .creator-story {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: clamp(31px, 5vw, 64px);
+      border: 1px solid var(--line);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .creator-story p {
+      margin: 0 0 19px;
+      color: var(--paper-soft);
+      font-size: 1rem;
+      line-height: 1.82;
+    }
+
+    .creator-story p:first-child {
+      color: var(--paper);
+      font-size: clamp(1.17rem, 1.8vw, 1.42rem);
+      font-weight: 850;
+      line-height: 1.58;
+    }
+
+    .creator-career {
+      align-self: flex-start;
+      max-width: 100%;
+      margin: 13px 0 0;
+      padding: 9px 12px;
+      color: var(--gold);
+      border: 1px solid rgba(255, 212, 61, 0.36);
+      background: rgba(255, 212, 61, 0.055);
+      font-size: 0.72rem;
+      font-weight: 950;
+      letter-spacing: 0.045em;
+      line-height: 1.55;
+    }
+
+    .features-section {
+      border-block: 1px solid var(--line);
+      background:
+        radial-gradient(circle at 12% 22%, rgba(98, 215, 255, 0.06), transparent 25rem),
+        #0d0a08;
+    }
+
+    .feature-list {
+      display: grid;
+      gap: 34px;
+    }
+
+    .feature-card {
+      --feature-accent: var(--gold);
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+      border: 1px solid var(--line);
+      background: var(--panel);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.22);
+      overflow: hidden;
+    }
+
+    .feature-card:nth-child(2),
+    .feature-card:nth-child(5) {
+      --feature-accent: var(--ember);
+    }
+
+    .feature-card:nth-child(3),
+    .feature-card:nth-child(6) {
+      --feature-accent: var(--ice);
+    }
+
+    .feature-card:nth-child(even) .feature-media {
+      order: 2;
+    }
+
+    .feature-media {
+      position: relative;
+      min-width: 0;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      margin: 0;
+      border-right: 1px solid var(--line);
+      background: #090806;
+    }
+
+    .feature-card:nth-child(even) .feature-media {
+      border-right: 0;
+      border-left: 1px solid var(--line);
+    }
+
+    .gif-placeholder {
+      position: relative;
+      aspect-ratio: 16 / 9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 36px;
+      isolation: isolate;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--feature-accent) 16%, transparent), transparent 32%),
+        linear-gradient(135deg, rgba(255, 255, 255, 0.035), transparent 52%),
+        #0b0907;
+    }
+
+    .gif-placeholder::before {
+      content: attr(data-slot-index);
+      position: absolute;
+      right: 18px;
+      bottom: -0.14em;
+      z-index: -1;
+      color: rgba(255, 255, 255, 0.035);
+      font-family: var(--display);
+      font-size: clamp(8rem, 18vw, 15rem);
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .gif-placeholder::after {
+      content: "";
+      position: absolute;
+      inset: 18px;
+      z-index: -1;
+      border: 1px dashed color-mix(in srgb, var(--feature-accent) 62%, transparent);
+      background:
+        linear-gradient(90deg, transparent 49.7%, rgba(255, 255, 255, 0.035) 50%, transparent 50.3%),
+        linear-gradient(transparent 49.7%, rgba(255, 255, 255, 0.035) 50%, transparent 50.3%);
+    }
+
+    .slot-content {
+      width: 100%;
+      min-width: 0;
+      max-width: 420px;
+      text-align: center;
+    }
+
+    .slot-badge {
+      display: inline-flex;
+      margin-bottom: 18px;
+      padding: 5px 9px;
+      color: var(--ink);
+      background: var(--feature-accent);
+      font-size: 0.65rem;
+      font-weight: 950;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .play-mark {
+      width: 72px;
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 20px;
+      border: 2px solid var(--feature-accent);
+      border-radius: 50%;
+      box-shadow: 0 0 35px color-mix(in srgb, var(--feature-accent) 22%, transparent);
+    }
+
+    .play-mark::before {
+      content: "";
+      width: 0;
+      height: 0;
+      margin-left: 5px;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 16px solid var(--feature-accent);
+    }
+
+    .slot-content strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: clamp(1.15rem, 2vw, 1.45rem);
+      line-height: 1.35;
+    }
+
+    .slot-content small {
+      display: block;
+      color: var(--muted);
+      font-size: 0.78rem;
+      line-height: 1.55;
+    }
+
+    .feature-gif,
+    .feature-video {
+      display: block;
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+
+    .feature-media figcaption {
+      display: flex;
+      min-height: 58px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 12px 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      background: #0e0b08;
+      font-size: 0.7rem;
+    }
+
+    .feature-media figcaption span:first-child {
+      flex: 0 0 auto;
+      color: var(--feature-accent);
+      font-weight: 950;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .feature-copy {
+      position: relative;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: clamp(34px, 5vw, 66px);
+      overflow: hidden;
+    }
+
+    .feature-copy::after {
+      content: attr(data-feature-number);
+      position: absolute;
+      right: -0.02em;
+      bottom: -0.16em;
+      color: rgba(255, 255, 255, 0.025);
+      font-family: var(--display);
+      font-size: clamp(9rem, 19vw, 16rem);
+      font-weight: 900;
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .feature-label {
+      position: relative;
+      z-index: 1;
+      margin: 0 0 18px;
+      color: var(--feature-accent);
+      font-size: 0.69rem;
+      font-weight: 950;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .feature-copy h3 {
+      position: relative;
+      z-index: 1;
+      margin: 0 0 20px;
+      font-size: clamp(2.1rem, 4.3vw, 4rem);
+      letter-spacing: -0.035em;
+      line-height: 0.98;
+      text-wrap: balance;
+    }
+
+    .feature-copy > p:not(.feature-label) {
+      position: relative;
+      z-index: 1;
+      margin: 0 0 20px;
+      color: var(--paper-soft);
+      font-size: 0.97rem;
+    }
+
+    .feature-copy ul {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: 7px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .feature-copy li {
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    .feature-copy li::before {
+      content: "—";
+      margin-right: 9px;
+      color: var(--feature-accent);
+      font-weight: 950;
+    }
+
+    .copy-section {
+      background:
+        linear-gradient(135deg, rgba(255, 212, 61, 0.045), transparent 40%),
+        var(--ink);
+    }
+
+    .copy-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .copy-card {
+      display: flex;
+      min-height: 300px;
+      flex-direction: column;
+      padding: 31px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+    }
+
+    .copy-card-wide {
+      min-height: 340px;
+      grid-column: 1 / -1;
+    }
+
+    .copy-card-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 23px;
+    }
+
+    .copy-card h3 {
+      margin: 0;
+      font-size: 1.05rem;
+    }
+
+    .copy-length {
+      color: var(--gold);
+      font-size: 0.66rem;
+      font-weight: 950;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .copy-text {
+      flex: 1;
+      margin-bottom: 25px;
+      color: var(--paper-soft);
+      font-size: 0.93rem;
+      line-height: 1.78;
+      white-space: pre-line;
+    }
+
+    .copy-button {
+      width: fit-content;
+      min-height: 42px;
+      align-self: flex-start;
+      padding: 9px 15px;
+      font-size: 0.76rem;
+    }
+
+    .media-section {
+      border-top: 1px solid var(--line);
+      background: #0c0907;
+    }
+
+    .trailer-card {
+      margin-bottom: 22px;
+      overflow: hidden;
+      border: 1px solid var(--line-strong);
+      background: #080605;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+    }
+
+    .trailer-link {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      background: #000;
+    }
+
+    .trailer-poster {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      transition: transform 420ms ease, filter 420ms ease;
+    }
+
+    .trailer-link:hover .trailer-poster {
+      transform: scale(1.015);
+      filter: brightness(1.08);
+    }
+
+    .trailer-play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: clamp(64px, 8vw, 94px);
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+      border: 2px solid var(--gold);
+      border-radius: 50%;
+      color: var(--ink);
+      background: var(--gold);
+      box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.38), 0 18px 48px rgba(0, 0, 0, 0.48);
+      transform: translate(-50%, -50%);
+    }
+
+    .trailer-play::before {
+      content: "";
+      width: 0;
+      height: 0;
+      margin-left: 7px;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-left: 19px solid currentColor;
+    }
+
+    .trailer-copy {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: end;
+      gap: 28px;
+      padding: 22px 24px 24px;
+      border-top: 1px solid var(--line);
+    }
+
+    .trailer-kicker,
+    .trailer-meta {
+      color: var(--gold);
+      font-size: 0.68rem;
+      font-weight: 950;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .trailer-copy h3 {
+      margin: 5px 0 7px;
+      color: var(--paper);
+      font-size: clamp(1.35rem, 2.6vw, 2.15rem);
+      line-height: 1.08;
+    }
+
+    .trailer-copy p {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.86rem;
+      line-height: 1.65;
+    }
+
+    .trailer-meta {
+      padding-bottom: 3px;
+      white-space: nowrap;
+    }
+
+    .media-gallery {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr;
+      grid-auto-rows: 230px;
+      gap: 12px;
+      margin-bottom: 64px;
+    }
+
+    .media-tile {
+      position: relative;
+      min-width: 0;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: var(--panel);
+    }
+
+    .media-tile-main {
+      grid-column: 1 / 3;
+      grid-row: 1 / 3;
+    }
+
+    .media-tile:nth-child(5) {
+      grid-column: 2 / 4;
+    }
+
+    .media-tile img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 400ms ease, filter 400ms ease;
+    }
+
+    .media-tile:hover img {
+      transform: scale(1.025);
+      filter: brightness(1.07);
+    }
+
+    .media-caption {
+      position: absolute;
+      inset: auto 0 0;
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 15px;
+      padding: 45px 18px 15px;
+      background: linear-gradient(to top, rgba(6, 5, 4, 0.94), transparent);
+      font-size: 0.73rem;
+    }
+
+    .media-caption strong {
+      color: var(--paper);
+    }
+
+    .media-caption span {
+      color: var(--gold);
+      white-space: nowrap;
+    }
+
+    .asset-guidelines {
+      display: grid;
+      grid-template-columns: minmax(230px, 0.42fr) minmax(0, 1fr);
+      gap: clamp(28px, 6vw, 78px);
+      margin-bottom: 72px;
+      padding: clamp(26px, 4vw, 44px);
+      border: 1px solid var(--line-strong);
+      border-left: 4px solid var(--ice);
+      background: rgba(98, 215, 255, 0.045);
+    }
+
+    .asset-guidelines h3 {
+      margin: 7px 0 12px;
+      font-family: var(--display);
+      font-size: clamp(2rem, 3.6vw, 3.5rem);
+      line-height: 0.94;
+      text-transform: uppercase;
+    }
+
+    .asset-guidelines p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.75rem;
+    }
+
+    .guideline-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      margin: 0;
+      padding: 0;
+      border-top: 1px solid var(--line);
+      border-left: 1px solid var(--line);
+      list-style: none;
+    }
+
+    .guideline-list li {
+      position: relative;
+      min-height: 110px;
+      padding: 23px 22px 20px 45px;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      color: var(--paper-soft);
+      font-size: 0.82rem;
+      line-height: 1.65;
+    }
+
+    .guideline-list li::before {
+      content: "✓";
+      position: absolute;
+      top: 22px;
+      left: 20px;
+      color: var(--ice);
+      font-weight: 950;
+    }
+
+    .download-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 35px;
+      margin-bottom: 22px;
+    }
+
+    .download-head h3 {
+      margin: 0;
+      font-family: var(--display);
+      font-size: clamp(2.8rem, 6vw, 5rem);
+      line-height: 0.95;
+      text-transform: uppercase;
+    }
+
+    .download-head p {
+      max-width: 500px;
+      margin: 0;
+      color: var(--muted);
+      text-align: right;
+    }
+
+    .download-usage-note {
+      margin: 0 0 24px;
+      padding: 20px 22px;
+      border-left: 4px solid var(--yellow);
+      background: rgba(255, 214, 56, 0.08);
+      color: var(--cream);
+      line-height: 1.75;
+      white-space: pre-line;
+    }
+
+    .download-link-panel {
+      display: grid;
+      gap: 17px;
+      margin-bottom: 24px;
+      padding: clamp(22px, 4vw, 34px);
+      border: 1px solid var(--line-strong);
+      background: rgba(255, 255, 255, 0.025);
+    }
+
+    .download-drive-link {
+      width: fit-content;
+      min-width: min(100%, 310px);
+    }
+
+    .download-drive-link[aria-disabled="true"] {
+      cursor: default;
+    }
+
+    .download-file-description {
+      max-width: 790px;
+      margin: 0;
+      color: var(--paper-soft);
+      line-height: 1.75;
+    }
+
+    .facts-section {
+      padding: 82px 0;
+      border-top: 1px solid var(--line);
+      background: var(--ink-2);
+    }
+
+    .facts-layout {
+      display: grid;
+      grid-template-columns: 0.52fr 1fr;
+      gap: clamp(40px, 8vw, 115px);
+      align-items: start;
+    }
+
+    .facts-updated {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.78rem;
+    }
+
+    .facts-list {
+      margin: 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .facts-row {
+      display: grid;
+      grid-template-columns: 145px 1fr;
+      gap: 25px;
+      padding: 15px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .facts-row dt {
+      color: var(--muted);
+      font-size: 0.75rem;
+      font-weight: 850;
+    }
+
+    .facts-row dd {
+      margin: 0;
+      font-size: 0.86rem;
+      font-weight: 750;
+    }
+
+    .facts-link {
+      color: var(--gold);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 4px;
+    }
+
+    .facts-link[aria-disabled="true"] {
+      color: var(--muted);
+      cursor: default;
+    }
+
+    .contact-section {
+      position: relative;
+      padding: 84px 0;
+      overflow: hidden;
+      border-top: 1px solid var(--line);
+      background:
+        radial-gradient(circle at 86% 20%, rgba(255, 88, 38, 0.16), transparent 28rem),
+        linear-gradient(135deg, #100c09, #090706);
+    }
+
+    .contact-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 0.92fr) minmax(420px, 1.08fr);
+      gap: clamp(42px, 8vw, 110px);
+      align-items: end;
+    }
+
+    .contact-title {
+      max-width: 720px;
+      margin: 12px 0 22px;
+      font-family: var(--display);
+      font-size: clamp(3.6rem, 7.4vw, 7rem);
+      letter-spacing: -0.035em;
+      line-height: 0.86;
+      text-transform: uppercase;
+    }
+
+    .contact-body {
+      max-width: 650px;
+      margin: 0 0 28px;
+      color: var(--paper-soft);
+    }
+
+    .contact-email {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid var(--gold);
+      color: var(--gold);
+      font-size: clamp(1.12rem, 2.2vw, 1.65rem);
+      font-weight: 950;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-email:hover {
+      color: var(--paper);
+      border-color: var(--ember);
+    }
+
+    .contact-details {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      margin: 0;
+      border-top: 1px solid var(--line-strong);
+      border-left: 1px solid var(--line-strong);
+    }
+
+    .contact-detail {
+      min-width: 0;
+      min-height: 145px;
+      padding: 25px 22px;
+      border-right: 1px solid var(--line-strong);
+      border-bottom: 1px solid var(--line-strong);
+    }
+
+    .contact-detail dt {
+      margin-bottom: 13px;
+      color: var(--muted);
+      font-size: 0.66rem;
+      font-weight: 950;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .contact-detail dd {
+      margin: 0;
+      color: var(--paper);
+      font-size: 0.9rem;
+      font-weight: 850;
+      line-height: 1.55;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-link {
+      color: var(--gold);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 4px;
+    }
+
+    .contact-link:hover {
+      color: var(--paper);
+    }
+
+    .contact-link[aria-disabled="true"] {
+      color: var(--muted);
+      cursor: not-allowed;
+      text-decoration-style: dashed;
+    }
+
+    .site-footer {
+      padding: 30px 0;
+      border-top: 1px solid var(--line);
+      background: #070605;
+    }
+
+    .footer-inner {
+      display: grid;
+      grid-template-columns: 175px 1fr auto;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .footer-logo {
+      width: 165px;
+      height: auto;
+    }
+
+    .footer-copy {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.75rem;
+    }
+
+    .footer-copy a {
+      color: var(--gold);
+      font-weight: 850;
+    }
+
+    .footer-top {
+      color: var(--gold);
+      font-size: 0.76rem;
+      font-weight: 900;
+    }
+
+    .toast {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      z-index: 180;
+      max-width: min(360px, calc(100% - 44px));
+      padding: 13px 17px;
+      color: var(--ink);
+      background: var(--gold);
+      box-shadow: 8px 8px 0 rgba(169, 40, 18, 0.88);
+      font-size: 0.82rem;
+      font-weight: 900;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(18px);
+      transition: opacity 180ms ease, transform 180ms ease;
+    }
+
+    .toast.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* V6: press-first navigation and compact hero actions */
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+    .header-locale { justify-self: end; }
+    .nav-mobile-more { display: none; }
+    .nav-list a[aria-disabled="true"], .button[aria-disabled="true"] { cursor: not-allowed; }
+    .trailer-section {
+      padding-top: 46px;
+      border-bottom: 1px solid var(--line);
+      background: #0c0907;
+    }
+    .trailer-section .section-head {
+      display: block;
+      margin-bottom: 20px;
+    }
+    .trailer-section .trailer-card { margin-bottom: 0; }
+    .trailer-description {
+      max-width: 900px;
+      margin: 22px 0 0;
+    }
+    .trailer-embed { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: #000; }
+    .trailer-embed iframe { position: absolute; inset: 0; display: block; width: 100%; height: 100%; border: 0; }
+    a.trailer-meta { transition: color 160ms ease; }
+    a.trailer-meta:hover { color: var(--paper); }
+    .feature-card[data-feature-index="3"] { --feature-accent: var(--ice); }
+    .feature-card[data-feature-index="3"] .feature-media { order: 0; border-right: 1px solid var(--line); border-left: 0; }
+    #trailer, #facts, #features, #press-copy, #media, #downloads, #developer, #contact { scroll-margin-top: 112px; }
+
+    @media (max-width: 1050px) {
+      .header-inner {
+        grid-template-columns: 170px minmax(0, 1fr) auto;
+        gap: 16px;
+      }
+
+      .brand {
+        width: 165px;
+      }
+
+      .nav-list {
+        gap: 17px;
+      }
+
+      .hero-grid {
+        grid-template-columns: minmax(0, 760px);
+      }
+
+      .fact-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .fact-item:nth-child(2n) {
+        border-right: 1px solid var(--line);
+      }
+
+      .fact-item:nth-child(n+3) {
+        border-top: 1px solid var(--line);
+      }
+
+      .feature-card {
+        grid-template-columns: 1fr 1fr;
+      }
+
+    }
+
+    @media (max-width: 850px) {
+      html {
+        scroll-padding-top: 126px;
+      }
+
+      .container {
+        width: min(calc(100% - 28px), var(--max));
+      }
+
+      .header-inner {
+        grid-template-columns: 1fr auto;
+        row-gap: 5px;
+        padding: 9px 0 8px;
+      }
+
+      .site-nav {
+        min-width: 0;
+        grid-column: 1 / -1;
+        grid-row: 2;
+        overflow: hidden;
+      }
+
+      .nav-list {
+        justify-content: flex-start;
+        gap: 22px;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        scrollbar-width: none;
+      }
+
+      .nav-list::-webkit-scrollbar {
+        display: none;
+      }
+
+      .nav-list a {
+        padding: 3px 0 6px;
+        font-size: 0.74rem;
+      }
+
+      .locale-switch {
+        justify-self: end;
+      }
+
+      .language-cta-inner {
+        grid-template-columns: 1fr;
+        gap: 11px;
+        padding: 16px 0 18px;
+      }
+
+      .language-cta-copy {
+        flex-wrap: wrap;
+        gap: 8px 16px;
+      }
+
+      .language-cta-switch {
+        justify-self: start;
+      }
+
+      .hero {
+        min-height: 0;
+        align-items: stretch;
+      }
+
+      .hero::before {
+        background-position: 57% center;
+      }
+
+      .hero::after {
+        background:
+          linear-gradient(0deg, var(--ink) 0%, rgba(10, 8, 7, 0.28) 54%, rgba(10, 8, 7, 0.74) 100%),
+          linear-gradient(90deg, rgba(8, 6, 5, 0.91), rgba(8, 6, 5, 0.2));
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 34px;
+        padding-top: 56px;
+        padding-bottom: 42px;
+      }
+
+      .section {
+        padding: 82px 0;
+      }
+
+      .section-head,
+      .about-grid,
+      .creator-layout,
+      .facts-layout {
+        grid-template-columns: 1fr;
+        gap: 27px;
+      }
+
+      .creator-identity {
+        min-height: 280px;
+      }
+
+      .contact-layout {
+        grid-template-columns: 1fr;
+        gap: 34px;
+      }
+
+      .section-head {
+        margin-bottom: 39px;
+      }
+
+      .feature-card {
+        grid-template-columns: 1fr;
+      }
+
+      .feature-card:nth-child(even) .feature-media {
+        order: 0;
+      }
+
+      .feature-media,
+      .feature-card:nth-child(even) .feature-media {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+        border-left: 0;
+      }
+
+      .copy-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .copy-card-wide {
+        grid-column: auto;
+      }
+
+      .media-gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+        grid-auto-rows: 255px;
+      }
+
+      .media-tile-main {
+        grid-column: 1 / -1;
+        grid-row: span 2;
+      }
+
+      .media-tile:nth-child(5) {
+        grid-column: auto;
+      }
+
+      .asset-guidelines {
+        grid-template-columns: 1fr;
+      }
+
+      .download-head {
+        display: block;
+      }
+
+      .download-head p {
+        margin-top: 14px;
+        text-align: left;
+      }
+
+      .footer-inner {
+        grid-template-columns: 1fr auto;
+      }
+
+      .footer-copy {
+        grid-column: 1 / -1;
+        grid-row: 2;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .container {
+        width: min(calc(100% - 22px), var(--max));
+      }
+
+      .brand {
+        width: 138px;
+      }
+
+      .locale-button {
+        min-height: 40px;
+        padding: 5px 7px;
+        font-size: 0.66rem;
+      }
+
+      .language-cta-inner {
+        gap: 12px;
+        padding: 15px 0 17px;
+      }
+
+      .language-cta-copy {
+        display: block;
+      }
+
+      .language-cta-message {
+        margin-top: 8px;
+        font-size: 0.76rem;
+      }
+
+      .language-cta-switch {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .language-cta-switch .locale-button {
+        width: 100%;
+        min-height: 44px;
+        padding: 6px 4px;
+        font-size: 0.7rem;
+      }
+
+      .hero {
+        min-height: 0;
+      }
+
+      .hero-grid {
+        padding-top: 28px;
+        padding-bottom: 24px;
+      }
+
+      .hero h1 {
+        font-size: clamp(2.75rem, 10.7vw, 4rem);
+        line-height: 0.91;
+      }
+
+      html[lang="ja"] .hero h1 {
+        font-size: clamp(2.35rem, 9.6vw, 3.5rem);
+        line-height: 1.04;
+      }
+
+      .hero-lead {
+        margin-bottom: 0;
+        font-size: 0.98rem;
+      }
+
+      .trailer-section {
+        padding-top: 24px;
+      }
+
+      .trailer-section .section-head {
+        margin-bottom: 14px;
+      }
+
+      .trailer-description {
+        margin-top: 15px;
+      }
+
+      .button-row {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .button-row .button {
+        width: 100%;
+      }
+
+      .fact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .fact-item {
+        min-height: 92px;
+        border-top: 1px solid var(--line);
+        border-right: 1px solid var(--line);
+      }
+
+      .section-title {
+        font-size: clamp(2.65rem, 13vw, 4.4rem);
+      }
+
+      html[lang="ja"] .section-title {
+        font-size: clamp(2.25rem, 10.5vw, 3.9rem);
+        line-height: 1.08;
+      }
+
+      .about-quote,
+      .copy-card {
+        padding: 25px 22px;
+      }
+
+      .feature-list {
+        gap: 22px;
+      }
+
+      .gif-placeholder {
+        padding: 14px 20px;
+      }
+
+      .gif-placeholder::after {
+        inset: 12px;
+      }
+
+      .slot-badge {
+        margin-bottom: 8px;
+        padding: 3px 7px;
+        font-size: 0.52rem;
+      }
+
+      .play-mark {
+        width: 48px;
+        margin-bottom: 8px;
+        border-width: 1px;
+      }
+
+      .play-mark::before {
+        margin-left: 3px;
+        border-top-width: 7px;
+        border-bottom-width: 7px;
+        border-left-width: 11px;
+      }
+
+      .slot-content strong {
+        max-width: 220px;
+        margin: 0 auto;
+        font-size: 0.82rem;
+        line-height: 1.15;
+        overflow-wrap: anywhere;
+      }
+
+      .slot-content small {
+        display: none;
+      }
+
+      .feature-media figcaption {
+        display: block;
+      }
+
+      .feature-media figcaption span {
+        display: block;
+      }
+
+      .feature-media figcaption span + span {
+        margin-top: 4px;
+      }
+
+      .feature-copy {
+        padding: 31px 24px 35px;
+      }
+
+      .feature-copy h3 {
+        font-size: clamp(2rem, 10.6vw, 3.1rem);
+      }
+
+      html[lang="ja"] .feature-copy h3 {
+        font-size: clamp(1.75rem, 8.5vw, 2.65rem);
+        line-height: 1.18;
+      }
+
+      html[lang="ja"] .download-head h3 {
+        font-size: clamp(2rem, 8.7vw, 2.8rem);
+      }
+
+      .media-gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+        grid-auto-rows: 250px;
+      }
+
+      .media-tile-main {
+        grid-column: auto;
+        grid-row: auto;
+      }
+
+      .trailer-copy {
+        display: block;
+        padding: 18px 18px 20px;
+      }
+
+      .trailer-meta {
+        display: block;
+        margin-top: 13px;
+        white-space: normal;
+      }
+
+      .creator-identity,
+      .creator-story {
+        padding: 26px 22px;
+      }
+
+      .creator-identity {
+        min-height: 245px;
+      }
+
+      .creator-title {
+        font-size: clamp(3rem, 15vw, 4.7rem);
+      }
+
+      .facts-row {
+        grid-template-columns: 1fr;
+        gap: 5px;
+      }
+
+      .contact-section {
+        padding: 64px 0;
+      }
+
+      .contact-title {
+        font-size: clamp(3.25rem, 15vw, 5rem);
+      }
+
+      .contact-details {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-detail {
+        min-height: 0;
+      }
+
+      .guideline-list {
+        grid-template-columns: 1fr;
+      }
+
+      .guideline-list li {
+        min-height: 0;
+      }
+
+      .footer-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-top {
+        justify-self: start;
+      }
+    }
+
+    @media (max-width: 1050px) {
+      .header-inner { grid-template-columns: minmax(0, 1fr) auto; column-gap: 10px; row-gap: 7px; padding: 9px 0 8px; }
+      .brand { grid-column: 1; grid-row: 1; }
+      .site-nav { width: 100%; max-width: calc(100vw - 22px); min-width: 0; grid-column: 1 / -1; grid-row: 3; overflow: visible; }
+      .nav-desktop-secondary { display: none; }
+      .header-locale { display: grid; width: 100%; min-width: 0; grid-template-columns: repeat(5, minmax(0, 1fr)); grid-column: 1 / -1; grid-row: 2; justify-self: stretch; }
+      .header-locale .locale-button { min-width: 0; min-height: 34px; padding: 5px 2px; font-size: 0.61rem; }
+      .nav-list { width: 100%; max-width: calc(100vw - 22px); min-width: 0; display: flex; flex-wrap: nowrap; gap: 0; overflow: visible; border: 1px solid var(--line); }
+      .nav-list > li { width: 25%; max-width: 25%; min-width: 0; flex: 0 0 25%; border-right: 1px solid var(--line); }
+      .nav-list > li:last-child { border-right: 0; }
+      .nav-list a, .nav-more summary { min-height: 42px; display: flex; align-items: center; justify-content: center; padding: 8px 5px; font-size: 0.7rem; line-height: 1.1; text-align: center; }
+      .nav-mobile-more { position: relative; display: block; }
+      .nav-more summary { color: var(--paper); cursor: pointer; font-size: 1.05rem; font-weight: 950; list-style: none; }
+      .nav-more summary::-webkit-details-marker { display: none; }
+      .nav-more-panel { position: absolute; top: calc(100% + 8px); right: -1px; z-index: 120; width: min(310px, calc(100vw - 22px)); padding: 10px; border: 1px solid var(--line-strong); background: rgba(13, 10, 8, 0.98); box-shadow: 0 18px 42px rgba(0, 0, 0, 0.55); }
+      .nav-more-panel > a { min-height: 40px; justify-content: flex-start; padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; }
+      html { scroll-padding-top: 160px; }
+      #trailer, #facts, #features, #press-copy, #media, #downloads, #developer, #contact { scroll-margin-top: 160px; }
+    }
+
+    @media (max-width: 560px) {
+      .brand { width: 112px; }
+      .hero-actions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .hero-actions .button:first-child { grid-column: 1 / -1; }
+      .hero-actions .button { min-width: 0; padding-inline: 10px; font-size: 0.76rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    @media print {
+      :root {
+        color-scheme: light;
+      }
+
+      body {
+        color: #111;
+        background: #fff;
+      }
+
+      body::before,
+      .site-header,
+      .language-cta,
+      .button-row,
+      .copy-button,
+      .toast,
+      .media-gallery,
+      .download-link-panel,
+      .site-footer {
+        display: none !important;
+      }
+
+      .hero {
+        min-height: 0;
+        padding: 36px 0;
+        background: #fff;
+      }
+
+      .hero::before,
+      .hero::after {
+        display: none;
+      }
+
+      main *,
+      .fact-strip * {
+        color: #111 !important;
+        background-color: transparent !important;
+        background-image: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+      }
+
+      .hero-grid,
+      .section-head,
+      .about-grid,
+      .creator-layout,
+      .facts-layout,
+      .feature-card {
+        display: block;
+      }
+
+      .feature-media {
+        min-height: 220px;
+      }
+
+      .section {
+        padding: 34px 0;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="assets/v6-sync.css">
+  <link rel="stylesheet" href="brand-assets.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="common.skip">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" data-i18n-aria-label="common.homeLabel" aria-label="BRAWLZERK press kit home">
+        <img src="assets/media/BRAWLZERK_library_logo_1280x375_transparent.png" width="1280" height="375" data-inline-fallback="logo" alt="BRAWLZERK">
+      </a>
+
+      <nav class="site-nav" data-i18n-aria-label="common.navLabel" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#" aria-disabled="true" data-steam-placeholder data-i18n="nav.steam" data-i18n-aria-label="contact.steamAria">Steam</a></li>
+          <li><a href="#trailer" data-i18n="nav.trailer">Trailer</a></li>
+          <li><a href="#downloads" data-i18n="nav.assets">Assets</a></li>
+          <li class="nav-desktop-secondary"><a href="#press-copy" data-i18n="nav.press">Press copy</a></li>
+          <li class="nav-desktop-secondary"><a href="#developer" data-i18n="nav.developer">Developer</a></li>
+          <li class="nav-desktop-secondary"><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+          <li class="nav-mobile-more">
+            <details class="nav-more">
+              <summary data-i18n-aria-label="nav.moreAria" aria-label="Open more navigation">☰</summary>
+              <div class="nav-more-panel">
+                <a href="#facts" data-i18n="facts.eyebrow">At a glance</a>
+                <a href="#features" data-i18n="nav.features">Key features</a>
+                <a href="#press-copy" data-i18n="nav.press">Press copy</a>
+                <a href="#developer" data-i18n="nav.developer">Developer</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+              </div>
+            </details>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="locale-switch header-locale" role="group" aria-label="Select language">
+        <a class="locale-button is-active" href="en/" hreflang="en" data-locale="en" lang="en" aria-current="page">English</a>
+        <a class="locale-button" href="ja/" hreflang="ja" data-locale="ja" lang="ja">日本語</a>
+        <a class="locale-button" href="ko/" hreflang="ko" data-locale="ko" lang="ko">한국어</a>
+        <a class="locale-button" href="zh-hans/" hreflang="zh-Hans" data-locale="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="locale-button" href="zh-hant/" hreflang="zh-Hant" data-locale="zh-Hant" lang="zh-Hant">繁體中文</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">BRAWLZERK · Official press kit</p>
+          <h1 id="hero-title" data-i18n-html="hero.title">DON’T JUST RUN.<br><span>FIGHT BACK.</span></h1>
+          <p class="hero-lead" data-i18n="hero.lead">An isometric action roguelite that combines survivor-like gameplay with fighting-game-style offense, defense, and reversals.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section trailer-section" id="trailer" aria-labelledby="trailer-section-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" id="trailer-section-title" data-i18n="trailerSection.eyebrow">Official trailer</p>
+        </div>
+
+        <article class="trailer-card">
+          <div class="trailer-embed">
+            <iframe src="https://www.youtube-nocookie.com/embed/ul-CM7RlaXo?rel=0&amp;playsinline=1" title="Watch the official BRAWLZERK gameplay trailer on YouTube" data-i18n-title="media.trailerAria" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="trailer-copy">
+            <div>
+              <span class="trailer-kicker" data-i18n="media.trailerKicker">Official gameplay trailer</span>
+              <h3 data-i18n="media.trailerTitle">BRAWLZERK OFFICIAL GAMEPLAY TRAILER</h3>
+              <p data-i18n="media.trailerBody">See hands-on combat, active skill cards, and varied enemy patterns in one video.</p>
+            </div>
+            <a class="trailer-meta" href="https://youtu.be/ul-CM7RlaXo" target="_blank" rel="noopener noreferrer" data-i18n="media.trailerMeta" data-i18n-aria-label="media.trailerAria">WATCH ON YOUTUBE ↗</a>
+          </div>
+        </article>
+        <p class="section-intro trailer-description" data-i18n="trailerSection.intro">See hands-on offense and defense, active skill cards, and varied enemy patterns in the official gameplay trailer.</p>
+      </div>
+    </section>
+
+    <section class="facts-section" id="facts" aria-labelledby="facts-title">
+      <div class="container facts-layout">
+        <div>
+          <p class="eyebrow" id="facts-title" data-i18n="facts.eyebrow">At a glance</p>
+          <p class="facts-updated" data-i18n="facts.updated">Official Press Kit · Last updated 2026.07.21</p>
+        </div>
+
+        <dl class="facts-list">
+          <div class="facts-row" data-fact-index="2"><dt>Genre</dt><dd>Isometric hack-and-slash · Survivor-like · Roguelite Action</dd></div>
+          <div class="facts-row" data-fact-index="3"><dt>Platform</dt><dd>Windows PC · Steam</dd></div>
+          <div class="facts-row" data-fact-index="8"><dt>Planned release date</dt><dd>November 10, 2026</dd></div>
+          <div class="facts-row" data-fact-index="6"><dt>Steam store page</dt><dd><a class="facts-link" href="#" aria-disabled="true" data-steam-placeholder>Temporary link · Coming soon</a></dd></div>
+          <div class="facts-row" data-fact-index="1"><dt>Developer</dt><dd>Reforbli</dd></div>
+          <div class="facts-row" data-fact-index="4"><dt>Core combat system</dt><dd>Light/heavy attacks · Combat skills · Air/wall combos · Guard/perfect guard · Roll/just evade · Reversal</dd></div>
+          <div class="facts-row" data-fact-index="5"><dt>Run progression</dt><dd>Leveling · Passive rewards · Active card deck · Permanent upgrades and unlocks</dd></div>
+          <div class="facts-row" data-fact-index="10"><dt>Planned language support</dt><dd>Korean · English · Japanese · Chinese (Simplified/Traditional) · German · French · Italian · Spanish (Spain) · Russian · Portuguese (Portugal/Brazil)</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section features-section" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title" id="features-title" data-i18n="featuresHead.title">KEY FEATURES</h2>
+          </div>
+          <p class="section-intro" data-i18n="featuresHead.intro">Three pillars define BRAWLZERK: direct offense, defense that opens a counterattack, and run builds shaped by active cards and passive rewards.</p>
+        </div>
+
+        <!-- V6는 게임의 세 핵심 차별점을 실제 게임플레이 영상과 함께 압축해 보여줍니다. -->
+        <div class="feature-list">
+          <article class="feature-card" data-feature-index="0">
+            <figure class="feature-media">
+              <video class="feature-video" autoplay muted loop playsinline controls preload="metadata" poster="assets/media/BRAWLZERK_Screenshot_01b.png" aria-label="Gameplay clip showing direct attacks and crowd combos">
+                <source src="assets/media/BRAWLZERK_About_01.webm" type="video/webm">
+                Your browser does not support HTML5 video.
+              </video>
+              <figcaption><span data-feature-gif-guide="">Gameplay clip: enter the crowd → direct combo → area finisher</span></figcaption>
+            </figure>
+            <div class="feature-copy" data-feature-number="01">
+              <p class="feature-label" data-feature-label="">Hands-on offense</p>
+              <h3 data-feature-title="">YOU DO THE HITTING</h3>
+              <p data-feature-summary="">Chain light and heavy attacks with combat skills to break the crowd’s momentum. Instead of waiting on automated cooldown attacks, choose the right move for the range and enemy state.</p>
+              <ul>
+                <li data-feature-bullet="0">Light and heavy ground strings</li>
+                <li data-feature-bullet="1">Rushes, launchers, pursuits, and area skills</li>
+                <li data-feature-bullet="2">Direct inputs that change with the situation</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="feature-card" data-feature-index="1">
+            <figure class="feature-media">
+              <video class="feature-video" autoplay muted loop playsinline controls preload="metadata" poster="assets/media/BRAWLZERK_Screenshot_06.png" aria-label="Gameplay clip showing guards, evasions, and reversals">
+                <source src="assets/media/BRAWLZERK_About_02_New.webm" type="video/webm">
+                Your browser does not support HTML5 video.
+              </video>
+              <figcaption><span data-feature-gif-guide="">Gameplay clip: just evade and counter → reverse the flow</span></figcaption>
+            </figure>
+            <div class="feature-copy" data-feature-number="02">
+              <p class="feature-label" data-feature-label="">Active defense</p>
+              <h3 data-feature-title="">DEFENSE STARTS THE COUNTERATTACK</h3>
+              <p data-feature-summary="">Weather pressure with a standard guard, then create a short opening with a perfectly timed guard or just evasion. After confirming success, the player chooses when to input the reversal.</p>
+              <ul>
+                <li data-feature-bullet="0">Guard and perfect guard</li>
+                <li data-feature-bullet="1">Roll and just evasion</li>
+                <li data-feature-bullet="2">Player-triggered reversal after a successful defense</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="feature-card" data-feature-index="3">
+            <figure class="feature-media">
+              <video class="feature-video" autoplay muted loop playsinline controls preload="metadata" poster="assets/media/BRAWLZERK_Screenshot_02.png" aria-label="Gameplay clip showing active skill cards changing the fight">
+                <source src="assets/media/BRAWLZERK_About_03_New.webm" type="video/webm">
+                Your browser does not support HTML5 video.
+              </video>
+              <figcaption><span data-feature-gif-guide="">Gameplay clip: control the crowd with an active skill → turn the fight</span></figcaption>
+            </figure>
+            <div class="feature-copy" data-feature-number="03">
+              <p class="feature-label" data-feature-label="">Active cards &amp; passives</p>
+              <h3 data-feature-title="">CHANGE THE FIGHT. SHAPE THE BUILD.</h3>
+              <p data-feature-summary="">Combine active skill cards used directly in combat with passive rewards that support the full run. Multi-target slashes, whirlwind, freeze, defense, and mobility upgrades create a different style each time.</p>
+              <ul>
+                <li data-feature-bullet="0">Active cards selected from your hand and used directly</li>
+                <li data-feature-bullet="1">Offense, control, defense, and buff options</li>
+                <li data-feature-bullet="2">Passive combinations that change from run to run</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section copy-section" id="press-copy" aria-labelledby="copy-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="press.eyebrow">Press reference copy</p>
+            <h2 class="section-title" id="copy-title" data-i18n-html="press.title">PRESS COPY,<br><em>READY TO ADAPT.</em></h2>
+          </div>
+          <p class="section-intro" data-i18n="press.intro">Three lengths are provided as references for articles, video descriptions, and event listings. Quote them as written or adapt them to your publication’s voice. The copy buttons are optional shortcuts.</p>
+        </div>
+
+        <div class="copy-grid">
+          <article class="copy-card" data-copy-index="0">
+            <div class="copy-card-head">
+              <h3 data-copy-title="">One-line pitch</h3>
+              <span class="copy-length" data-copy-length="">Short</span>
+            </div>
+            <div class="copy-text" id="v4-copy-short" data-copy-text="">BRAWLZERK is an isometric survivor-like action game about attacking, guarding, evading, and taking the turn back with a reversal.</div>
+            <button class="button button-ghost copy-button" type="button" data-copy-target="v4-copy-short"><span data-copy-button="">Copy one-liner</span><span aria-hidden="true">⧉</span></button>
+          </article>
+
+          <article class="copy-card" data-copy-index="1">
+            <div class="copy-card-head">
+              <h3 data-copy-title="">Short description</h3>
+              <span class="copy-length" data-copy-length="">Store / Article</span>
+            </div>
+            <div class="copy-text" id="v4-copy-medium" data-copy-text="">Do not just run. Fight back. BRAWLZERK is an isometric survivor-like action game where you attack, guard, evade, and reverse the flow yourself. Break through the crowd with player-driven combos and active skill cards, then shape a different combat build every run.</div>
+            <button class="button button-ghost copy-button" type="button" data-copy-target="v4-copy-medium"><span data-copy-button="">Copy short description</span><span aria-hidden="true">⧉</span></button>
+          </article>
+
+          <article class="copy-card copy-card-wide" data-copy-index="2">
+            <div class="copy-card-head">
+              <h3 data-copy-title="">Press boilerplate</h3>
+              <span class="copy-length" data-copy-length="">Boilerplate</span>
+            </div>
+            <div class="copy-text" id="v4-copy-long" data-copy-text="">BRAWLZERK combines the crowd pressure of a survivor-like with the turn-taking tension of a fighting game in an isometric action format.
+
+Players directly chain light and heavy attacks with combat skills, then break enemy momentum through guards, perfect guards, rolls, just evasions, and reversals. Ground routes extend into air combos and wall bounces, while enemies that charge, shoot, or guard demand different answers.
+
+Within one continuous run, combat, leveling, passive rewards, and a deck of active skill cards grow together. Changing card and passive combinations create distinct playstyles on top of the same hands-on combat system.</div>
+            <button class="button button-ghost copy-button" type="button" data-copy-target="v4-copy-long"><span data-copy-button="">Copy boilerplate</span><span aria-hidden="true">⧉</span></button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section media-section" id="media" aria-labelledby="media-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="media.eyebrow">Media assets</p>
+            <h2 class="section-title" id="media-title" data-i18n-html="media.title">SCREENSHOTS,<br><em>LOGO &amp; KEY ART.</em></h2>
+          </div>
+          <p class="section-intro" data-i18n-html="media.intro">Download them from the <a class="inline-scroll-link" href="#google-drive-download">Google Drive link below</a>.</p>
+        </div>
+
+        <div class="media-gallery">
+          <div class="media-tile media-tile-main">
+            <img src="assets/media/BRAWLZERK_Screenshot_01b.png" width="1920" height="1080" loading="lazy" data-i18n-alt="media.screenshot1Alt" alt="BRAWLZERK gameplay showing a large area attack hitting a crowd">
+          </div>
+          <div class="media-tile">
+            <img src="assets/media/BRAWLZERK_Screenshot_02.png" width="1920" height="1080" loading="lazy" data-i18n-alt="media.screenshot2Alt" alt="BRAWLZERK gameplay showing a powered-up area attack among enemies">
+          </div>
+          <div class="media-tile">
+            <img src="assets/media/BRAWLZERK_Screenshot_03.png" width="1920" height="1080" loading="lazy" data-i18n-alt="media.screenshot3Alt" alt="BRAWLZERK gameplay showing a close combat exchange in a dark arena">
+          </div>
+          <div class="media-tile">
+            <img src="assets/media/BRAWLZERK_Screenshot_06.png" width="1920" height="1080" loading="lazy" data-i18n-alt="media.screenshot4Alt" alt="BRAWLZERK gameplay showing the player guarding in a dense enemy crowd">
+          </div>
+          <div class="media-tile">
+            <img src="assets/media/BRAWLZERK_Screenshot_12.png" width="1920" height="1080" loading="lazy" data-i18n-alt="media.screenshot5Alt" alt="BRAWLZERK gameplay showing a Frenzy encounter with empowered enemies">
+          </div>
+        </div>
+
+        <aside class="asset-guidelines" aria-labelledby="asset-guidelines-title">
+          <div>
+            <p class="eyebrow" data-i18n="media.guidelinesEyebrow">Usage guide</p>
+            <h3 id="asset-guidelines-title" data-i18n="media.guidelinesHeading">MEDIA USAGE</h3>
+            <p data-i18n="media.guidelinesUpdated">Guidance updated July 21, 2026</p>
+          </div>
+          <ul class="guideline-list">
+            <li data-guideline-index="0">Assets may be used for editorial coverage, reviews, event listings, and video thumbnails about BRAWLZERK.</li>
+            <li data-guideline-index="1">Preserve the logo’s proportions and colors. Do not distort, recolor, or redraw it.</li>
+            <li data-guideline-index="2">Gameplay screenshots and key art may be cropped as long as the main subject remains recognizable.</li>
+            <li data-guideline-index="3">Suggested credit: BRAWLZERK / Reforbli.</li>
+          </ul>
+        </aside>
+
+        <div class="download-head" id="downloads">
+          <h3 data-i18n="downloads.heading">Download center</h3>
+        </div>
+
+        <!-- Google Drive 주소 확정 후 href를 교체하고 is-placeholder 클래스, aria-disabled, data-google-drive-placeholder를 제거하세요. -->
+        <div class="download-link-panel">
+          <a class="button button-primary download-drive-link is-placeholder" id="google-drive-download" href="#" target="_blank" rel="noopener" aria-disabled="true" data-google-drive-placeholder>
+            <span data-i18n="downloads.linkLabel">Google Drive link coming soon</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <p class="download-file-description" data-i18n="downloads.fileDescription">Includes the web-ready 720p official trailer, gameplay screenshots, clean and logo-included key art, a transparent logo, Steam assets, and icons organized by asset type.</p>
+        </div>
+
+        <p class="download-usage-note" data-i18n="downloads.usageNote">The provided files may be uploaded to your website, YouTube, and social media, and edited as needed for game coverage and reporting.
+
+We would appreciate it if you include the game title and a link to the Steam store page.</p>
+
+      </div>
+    </section>
+
+    <section class="section creator-section" id="developer" aria-labelledby="developer-title">
+      <div class="container creator-layout">
+        <div class="creator-identity">
+          <div>
+            <p class="eyebrow" data-i18n="developer.eyebrow">Solo game developer</p>
+            <h2 class="creator-title" id="developer-title">REFORBLI</h2>
+          </div>
+          <p class="creator-since" data-i18n="developer.since">Combat prototypes · Since 2015</p>
+        </div>
+
+        <div class="creator-story">
+          <p data-i18n="developer.origin">Since 2015, Reforbli has used the Warcraft III World Editor to build personal isometric combat prototypes inspired by fighting-game-style exchanges. Through that work, Reforbli has repeatedly designed and tested combat, movement, and enemy-behavior systems.</p>
+          <p data-i18n="developer.current">Today, Reforbli is drawing on that experience to develop BRAWLZERK, a solo-developed action game that combines fighting-game-style exchanges with survivor-like progression.</p>
+          <p class="creator-career" data-i18n="developer.career">10+ years as a solo developer of isometric combat systems (since 2015)</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-layout">
+        <div>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Press contact</p>
+          <h2 class="contact-title" id="contact-title" data-i18n-html="contact.title">LET’S TALK<br>ABOUT BRAWLZERK.</h2>
+          <p class="contact-body" data-i18n="contact.body">For interview requests, reviews and editorial coverage, event listings, media assets, and other press inquiries, contact Reforbli directly.</p>
+          <a class="contact-email" href="mailto:reforbli@gmail.com"><span>reforbli@gmail.com</span><span aria-hidden="true">↗</span></a>
+        </div>
+
+        <dl class="contact-details">
+          <div class="contact-detail">
+            <dt data-i18n="contact.emailLabel">Email</dt>
+            <dd>reforbli@gmail.com</dd>
+          </div>
+          <div class="contact-detail">
+            <dt data-i18n="contact.steamLabel">Steam page</dt>
+            <dd><a class="contact-link" href="#" aria-disabled="true" data-steam-placeholder data-i18n="contact.steamValue" data-i18n-aria-label="contact.steamAria" aria-label="Steam page temporary link, coming soon">Temporary link · Coming soon</a></dd>
+          </div>
+          <div class="contact-detail">
+            <dt data-i18n="contact.twitterLabel">Developer X / Twitter</dt>
+            <dd><a class="contact-link" href="https://x.com/Reforbli" target="_blank" rel="noopener noreferrer" data-i18n-aria-label="contact.twitterAria" aria-label="Open developer X / Twitter @Reforbli in a new tab">@Reforbli ↗</a></dd>
+          </div>
+          <div class="contact-detail">
+            <dt data-i18n="contact.releaseLabel">Release</dt>
+            <dd data-i18n="contact.releaseValue">To be announced</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img class="footer-logo" src="assets/media/BRAWLZERK_library_logo_1280x375_transparent.png" width="1280" height="375" loading="lazy" data-inline-fallback="logo" alt="BRAWLZERK">
+      <p class="footer-copy"><a href="mailto:reforbli@gmail.com">reforbli@gmail.com</a></p>
+      <a class="footer-top" href="#top" data-i18n="footer.top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Press copy copied to the clipboard.</div>
+
+  <script src="assets/locale-data.js"></script>
+  <script src="assets/locale-data-zh.js"></script>
+  <script>
+    (() => {
+      const translations = window.BRAWLZERK_PRESSKIT_TRANSLATIONS;
+
+      const getValue = (source, path) => path.split(".").reduce((value, key) => value && value[key], source);
+      const supportedLocales = ["en", "ja", "ko", "zh-Hans", "zh-Hant"];
+      const localeButtons = document.querySelectorAll(".locale-button[data-locale]");
+      const localeSwitches = document.querySelectorAll(".locale-switch");
+      const toast = document.getElementById("toast");
+      let currentLocale = "en";
+      let toastTimer = 0;
+
+      const showToast = (message) => {
+        window.clearTimeout(toastTimer);
+        toast.textContent = message;
+        toast.classList.add("is-visible");
+        toastTimer = window.setTimeout(() => toast.classList.remove("is-visible"), 1900);
+      };
+
+      const updateIndexedContent = (data) => {
+        document.querySelectorAll("[data-strip-index]").forEach((element) => {
+          const entry = data.strip[Number(element.dataset.stripIndex)];
+          if (!entry) return;
+          element.querySelector("dt").textContent = entry.label;
+          const value = element.querySelector("dd");
+          if (entry.href) {
+            const link = document.createElement("a");
+            link.href = entry.href;
+            link.textContent = entry.value;
+            if (entry.ariaLabel) link.setAttribute("aria-label", entry.ariaLabel);
+            if (entry.placeholder) {
+              link.setAttribute("aria-disabled", "true");
+              link.setAttribute("data-steam-placeholder", "");
+            }
+            if (entry.external) {
+              link.target = "_blank";
+              link.rel = "noopener noreferrer";
+            }
+            value.replaceChildren(link);
+          } else {
+            value.textContent = entry.value;
+          }
+        });
+
+        document.querySelectorAll("[data-feature-index]").forEach((element) => {
+          const entry = data.features[Number(element.dataset.featureIndex)];
+          if (!entry) return;
+          const featureLabel = element.querySelector("[data-feature-label]");
+          if (!featureLabel) return;
+          featureLabel.textContent = entry.label;
+          element.querySelector("[data-feature-title]").textContent = entry.title;
+          element.querySelector("[data-feature-summary]").textContent = entry.summary;
+          const gifTitle = element.querySelector("[data-feature-gif-title]");
+          const gifGuide = element.querySelector("[data-feature-gif-guide]");
+          const gifPlaceholder = element.querySelector(".gif-placeholder");
+          const gifImage = element.querySelector(".feature-gif");
+          const featureVideo = element.querySelector(".feature-video");
+          if (gifTitle) gifTitle.textContent = entry.gifTitle;
+          if (gifGuide) gifGuide.textContent = entry.gifGuide;
+          if (gifPlaceholder) gifPlaceholder.setAttribute("aria-label", entry.gifAria);
+          if (gifImage) gifImage.alt = entry.gifAria;
+          if (featureVideo) featureVideo.setAttribute("aria-label", entry.gifAria);
+          element.querySelectorAll("[data-feature-bullet]").forEach((bullet) => {
+            bullet.textContent = entry.bullets[Number(bullet.dataset.featureBullet)];
+          });
+        });
+
+        document.querySelectorAll("[data-copy-index]").forEach((element) => {
+          const entry = data.press.cards[Number(element.dataset.copyIndex)];
+          if (!entry) return;
+          element.querySelector("[data-copy-title]").textContent = entry.title;
+          element.querySelector("[data-copy-length]").textContent = entry.length;
+          element.querySelector("[data-copy-text]").textContent = entry.text;
+          element.querySelector("[data-copy-button]").textContent = entry.button;
+        });
+
+        document.querySelectorAll("[data-guideline-index]").forEach((element) => {
+          element.textContent = data.media.guidelines[Number(element.dataset.guidelineIndex)];
+        });
+
+        document.querySelectorAll("[data-fact-index]").forEach((element) => {
+          const entry = data.facts.rows[Number(element.dataset.factIndex)];
+          if (!entry) return;
+          element.querySelector("dt").textContent = entry.label;
+          const value = element.querySelector("dd");
+          if (entry.href) {
+            const link = document.createElement("a");
+            link.className = "facts-link";
+            link.href = entry.href;
+            link.textContent = entry.value;
+            if (entry.ariaLabel) link.setAttribute("aria-label", entry.ariaLabel);
+            if (entry.placeholder) {
+              link.setAttribute("aria-disabled", "true");
+              link.setAttribute("data-steam-placeholder", "");
+            }
+            if (entry.external) {
+              link.target = "_blank";
+              link.rel = "noopener noreferrer";
+            }
+            value.replaceChildren(link);
+          } else {
+            value.textContent = entry.value;
+          }
+        });
+      };
+
+      const setLocale = (locale, updateUrl) => {
+        if (!supportedLocales.includes(locale)) locale = "en";
+        const data = translations[locale];
+        currentLocale = locale;
+        document.documentElement.lang = locale;
+        document.documentElement.dataset.locale = locale;
+        document.title = data.meta.title;
+
+        const description = document.querySelector('meta[name="description"]');
+        const ogTitle = document.querySelector('meta[property="og:title"]');
+        const ogDescription = document.querySelector('meta[property="og:description"]');
+        const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
+        const ogLocale = document.querySelector('meta[property="og:locale"]');
+        if (description) description.content = data.meta.description;
+        if (ogTitle) ogTitle.content = data.meta.title;
+        if (ogDescription) ogDescription.content = data.meta.ogDescription;
+        if (ogImageAlt) ogImageAlt.content = data.meta.ogImageAlt;
+        if (ogLocale) ogLocale.content = data.meta.ogLocale;
+
+        document.querySelectorAll("[data-i18n]").forEach((element) => {
+          const value = getValue(data, element.dataset.i18n);
+          if (typeof value === "string") element.textContent = value;
+        });
+
+        document.querySelectorAll("[data-i18n-html]").forEach((element) => {
+          const value = getValue(data, element.dataset.i18nHtml);
+          if (typeof value === "string") element.innerHTML = value;
+        });
+
+        document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
+          const value = getValue(data, element.getAttribute("data-i18n-aria-label"));
+          if (typeof value === "string") element.setAttribute("aria-label", value);
+        });
+
+        document.querySelectorAll("[data-i18n-title]").forEach((element) => {
+          const value = getValue(data, element.getAttribute("data-i18n-title"));
+          if (typeof value === "string") element.setAttribute("title", value);
+        });
+
+        document.querySelectorAll("[data-i18n-alt]").forEach((element) => {
+          const value = getValue(data, element.dataset.i18nAlt);
+          if (typeof value === "string") element.alt = value;
+        });
+
+        updateIndexedContent(data);
+        toast.textContent = data.common.copySuccess;
+
+        localeSwitches.forEach((group) => group.setAttribute("aria-label", data.common.localeLabel));
+        localeButtons.forEach((button) => {
+          const active = button.dataset.locale === locale;
+          button.classList.toggle("is-active", active);
+          if (active) button.setAttribute("aria-current", "page");
+          else button.removeAttribute("aria-current");
+        });
+
+        if (updateUrl) {
+          try {
+            const localeRoutes = { en: "en/", ja: "ja/", ko: "ko/", "zh-Hans": "zh-hans/", "zh-Hant": "zh-hant/" };
+            const url = new URL(localeRoutes[locale] || "en/", document.baseURI);
+            url.hash = window.location.hash;
+            window.history.replaceState({}, "", url);
+          } catch (error) {
+            // file:// previews may not allow history updates.
+          }
+        }
+      };
+
+      localeButtons.forEach((link) => {
+        link.addEventListener("click", (event) => {
+          event.preventDefault();
+          const locale = link.dataset.locale;
+          try {
+            window.localStorage.setItem("brawlzerk-presskit-v6-locale", locale);
+          } catch (error) {
+            // 저장소를 사용할 수 없어도 현재 페이지에서 언어를 전환합니다.
+          }
+          setLocale(locale, true);
+        });
+      });
+
+      document.querySelectorAll(".nav-more-panel a").forEach((link) => {
+        link.addEventListener("click", () => {
+          const menu = link.closest("details");
+          if (menu) menu.open = false;
+        });
+      });
+
+      document.addEventListener("click", (event) => {
+        if (event.target.closest("[data-google-drive-placeholder], [data-steam-placeholder]")) {
+          event.preventDefault();
+        }
+      });
+
+      document.querySelectorAll("[data-copy-target]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const target = document.getElementById(button.dataset.copyTarget);
+          if (!target) return;
+          const text = target.innerText.trim();
+
+          try {
+            if (navigator.clipboard && window.isSecureContext) {
+              await navigator.clipboard.writeText(text);
+            } else {
+              const textArea = document.createElement("textarea");
+              textArea.value = text;
+              textArea.setAttribute("readonly", "");
+              textArea.style.position = "fixed";
+              textArea.style.opacity = "0";
+              document.body.appendChild(textArea);
+              textArea.select();
+              const copied = document.execCommand("copy");
+              textArea.remove();
+              if (!copied) throw new Error("copy failed");
+            }
+            showToast(translations[currentLocale].common.copySuccess);
+          } catch (error) {
+            showToast(translations[currentLocale].common.copyFail);
+          }
+        });
+      });
+
+      const autoPlayVideos = document.querySelectorAll("video[autoplay]");
+      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        autoPlayVideos.forEach((video) => {
+          video.autoplay = false;
+          video.pause();
+        });
+      } else if ("IntersectionObserver" in window) {
+        const videoObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) entry.target.play().catch(() => {});
+            else entry.target.pause();
+          });
+        }, { threshold: 0.25 });
+
+        autoPlayVideos.forEach((video) => {
+          video.pause();
+          videoObserver.observe(video);
+        });
+      }
+
+      const routeLocale = document.documentElement.dataset.routeLocale;
+      let queryLocale = null;
+      let storedLocale = null;
+      try {
+        queryLocale = new URL(window.location.href).searchParams.get("lang");
+      } catch (error) {
+        // URL을 읽을 수 없으면 현재 경로의 언어를 유지합니다.
+      }
+      try {
+        storedLocale = window.localStorage.getItem("brawlzerk-presskit-v6-locale");
+      } catch (error) {
+        // file:// 저장소가 차단되어도 URL과 경로 언어는 계속 사용합니다.
+      }
+      const initialLocale = supportedLocales.includes(queryLocale)
+        ? queryLocale
+        : supportedLocales.includes(routeLocale)
+          ? routeLocale
+          : supportedLocales.includes(storedLocale)
+            ? storedLocale
+            : "en";
+
+      setLocale(initialLocale, false);
+    })();
+  </script>
+
+
+  <script src="assets/image-fallbacks.js" data-hero-src="media/BRAWLZERK_library_hero_3840x1240.png"></script>
+  <script src="assets/v6-sync.js"></script>
+  <script src="brand-assets.js" data-brand-assets-script data-media-base="assets/media/" defer></script>
+</body></html>

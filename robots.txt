@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://reforbli.github.io/press-kit/sitemap.xml
