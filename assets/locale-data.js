@@ -166,7 +166,6 @@
           },
           facts: {
             eyebrow: "한눈에 보기",
-            updated: "공식 프레스킷 · 최종 업데이트 2026.07.21",
             rows: [
               { label: "게임명", value: "BRAWLZERK" },
               { label: "개발", value: "Reforbli" },
@@ -364,7 +363,6 @@
           },
           facts: {
             eyebrow: "At a glance",
-            updated: "Official Press Kit · Last updated 2026.07.21",
             rows: [
               { label: "Title", value: "BRAWLZERK" },
               { label: "Developer", value: "Reforbli" },
@@ -562,7 +560,6 @@
           },
           facts: {
             eyebrow: "概要",
-            updated: "公式プレスキット · 最終更新 2026.07.21",
             rows: [
               { label: "タイトル", value: "BRAWLZERK" },
               { label: "開発", value: "Reforbli" },

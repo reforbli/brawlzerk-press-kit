@@ -52,28 +52,13 @@
     card.querySelector(".trailer-copy")?.remove();
     embed.replaceChildren();
 
-    if (/^https?:$/.test(window.location.protocol)) {
-      const iframe = document.createElement("iframe");
-      iframe.src = "https://www.youtube.com/embed/ul-CM7RlaXo?rel=0&playsinline=1";
-      iframe.loading = "lazy";
-      iframe.referrerPolicy = "strict-origin-when-cross-origin";
-      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-      iframe.allowFullscreen = true;
-      embed.append(iframe);
-    } else {
-      const video = document.createElement("video");
-      video.className = "trailer-local-video";
-      video.controls = true;
-      video.playsInline = true;
-      video.preload = "metadata";
-      video.poster = mediaUrl("BRAWLZERK_Screenshot_01b.png");
-      video.dataset.posterFallback = "shot1";
-      const source = document.createElement("source");
-      source.src = mediaUrl("BRAWLZERK_Official_Gameplay_Trailer_Web_720p.mp4");
-      source.type = "video/mp4";
-      video.append(source);
-      embed.append(video);
-    }
+    const iframe = document.createElement("iframe");
+    iframe.src = "https://www.youtube-nocookie.com/embed/ul-CM7RlaXo?rel=0&playsinline=1";
+    iframe.loading = "lazy";
+    iframe.referrerPolicy = "strict-origin-when-cross-origin";
+    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    iframe.allowFullscreen = true;
+    embed.append(iframe);
   };
 
   const createFeatureCard = (feature, localeCopy) => {
@@ -339,7 +324,7 @@
     if (heroLead) heroLead.textContent = localeCopy.heroLead;
     const trailerIntro = document.querySelector("#trailer .section-intro");
     if (trailerIntro) trailerIntro.textContent = localeCopy.trailerIntro;
-    const trailerFrame = document.querySelector("#trailer iframe, #trailer .trailer-local-video");
+    const trailerFrame = document.querySelector("#trailer iframe");
     if (trailerFrame) trailerFrame.setAttribute("title", localeCopy.trailerTitle);
     const mediaIntro = document.querySelector("#media .section-intro");
     if (mediaIntro) mediaIntro.innerHTML = localeCopy.mediaIntro;

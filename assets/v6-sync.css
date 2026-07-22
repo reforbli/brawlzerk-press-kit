@@ -90,19 +90,13 @@
   border-left: 1px solid var(--line);
 }
 
-.trailer-embed iframe,
-.trailer-embed .trailer-local-video {
+.trailer-embed iframe {
   position: absolute;
   inset: 0;
   display: block;
   width: 100%;
   height: 100%;
   border: 0;
-}
-
-.trailer-embed .trailer-local-video {
-  object-fit: contain;
-  background: #000;
 }
 
 .screenshot-carousel {

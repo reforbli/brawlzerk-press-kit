@@ -181,7 +181,6 @@
     },
     facts: {
       eyebrow: "一览",
-      updated: "官方媒体资料包 · 最后更新于2026.07.21",
       rows: [
         { label: "游戏名称", value: "BRAWLZERK" },
         { label: "开发者", value: "Reforbli" },
@@ -391,7 +390,6 @@
     },
     facts: {
       eyebrow: "一覽",
-      updated: "官方媒體資料包 · 最後更新於2026.07.21",
       rows: [
         { label: "遊戲名稱", value: "BRAWLZERK" },
         { label: "開發者", value: "Reforbli" },
