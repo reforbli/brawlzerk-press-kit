@@ -52,7 +52,7 @@
       { label: "类型", value: "等距视角砍杀 · 幸存者类 · Roguelite 动作" },
       { label: "平台", value: "Windows PC · Steam" },
       { label: "发售日期", value: "2026年11月10日" },
-      { label: "媒体联系", value: "reforbli@gmail.com", href: "mailto:reforbli@gmail.com" },
+      { label: "媒体联系", value: "reforbli@gmail.com" },
       { label: "Steam 商店页面", value: "临时链接 · 准备中", href: "#", placeholder: true, ariaLabel: "Steam 商店页面临时链接，准备中" },
       { label: "开发者 X / Twitter", value: "@Reforbli ↗", href: "https://x.com/Reforbli", external: true, ariaLabel: "在新标签页打开开发者 X / Twitter @Reforbli" }
     ],
@@ -261,7 +261,7 @@
       { label: "類型", value: "等距視角砍殺 · 倖存者類 · Roguelite 動作" },
       { label: "平台", value: "Windows PC · Steam" },
       { label: "發售日期", value: "2026年11月10日" },
-      { label: "媒體聯絡", value: "reforbli@gmail.com", href: "mailto:reforbli@gmail.com" },
+      { label: "媒體聯絡", value: "reforbli@gmail.com" },
       { label: "Steam 商店頁面", value: "暫用連結 · 準備中", href: "#", placeholder: true, ariaLabel: "Steam 商店頁面暫用連結，準備中" },
       { label: "開發者 X / Twitter", value: "@Reforbli ↗", href: "https://x.com/Reforbli", external: true, ariaLabel: "在新分頁開啟開發者 X / Twitter @Reforbli" }
     ],
@@ -430,9 +430,9 @@
     features: [
       {
         index: 0,
-        label: "连招与单局流派",
+        label: "连招与完美格挡",
         title: "衔接招式，压制敌群",
-        summary: "迎战蜂拥而来的敌人，衔接招式、反制攻击，再将敌人逼向墙边。每局获取新的技能卡与被动奖励，完成属于自己的连招流派。",
+        summary: "反制蜂拥而来的敌人，以连招将其逼至墙边。连续成功三次完美格挡，即可使战场上的所有敌人陷入眩晕。",
         video: "BRAWLZERK_About_01.webm",
         poster: "BRAWLZERK_Screenshot_01b.png",
         aria: "展示直接攻击和敌群连招的玩法视频"
@@ -441,7 +441,7 @@
         index: 1,
         label: "格挡 · 完美闪避 · 逆转技",
         title: "防守是反击的开始",
-        summary: "格挡敌人的攻击，以完美闪避切入破绽，再用逆转技扭转攻势。进攻让你活下来，防守则开启反击。",
+        summary: "格挡敌人的攻击，以完美闪避切入破绽，再用逆转技扭转攻势。",
         video: "BRAWLZERK_About_02_New.webm",
         poster: "BRAWLZERK_Screenshot_06.png",
         aria: "展示格挡、闪避和逆转技的玩法视频"
@@ -501,9 +501,9 @@
     features: [
       {
         index: 0,
-        label: "連段與單局流派",
+        label: "連段與完美格擋",
         title: "串連招式，壓制敵群",
-        summary: "迎戰蜂擁而來的敵人，串連招式、反制攻擊，再將敵人逼向牆邊。每局取得新的技能卡與被動獎勵，完成屬於自己的連段流派。",
+        summary: "反制蜂擁而來的敵人，以連段將其逼至牆邊。連續成功三次完美格擋，即可使戰場上的所有敵人陷入暈眩。",
         video: "BRAWLZERK_About_01.webm",
         poster: "BRAWLZERK_Screenshot_01b.png",
         aria: "展示直接攻擊與敵群連段的玩法影片"
@@ -512,7 +512,7 @@
         index: 1,
         label: "格擋 · 完美閃避 · 逆轉技",
         title: "防守是反擊的開始",
-        summary: "格擋敵人的攻擊，以完美閃避切入破綻，再用逆轉技扭轉攻勢。進攻讓你活下來，防守則開啟反擊。",
+        summary: "格擋敵人的攻擊，以完美閃避切入破綻，再用逆轉技扭轉攻勢。",
         video: "BRAWLZERK_About_02_New.webm",
         poster: "BRAWLZERK_Screenshot_06.png",
         aria: "展示格擋、閃避與逆轉技的玩法影片"

@@ -27,10 +27,9 @@
     localeSwitch.before(actions);
     actions.append(localeSwitch);
 
-    const email = document.createElement("a");
+    const email = document.createElement("span");
     email.className = "header-email";
-    email.href = "mailto:reforbli@gmail.com";
-    email.textContent = "Reforbli@gmail.com";
+    email.textContent = "reforbli@gmail.com";
     actions.append(email);
   };
 
@@ -240,7 +239,34 @@
     const container = section.querySelector(".container");
     if (!container) return;
     container.className = "container contact-email-only";
-    container.innerHTML = '<a class="contact-email" href="mailto:reforbli@gmail.com"><span>reforbli@gmail.com</span><span aria-hidden="true">↗</span></a>';
+    container.innerHTML = '<span class="contact-email">reforbli@gmail.com</span>';
+  };
+
+  const installSamePageLinks = () => {
+    document.addEventListener("click", (event) => {
+      const link = event.target.closest("a[href^='#']");
+      if (!link) return;
+
+      const hash = link.getAttribute("href");
+      if (!hash || hash === "#") return;
+
+      const target = document.getElementById(hash.slice(1));
+      if (!target) return;
+
+      event.preventDefault();
+      target.scrollIntoView({
+        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+        block: "start"
+      });
+
+      try {
+        const url = new URL(window.location.href);
+        url.hash = hash;
+        window.history.pushState({}, "", url);
+      } catch (error) {
+        // Scrolling still works when URL history is unavailable, including some file previews.
+      }
+    });
   };
 
   const updateBrandAssets = (localeCopy) => {
@@ -347,6 +373,7 @@
   installTrailer();
   const carousel = installMedia();
   installContact();
+  installSamePageLinks();
   initCarousel(carousel);
   updateLocalizedUi();
 

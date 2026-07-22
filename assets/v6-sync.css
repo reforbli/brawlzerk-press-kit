@@ -21,11 +21,6 @@
   font-weight: 800;
   letter-spacing: 0.015em;
   white-space: nowrap;
-  transition: color 160ms ease;
-}
-
-.header-email:hover {
-  color: var(--gold);
 }
 
 .feature-card[hidden] {

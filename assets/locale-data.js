@@ -37,7 +37,7 @@
             { label: "Genre", value: "쿼터뷰 핵앤슬래시 · 뱀서라이크 · 로그라이트 액션" },
             { label: "Platform", value: "Windows PC · Steam" },
             { label: "Release", value: "2026. 11. 10" },
-            { label: "프레스 문의", value: "reforbli@gmail.com", href: "mailto:reforbli@gmail.com" },
+            { label: "프레스 문의", value: "reforbli@gmail.com" },
             { label: "Steam 페이지", value: "임시 링크 · 준비 중", href: "#", placeholder: true, ariaLabel: "Steam 페이지 임시 링크, 준비 중" },
             { label: "개발자 X / Twitter", value: "@Reforbli ↗", href: "https://x.com/Reforbli", external: true, ariaLabel: "개발자 X / Twitter @Reforbli 새 탭에서 열기" }
           ],
@@ -234,7 +234,7 @@
             { label: "Genre", value: "Isometric hack-and-slash · Survivor-like · Roguelite Action" },
             { label: "Platform", value: "Windows PC · Steam" },
             { label: "Release", value: "November 10, 2026" },
-            { label: "Press contact", value: "reforbli@gmail.com", href: "mailto:reforbli@gmail.com" },
+            { label: "Press contact", value: "reforbli@gmail.com" },
             { label: "Steam page", value: "Temporary link · Coming soon", href: "#", placeholder: true, ariaLabel: "Steam page temporary link, coming soon" },
             { label: "Developer X / Twitter", value: "@Reforbli ↗", href: "https://x.com/Reforbli", external: true, ariaLabel: "Open developer X / Twitter @Reforbli in a new tab" }
           ],
@@ -262,7 +262,7 @@
           features: [
             {
               label: "Hands-on offense",
-              title: "YOU DO THE HITTING",
+              title: "CHAIN YOUR ATTACKS. BREAK THROUGH THE HORDE.",
               summary: "Chain light and heavy attacks with combat skills to break the crowd’s momentum. Instead of waiting on automated cooldown attacks, choose the right move for the range and enemy state.",
               bullets: ["Light and heavy ground strings", "Rushes, launchers, pursuits, and area skills", "Direct inputs that change with the situation"],
               gifTitle: "OFFENSE & COMBO CLIP GOES HERE",
@@ -271,7 +271,7 @@
             },
             {
               label: "Active defense",
-              title: "DEFENSE STARTS THE COUNTERATTACK",
+              title: "DEFENSE SETS UP THE COUNTERATTACK.",
               summary: "Weather pressure with a standard guard, then create a short opening with a perfectly timed guard or just evasion. After confirming success, the player chooses when to input the reversal.",
               bullets: ["Guard and perfect guard", "Roll and just evasion", "Player-triggered reversal after a successful defense"],
               gifTitle: "GUARD, EVADE & REVERSAL CLIP GOES HERE",
@@ -289,7 +289,7 @@
             },
             {
               label: "Active cards & passives",
-              title: "CHANGE THE FIGHT. SHAPE THE BUILD.",
+              title: "TURN THE TIDE.",
               summary: "Combine active skill cards used directly in combat with passive rewards that support the full run. Multi-target slashes, whirlwind, freeze, defense, and mobility upgrades create a different style each time.",
               bullets: ["Active cards selected from your hand and used directly", "Offense, control, defense, and buff options", "Passive combinations that change from run to run"],
               gifTitle: "ACTIVE SKILL CARD CLIP GOES HERE",
@@ -298,7 +298,7 @@
             },
             {
               label: "Enemies fight back",
-              title: "ENEMIES ATTACK, GUARD, AND CREATE DISTANCE",
+              title: "READ THEIR MOVES. STRIKE BACK.",
               summary: "Enemies do not wait to be hit. Some rush the player, some retreat and fire, and defensive enemies read attack startup and guard, demanding different responses.",
               bullets: ["Close-range pressure and charges", "Ranged harassment and spacing", "Defensive enemies that read and block attacks"],
               gifTitle: "ENEMY RESPONSE CLIP GOES HERE",
@@ -431,7 +431,7 @@
             { label: "ジャンル", value: "アイソメトリック・ハック＆スラッシュ · ヴァンサバライク · ローグライトアクション" },
             { label: "プラットフォーム", value: "Windows PC · Steam" },
             { label: "発売日", value: "2026年11月10日" },
-            { label: "プレス窓口", value: "reforbli@gmail.com", href: "mailto:reforbli@gmail.com" },
+            { label: "プレス窓口", value: "reforbli@gmail.com" },
             { label: "Steamページ", value: "仮リンク · 準備中", href: "#", placeholder: true, ariaLabel: "Steamページの仮リンク、準備中" },
             { label: "開発者X / Twitter", value: "@Reforbli ↗", href: "https://x.com/Reforbli", external: true, ariaLabel: "開発者X / Twitterの@Reforbliを新しいタブで開く" }
           ],
@@ -601,9 +601,9 @@
       features: [
         {
           index: 0,
-          label: "Combos & Run Builds",
-          title: "Chain attacks and overwhelm the horde",
-          summary: "Chain attacks against the oncoming horde, counter incoming strikes, and drive enemies into walls. Earn new skill cards and passive rewards every run to complete a combo build of your own.",
+          label: "Combos & Perfect Guard",
+          title: "CHAIN YOUR ATTACKS. BREAK THROUGH THE HORDE.",
+          summary: "Counter the oncoming horde and drive enemies into walls with chained attacks. Land three Perfect Guards in a row to stun every enemy on the battlefield.",
           video: "BRAWLZERK_About_01.webm",
           poster: "BRAWLZERK_Screenshot_01b.png",
           aria: "Gameplay showing direct attacks and crowd combos"
@@ -611,8 +611,8 @@
         {
           index: 1,
           label: "Guard · Just Dodge · Reversal",
-          title: "Defense is where the counterattack begins",
-          summary: "Guard incoming attacks, slip through openings with a Just Dodge, and turn the flow around with a Reversal. Offense keeps you alive. Defense begins the counterattack.",
+          title: "DEFENSE SETS UP THE COUNTERATTACK.",
+          summary: "Guard incoming attacks, slip through openings with a Just Dodge, and turn the flow around with a Reversal.",
           video: "BRAWLZERK_About_02_New.webm",
           poster: "BRAWLZERK_Screenshot_06.png",
           aria: "Gameplay showing guards, dodges, and reversals"
@@ -620,7 +620,7 @@
         {
           index: 3,
           label: "Active Skill Cards",
-          title: "Change the flow of battle",
+          title: "TURN THE TIDE.",
           summary: "Alongside passive rewards, BRAWLZERK lets you acquire active skill cards that you use directly in combat. Cut through several enemies at once, unleash a whirlwind, or freeze foes in place to change the flow of battle.",
           video: "BRAWLZERK_About_04_New.webm",
           poster: "BRAWLZERK_Screenshot_02.png",
@@ -629,7 +629,7 @@
         {
           index: 4,
           label: "Enemies That Demand a Response",
-          title: "Read their actions and strike back",
+          title: "READ THEIR MOVES. STRIKE BACK.",
           summary: "Enemies do not stand still and wait to be hit. Some rush in to pressure you, some create distance and fire arrows, and others guard against your attacks. Read their behavior, find the timing, and counterattack.",
           video: "BRAWLZERK_About_03_New.webm",
           poster: "BRAWLZERK_Screenshot_12.png",
@@ -671,9 +671,9 @@
       features: [
         {
           index: 0,
-          label: "コンボとランビルド",
+          label: "コンボとパーフェクトガード",
           title: "技をつなぎ、敵の群れを制圧する",
-          summary: "押し寄せる敵を相手に技をつなぎ、攻撃を切り返し、敵を壁際まで追い込みましょう。ランごとに新たなスキルカードとパッシブ報酬を獲得し、自分だけのコンボビルドを完成させてください。",
+          summary: "押し寄せる敵の攻撃を切り返し、連続攻撃で壁際まで追い込みましょう。パーフェクトガードを3回連続で成功させると、戦場のすべての敵がスタンします。",
           video: "BRAWLZERK_About_01.webm",
           poster: "BRAWLZERK_Screenshot_01b.png",
           aria: "直接攻撃と敵集団へのコンボを紹介するゲームプレイ動画"
@@ -682,7 +682,7 @@
           index: 1,
           label: "ガード・ジャスト回避・リバーサル",
           title: "防御は反撃の始まり",
-          summary: "敵の攻撃をガードし、ジャスト回避で隙に踏み込み、リバーサルで流れを覆してください。攻撃は生存手段であり、防御は反撃の始まりです。",
+          summary: "敵の攻撃をガードし、ジャスト回避で隙に踏み込み、リバーサルで流れを覆してください。",
           video: "BRAWLZERK_About_02_New.webm",
           poster: "BRAWLZERK_Screenshot_06.png",
           aria: "ガード、回避、リバーサルを紹介するゲームプレイ動画"
@@ -741,9 +741,9 @@
       features: [
         {
           index: 0,
-          label: "콤보와 런 빌드",
+          label: "콤보와 퍼펙트 가드",
           title: "기술을 연계해 적 무리를 제압하세요",
-          summary: "몰려드는 적들을 상대로 기술을 이어가고, 공격을 받아치며 적을 벽까지 몰아붙이세요. 매 런마다 새로운 스킬 카드와 패시브 보상을 획득해 자신만의 콤보 빌드를 완성하세요.",
+          summary: "몰려드는 적들의 공격을 받아치고, 연계 공격으로 벽까지 몰아붙이세요. 퍼펙트 가드를 세 번 연속 성공시키면 전장의 모든 적이 기절합니다.",
           video: "BRAWLZERK_About_01.webm",
           poster: "BRAWLZERK_Screenshot_01b.png",
           aria: "직접 공격과 적 무리 콤보를 보여주는 게임플레이 영상"
@@ -752,7 +752,7 @@
           index: 1,
           label: "가드·저스트 회피·리버설",
           title: "방어는 반격의 시작입니다",
-          summary: "적의 공격을 가드하고, 저스트 회피로 빈틈을 파고드세요. 리버설로 흐름을 뒤집으세요. 공격은 생존 수단입니다. 방어는 반격의 시작입니다.",
+          summary: "적의 공격을 가드하고, 저스트 회피로 빈틈을 파고드세요. 리버설로 흐름을 뒤집으세요.",
           video: "BRAWLZERK_About_02_New.webm",
           poster: "BRAWLZERK_Screenshot_06.png",
           aria: "가드와 회피, 리버설을 보여주는 게임플레이 영상"

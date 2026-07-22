@@ -597,6 +597,10 @@
       text-wrap: balance;
     }
 
+    html[lang="en"] .section-title {
+      letter-spacing: 0.01em;
+    }
+
     .section-title em {
       color: var(--ember);
       font-style: normal;
@@ -987,6 +991,11 @@
       letter-spacing: -0.035em;
       line-height: 0.98;
       text-wrap: balance;
+    }
+
+    html[lang="en"] .feature-copy h3 {
+      letter-spacing: 0.01em;
+      line-height: 1.02;
     }
 
     .feature-copy > p:not(.feature-label) {
@@ -1453,11 +1462,6 @@
       overflow-wrap: anywhere;
     }
 
-    .contact-email:hover {
-      color: var(--paper);
-      border-color: var(--ember);
-    }
-
     .contact-details {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1533,7 +1537,7 @@
       font-size: 0.75rem;
     }
 
-    .footer-copy a {
+    .footer-copy span {
       color: var(--gold);
       font-weight: 850;
     }
@@ -2271,9 +2275,9 @@
               <figcaption><span data-feature-gif-guide="">Gameplay clip: enter the crowd → direct combo → area finisher</span></figcaption>
             </figure>
             <div class="feature-copy" data-feature-number="01">
-              <p class="feature-label" data-feature-label="">Hands-on offense</p>
-              <h3 data-feature-title="">YOU DO THE HITTING</h3>
-              <p data-feature-summary="">Chain light and heavy attacks with combat skills to break the crowd’s momentum. Instead of waiting on automated cooldown attacks, choose the right move for the range and enemy state.</p>
+              <p class="feature-label" data-feature-label="">Combos &amp; Perfect Guard</p>
+              <h3 data-feature-title="">CHAIN YOUR ATTACKS. BREAK THROUGH THE HORDE.</h3>
+              <p data-feature-summary="">Counter the oncoming horde and drive enemies into walls with chained attacks. Land three Perfect Guards in a row to stun every enemy on the battlefield.</p>
               <ul>
                 <li data-feature-bullet="0">Light and heavy ground strings</li>
                 <li data-feature-bullet="1">Rushes, launchers, pursuits, and area skills</li>
@@ -2292,7 +2296,7 @@
             </figure>
             <div class="feature-copy" data-feature-number="02">
               <p class="feature-label" data-feature-label="">Active defense</p>
-              <h3 data-feature-title="">DEFENSE STARTS THE COUNTERATTACK</h3>
+              <h3 data-feature-title="">DEFENSE SETS UP THE COUNTERATTACK.</h3>
               <p data-feature-summary="">Weather pressure with a standard guard, then create a short opening with a perfectly timed guard or just evasion. After confirming success, the player chooses when to input the reversal.</p>
               <ul>
                 <li data-feature-bullet="0">Guard and perfect guard</li>
@@ -2305,19 +2309,39 @@
           <article class="feature-card" data-feature-index="3">
             <figure class="feature-media">
               <video class="feature-video" autoplay muted loop playsinline controls preload="metadata" poster="assets/media/BRAWLZERK_Screenshot_02.png" aria-label="Gameplay clip showing active skill cards changing the fight">
-                <source src="assets/media/BRAWLZERK_About_03_New.webm" type="video/webm">
+                <source src="assets/media/BRAWLZERK_About_04_New.webm" type="video/webm">
                 Your browser does not support HTML5 video.
               </video>
               <figcaption><span data-feature-gif-guide="">Gameplay clip: control the crowd with an active skill → turn the fight</span></figcaption>
             </figure>
             <div class="feature-copy" data-feature-number="03">
               <p class="feature-label" data-feature-label="">Active cards &amp; passives</p>
-              <h3 data-feature-title="">CHANGE THE FIGHT. SHAPE THE BUILD.</h3>
+              <h3 data-feature-title="">TURN THE TIDE.</h3>
               <p data-feature-summary="">Combine active skill cards used directly in combat with passive rewards that support the full run. Multi-target slashes, whirlwind, freeze, defense, and mobility upgrades create a different style each time.</p>
               <ul>
                 <li data-feature-bullet="0">Active cards selected from your hand and used directly</li>
                 <li data-feature-bullet="1">Offense, control, defense, and buff options</li>
                 <li data-feature-bullet="2">Passive combinations that change from run to run</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="feature-card" data-feature-index="4">
+            <figure class="feature-media">
+              <video class="feature-video" autoplay muted loop playsinline controls preload="metadata" poster="assets/media/BRAWLZERK_Screenshot_12.png" aria-label="Gameplay clip showing enemies attacking, guarding, and keeping distance">
+                <source src="assets/media/BRAWLZERK_About_03_New.webm" type="video/webm">
+                Your browser does not support HTML5 video.
+              </video>
+              <figcaption><span data-feature-gif-guide="">Gameplay clip: respond differently to charging, ranged, and guarding enemies</span></figcaption>
+            </figure>
+            <div class="feature-copy" data-feature-number="04">
+              <p class="feature-label" data-feature-label="">Enemies fight back</p>
+              <h3 data-feature-title="">READ THEIR MOVES. STRIKE BACK.</h3>
+              <p data-feature-summary="">Enemies do not wait to be hit. Some rush the player, some retreat and fire, and defensive enemies read attack startup and guard, demanding different responses.</p>
+              <ul>
+                <li data-feature-bullet="0">Close-range pressure and charges</li>
+                <li data-feature-bullet="1">Ranged harassment and spacing</li>
+                <li data-feature-bullet="2">Defensive enemies that read and block attacks</li>
               </ul>
             </div>
           </article>
@@ -2457,7 +2481,7 @@ We would appreciate it if you include the game title and a link to the Steam sto
           <p class="eyebrow" data-i18n="contact.eyebrow">Press contact</p>
           <h2 class="contact-title" id="contact-title" data-i18n-html="contact.title">LET’S TALK<br>ABOUT BRAWLZERK.</h2>
           <p class="contact-body" data-i18n="contact.body">For interview requests, reviews and editorial coverage, event listings, media assets, and other press inquiries, contact Reforbli directly.</p>
-          <a class="contact-email" href="mailto:reforbli@gmail.com"><span>reforbli@gmail.com</span><span aria-hidden="true">↗</span></a>
+          <span class="contact-email">reforbli@gmail.com</span>
         </div>
 
         <dl class="contact-details">
@@ -2485,7 +2509,7 @@ We would appreciate it if you include the game title and a link to the Steam sto
   <footer class="site-footer">
     <div class="container footer-inner">
       <img class="footer-logo" src="assets/media/BRAWLZERK_library_logo_1280x375_transparent.png" width="1280" height="375" loading="lazy" data-inline-fallback="logo" alt="BRAWLZERK">
-      <p class="footer-copy"><a href="mailto:reforbli@gmail.com">reforbli@gmail.com</a></p>
+      <p class="footer-copy"><span>reforbli@gmail.com</span></p>
       <a class="footer-top" href="#top" data-i18n="footer.top">Back to top ↑</a>
     </div>
   </footer>
