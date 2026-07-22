@@ -39,6 +39,7 @@
       eyebrow: "BRAWLZERK · 官方媒体资料包",
       title: "别只顾着逃跑，<br><span>打回去。</span>",
       lead: "将幸存者类玩法与格斗游戏式攻防、逆转技相结合的等距视角动作 Roguelite。",
+      wishlistAria: "Steam 愿望单页面临时链接，准备中",
       aboutButton: "查看游戏简介",
       featuresButton: "查看核心特色"
     },
@@ -70,7 +71,7 @@
       since: "战斗系统原型 · 始于2015年",
       origin: "自2015年起，Reforbli 使用 Warcraft III World Editor 制作个人原型，在等距视角下探索格斗游戏式攻防。在此过程中，持续设计并验证战斗、移动与敌人行为系统。",
       current: "目前，Reforbli 正将这些经验用于开发 BRAWLZERK——一款由一人制作、融合格斗游戏式攻防与幸存者类成长结构的动作游戏。",
-      career: "拥有10年以上等距视角战斗系统开发经验的个人游戏开发者（2015年至今）"
+      career: "Reforbli 是一名专注于等距视角战斗系统开发超过10年的个人游戏开发者。"
     },
     featuresHead: {
       eyebrow: "核心特色",
@@ -248,6 +249,7 @@
       eyebrow: "BRAWLZERK · 官方媒體資料包",
       title: "別只顧著逃跑，<br><span>打回去。</span>",
       lead: "將倖存者類玩法與格鬥遊戲式攻防、逆轉技結合的等距視角動作 Roguelite。",
+      wishlistAria: "Steam 願望清單頁面暫用連結，準備中",
       aboutButton: "查看遊戲介紹",
       featuresButton: "查看核心特色"
     },
@@ -279,7 +281,7 @@
       since: "戰鬥系統原型 · 始於2015年",
       origin: "自2015年起，Reforbli 使用 Warcraft III World Editor 製作個人原型，在等距視角下探索格鬥遊戲式攻防。在此過程中，持續設計並驗證戰鬥、移動與敵人行為系統。",
       current: "目前，Reforbli 正將這些經驗用於開發 BRAWLZERK——一款由一人製作、融合格鬥遊戲式攻防與倖存者類成長結構的動作遊戲。",
-      career: "擁有10年以上等距視角戰鬥系統開發經驗的個人遊戲開發者（2015年至今）"
+      career: "Reforbli 是一名專注於等距視角戰鬥系統開發超過10年的個人遊戲開發者。"
     },
     featuresHead: {
       eyebrow: "核心特色",

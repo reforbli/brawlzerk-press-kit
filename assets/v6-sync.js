@@ -231,17 +231,6 @@
     return carousel;
   };
 
-  const installContact = () => {
-    const section = document.querySelector("#contact");
-    if (!section) return;
-    section.removeAttribute("aria-labelledby");
-    section.setAttribute("aria-label", "Press contact email");
-    const container = section.querySelector(".container");
-    if (!container) return;
-    container.className = "container contact-email-only";
-    container.innerHTML = '<span class="contact-email">reforbli@gmail.com</span>';
-  };
-
   const installSamePageLinks = () => {
     document.addEventListener("click", (event) => {
       const link = event.target.closest("a[href^='#']");
@@ -372,7 +361,6 @@
   installHeader();
   installTrailer();
   const carousel = installMedia();
-  installContact();
   installSamePageLinks();
   initCarousel(carousel);
   updateLocalizedUi();

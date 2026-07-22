@@ -24,6 +24,7 @@
             eyebrow: "BRAWLZERK · 공식 프레스킷",
             title: "도망치지 말고,<br><span>받아쳐라.</span>",
             lead: "뱀서라이크의 군중 압박에 격투게임식 공격·방어·리버설을 결합한 쿼터뷰 액션 로그라이트.",
+            wishlistAria: "Steam 위시리스트 페이지 임시 링크, 준비 중",
             aboutButton: "게임 소개 보기",
             featuresButton: "핵심 특징 보기"
           },
@@ -55,7 +56,7 @@
             since: "전투 시스템 프로토타입 · 2015년부터",
             origin: "2015년부터 Warcraft III World Editor를 활용해 쿼터뷰에서 격투게임식 공방을 구현하는 개인 프로토타입을 제작해 왔습니다. 이 과정에서 전투·이동·적 행동 시스템을 반복적으로 설계하고 검증했습니다.",
             current: "현재는 그 경험을 바탕으로 격투게임식 공방과 뱀서라이크의 성장 구조를 결합한 1인 개발 액션 게임 BRAWLZERK를 개발하고 있습니다.",
-            career: "10년 이상 쿼터뷰 전투 시스템을 개발해 온 1인 게임 개발자 (2015~)"
+            career: "10년 이상 쿼터뷰 전투 시스템을 집중적으로 개발해 온 1인 게임 개발자 Reforbli 입니다."
           },
           featuresHead: {
             eyebrow: "핵심 특징",
@@ -221,6 +222,7 @@
             eyebrow: "BRAWLZERK · Official press kit",
             title: "DON’T JUST RUN.<br><span>FIGHT BACK.</span>",
             lead: "An isometric action roguelite that combines survivor-like gameplay with fighting-game-style offense, defense, and reversals.",
+            wishlistAria: "Steam wishlist page temporary link, coming soon",
             aboutButton: "Game overview",
             featuresButton: "View key features"
           },
@@ -252,7 +254,7 @@
             since: "Combat prototypes · Since 2015",
             origin: "Since 2015, Reforbli has used the Warcraft III World Editor to build personal isometric combat prototypes inspired by fighting-game-style exchanges. Through that work, Reforbli has repeatedly designed and tested combat, movement, and enemy-behavior systems.",
             current: "Today, Reforbli is drawing on that experience to develop BRAWLZERK, a solo-developed action game that combines fighting-game-style exchanges with survivor-like progression.",
-            career: "10+ years as a solo developer of isometric combat systems (since 2015)"
+            career: "Reforbli is a solo game developer who has focused on developing isometric combat systems for over 10 years."
           },
           featuresHead: {
             eyebrow: "Key features",
@@ -418,6 +420,7 @@
             eyebrow: "BRAWLZERK · 公式プレスキット",
             title: "逃げるだけじゃない。<br><span>迎え撃て。</span>",
             lead: "ヴァンサバライクに、格闘ゲーム式の攻撃・防御・リバーサルを融合したアイソメトリックのアクションローグライト。",
+            wishlistAria: "Steamウィッシュリストページの仮リンク、準備中",
             aboutButton: "ゲーム紹介を見る",
             featuresButton: "主な特徴を見る"
           },
@@ -449,7 +452,7 @@
             since: "戦闘システムのプロトタイプ · 2015年から",
             origin: "2015年からWarcraft III World Editorを使い、アイソメトリック視点で格闘ゲーム式の攻防を取り入れた個人プロトタイプを制作してきました。その過程で、戦闘・移動・敵行動システムの設計と検証を繰り返してきました。",
             current: "現在はその経験をもとに、格闘ゲーム式の攻防とサバイバーライクの成長構造を組み合わせた個人開発のアクションゲーム『BRAWLZERK』を開発しています。",
-            career: "アイソメトリック戦闘システムを10年以上開発する個人ゲーム開発者（2015年〜）"
+            career: "Reforbliは、10年以上にわたりアイソメトリック戦闘システムの開発に注力してきた個人ゲーム開発者です。"
           },
           featuresHead: {
             eyebrow: "主な特徴",

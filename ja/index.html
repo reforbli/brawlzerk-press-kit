@@ -8,12 +8,13 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="BRAWLZERK — 公式プレスキット">
   <meta property="og:description" content="逃げるだけでは生き残れない。格闘ゲーム式の攻防とアクティブスキルカードを融合したアイソメトリック・アクション。">
-  <meta property="og:image" content="https://reforbli.github.io/press-kit/assets/media/BRAWLZERK_store_main_1232x706.png">
-  <meta property="og:image:width" content="1232">
-  <meta property="og:image:height" content="706">
+  <meta property="og:image" content="https://reforbli.github.io/press-kit/assets/media/BRAWLZERK_Press_KeyArt_Logo_3840x2160.png">
+  <meta property="og:image:width" content="3840">
+  <meta property="og:image:height" content="2160">
   <meta property="og:image:alt" content="BRAWLZERKのロゴと戦闘キーアート">
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://reforbli.github.io/press-kit/assets/media/BRAWLZERK_Press_KeyArt_Logo_3840x2160.png">
   <title>BRAWLZERK — 公式プレスキット</title>
 
   <link rel="canonical" href="https://reforbli.github.io/press-kit/ja/">
@@ -26,6 +27,7 @@
   <meta property="og:url" content="https://reforbli.github.io/press-kit/ja/">
   <link rel="icon" href="assets/media/BRAWLZERK_shortcut_icon_256.png" type="image/png">
   <link rel="preload" href="assets/media/BRAWLZERK_library_hero_3840x1240.png" as="image" fetchpriority="high">
+  <link rel="preload" href="assets/media/BRAWLZERK_Hero_Logo.png" as="image">
 
   <script>
     try {
@@ -674,10 +676,7 @@
     }
 
     .creator-layout {
-      display: grid;
-      grid-template-columns: minmax(300px, 0.72fr) minmax(0, 1.28fr);
-      gap: 18px;
-      align-items: stretch;
+      display: block;
     }
 
     .creator-identity {
@@ -1521,7 +1520,7 @@
 
     .footer-inner {
       display: grid;
-      grid-template-columns: 175px 1fr auto;
+      grid-template-columns: 175px 1fr;
       gap: 30px;
       align-items: center;
     }
@@ -1543,6 +1542,7 @@
     }
 
     .footer-top {
+      justify-self: end;
       color: var(--gold);
       font-size: 0.76rem;
       font-weight: 900;
@@ -1596,7 +1596,7 @@
     a.trailer-meta:hover { color: var(--paper); }
     .feature-card[data-feature-index="3"] { --feature-accent: var(--ice); }
     .feature-card[data-feature-index="3"] .feature-media { order: 0; border-right: 1px solid var(--line); border-left: 0; }
-    #trailer, #facts, #features, #press-copy, #media, #downloads, #developer, #contact { scroll-margin-top: 112px; }
+    #trailer, #facts, #features, #press-copy, #media, #downloads, #developer { scroll-margin-top: 112px; }
 
     @media (max-width: 1050px) {
       .header-inner {
@@ -2073,7 +2073,7 @@
       .nav-more-panel { position: absolute; top: calc(100% + 8px); right: -1px; z-index: 120; width: min(310px, calc(100vw - 22px)); padding: 10px; border: 1px solid var(--line-strong); background: rgba(13, 10, 8, 0.98); box-shadow: 0 18px 42px rgba(0, 0, 0, 0.55); }
       .nav-more-panel > a { min-height: 40px; justify-content: flex-start; padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; }
       html { scroll-padding-top: 160px; }
-      #trailer, #facts, #features, #press-copy, #media, #downloads, #developer, #contact { scroll-margin-top: 160px; }
+      #trailer, #facts, #features, #press-copy, #media, #downloads, #developer { scroll-margin-top: 160px; }
     }
 
     @media (max-width: 560px) {
@@ -2174,7 +2174,6 @@
           <li><a href="#downloads" data-i18n="nav.assets">Assets</a></li>
           <li class="nav-desktop-secondary"><a href="#press-copy" data-i18n="nav.press">Press copy</a></li>
           <li class="nav-desktop-secondary"><a href="#developer" data-i18n="nav.developer">Developer</a></li>
-          <li class="nav-desktop-secondary"><a href="#contact" data-i18n="nav.contact">Contact</a></li>
           <li class="nav-mobile-more">
             <details class="nav-more">
               <summary data-i18n-aria-label="nav.moreAria" aria-label="Open more navigation">☰</summary>
@@ -2183,7 +2182,6 @@
                 <a href="#features" data-i18n="nav.features">Key features</a>
                 <a href="#press-copy" data-i18n="nav.press">Press copy</a>
                 <a href="#developer" data-i18n="nav.developer">Developer</a>
-                <a href="#contact" data-i18n="nav.contact">Contact</a>
               </div>
             </details>
           </li>
@@ -2204,9 +2202,13 @@
     <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow" data-i18n="hero.eyebrow">BRAWLZERK · Official press kit</p>
-          <h1 id="hero-title" data-i18n-html="hero.title">DON’T JUST RUN.<br><span>FIGHT BACK.</span></h1>
+          <h1 class="hero-logo-title" id="hero-title">
+            <img src="assets/media/BRAWLZERK_Hero_Logo.png" width="1676" height="326" alt="BRAWLZERK">
+          </h1>
           <p class="hero-lead" data-i18n="hero.lead">An isometric action roguelite that combines survivor-like gameplay with fighting-game-style offense, defense, and reversals.</p>
+          <a class="hero-wishlist-badge is-placeholder" href="#" target="_blank" rel="noopener noreferrer" aria-disabled="true" data-steam-placeholder data-i18n-aria-label="hero.wishlistAria" aria-label="Steam wishlist page temporary link, coming soon">
+            <img src="assets/media/BRAWLZERK_Steam_Wishlist_Badge.png" width="1480" height="170" alt="">
+          </a>
         </div>
 
       </div>
@@ -2272,7 +2274,6 @@
                 <source src="assets/media/BRAWLZERK_About_01.webm" type="video/webm">
                 Your browser does not support HTML5 video.
               </video>
-              <figcaption><span data-feature-gif-guide="">Gameplay clip: enter the crowd → direct combo → area finisher</span></figcaption>
             </figure>
             <div class="feature-copy" data-feature-number="01">
               <p class="feature-label" data-feature-label="">Combos &amp; Perfect Guard</p>
@@ -2292,7 +2293,6 @@
                 <source src="assets/media/BRAWLZERK_About_02_New.webm" type="video/webm">
                 Your browser does not support HTML5 video.
               </video>
-              <figcaption><span data-feature-gif-guide="">Gameplay clip: just evade and counter → reverse the flow</span></figcaption>
             </figure>
             <div class="feature-copy" data-feature-number="02">
               <p class="feature-label" data-feature-label="">Active defense</p>
@@ -2312,7 +2312,6 @@
                 <source src="assets/media/BRAWLZERK_About_04_New.webm" type="video/webm">
                 Your browser does not support HTML5 video.
               </video>
-              <figcaption><span data-feature-gif-guide="">Gameplay clip: control the crowd with an active skill → turn the fight</span></figcaption>
             </figure>
             <div class="feature-copy" data-feature-number="03">
               <p class="feature-label" data-feature-label="">Active cards &amp; passives</p>
@@ -2332,7 +2331,6 @@
                 <source src="assets/media/BRAWLZERK_About_03_New.webm" type="video/webm">
                 Your browser does not support HTML5 video.
               </video>
-              <figcaption><span data-feature-gif-guide="">Gameplay clip: respond differently to charging, ranged, and guarding enemies</span></figcaption>
             </figure>
             <div class="feature-copy" data-feature-number="04">
               <p class="feature-label" data-feature-label="">Enemies fight back</p>
@@ -2459,49 +2457,12 @@ We would appreciate it if you include the game title and a link to the Steam sto
 
     <section class="section creator-section" id="developer" aria-labelledby="developer-title">
       <div class="container creator-layout">
-        <div class="creator-identity">
-          <div>
-            <p class="eyebrow" data-i18n="developer.eyebrow">Solo game developer</p>
-            <h2 class="creator-title" id="developer-title">REFORBLI</h2>
-          </div>
-          <p class="creator-since" data-i18n="developer.since">Combat prototypes · Since 2015</p>
-        </div>
-
         <div class="creator-story">
+          <h2 class="sr-only" id="developer-title">Reforbli</h2>
           <p data-i18n="developer.origin">Since 2015, Reforbli has used the Warcraft III World Editor to build personal isometric combat prototypes inspired by fighting-game-style exchanges. Through that work, Reforbli has repeatedly designed and tested combat, movement, and enemy-behavior systems.</p>
           <p data-i18n="developer.current">Today, Reforbli is drawing on that experience to develop BRAWLZERK, a solo-developed action game that combines fighting-game-style exchanges with survivor-like progression.</p>
-          <p class="creator-career" data-i18n="developer.career">10+ years as a solo developer of isometric combat systems (since 2015)</p>
+          <p class="creator-career" data-i18n="developer.career">Reforbli is a solo game developer who has focused on developing isometric combat systems for over 10 years.</p>
         </div>
-      </div>
-    </section>
-
-    <section class="contact-section" id="contact" aria-labelledby="contact-title">
-      <div class="container contact-layout">
-        <div>
-          <p class="eyebrow" data-i18n="contact.eyebrow">Press contact</p>
-          <h2 class="contact-title" id="contact-title" data-i18n-html="contact.title">LET’S TALK<br>ABOUT BRAWLZERK.</h2>
-          <p class="contact-body" data-i18n="contact.body">For interview requests, reviews and editorial coverage, event listings, media assets, and other press inquiries, contact Reforbli directly.</p>
-          <span class="contact-email">reforbli@gmail.com</span>
-        </div>
-
-        <dl class="contact-details">
-          <div class="contact-detail">
-            <dt data-i18n="contact.emailLabel">Email</dt>
-            <dd>reforbli@gmail.com</dd>
-          </div>
-          <div class="contact-detail">
-            <dt data-i18n="contact.steamLabel">Steam page</dt>
-            <dd><a class="contact-link" href="#" aria-disabled="true" data-steam-placeholder data-i18n="contact.steamValue" data-i18n-aria-label="contact.steamAria" aria-label="Steam page temporary link, coming soon">Temporary link · Coming soon</a></dd>
-          </div>
-          <div class="contact-detail">
-            <dt data-i18n="contact.twitterLabel">Developer X / Twitter</dt>
-            <dd><a class="contact-link" href="https://x.com/Reforbli" target="_blank" rel="noopener noreferrer" data-i18n-aria-label="contact.twitterAria" aria-label="Open developer X / Twitter @Reforbli in a new tab">@Reforbli ↗</a></dd>
-          </div>
-          <div class="contact-detail">
-            <dt data-i18n="contact.releaseLabel">Release</dt>
-            <dd data-i18n="contact.releaseValue">To be announced</dd>
-          </div>
-        </dl>
       </div>
     </section>
   </main>
@@ -2509,7 +2470,6 @@ We would appreciate it if you include the game title and a link to the Steam sto
   <footer class="site-footer">
     <div class="container footer-inner">
       <img class="footer-logo" src="assets/media/BRAWLZERK_library_logo_1280x375_transparent.png" width="1280" height="375" loading="lazy" data-inline-fallback="logo" alt="BRAWLZERK">
-      <p class="footer-copy"><span>reforbli@gmail.com</span></p>
       <a class="footer-top" href="#top" data-i18n="footer.top">Back to top ↑</a>
     </div>
   </footer>
