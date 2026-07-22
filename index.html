@@ -3,6 +3,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base href="./">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="theme-color" content="#0b0907">
   <meta name="description" content="The official press kit for BRAWLZERK, an isometric survivor-like action game built around hands-on attacks, defense, evasion, and reversals.">
   <meta property="og:type" content="website">
@@ -1247,47 +1248,43 @@
     }
 
     .asset-guidelines {
-      display: grid;
-      grid-template-columns: minmax(230px, 0.42fr) minmax(0, 1fr);
-      gap: clamp(28px, 6vw, 78px);
-      margin-bottom: 72px;
-      padding: clamp(26px, 4vw, 44px);
+      margin: 0;
+      padding: clamp(22px, 3vw, 32px);
       border: 1px solid var(--line-strong);
       border-left: 4px solid var(--ice);
       background: rgba(98, 215, 255, 0.045);
     }
 
     .asset-guidelines h3 {
-      margin: 7px 0 12px;
+      margin: 6px 0 14px;
       font-family: var(--display);
-      font-size: clamp(2rem, 3.6vw, 3.5rem);
-      line-height: 0.94;
+      font-size: clamp(1.45rem, 2.4vw, 2.15rem);
+      line-height: 1.05;
       text-transform: uppercase;
     }
 
     .asset-guidelines p {
       margin: 0;
-      color: var(--muted);
-      font-size: 0.75rem;
+      max-width: 1080px;
+      color: var(--paper-soft);
+      font-size: 0.86rem;
+      line-height: 1.75;
     }
 
     .guideline-list {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 0;
-      margin: 0;
-      padding: 0;
+      gap: 10px 32px;
+      margin: 20px 0 0;
+      padding: 18px 0 0;
       border-top: 1px solid var(--line);
-      border-left: 1px solid var(--line);
       list-style: none;
     }
 
     .guideline-list li {
       position: relative;
-      min-height: 110px;
-      padding: 23px 22px 20px 45px;
-      border-right: 1px solid var(--line);
-      border-bottom: 1px solid var(--line);
+      min-height: 0;
+      padding: 0 0 0 24px;
       color: var(--paper-soft);
       font-size: 0.82rem;
       line-height: 1.65;
@@ -1296,8 +1293,8 @@
     .guideline-list li::before {
       content: "✓";
       position: absolute;
-      top: 22px;
-      left: 20px;
+      top: 0;
+      left: 0;
       color: var(--ice);
       font-weight: 950;
     }
@@ -1323,16 +1320,6 @@
       margin: 0;
       color: var(--muted);
       text-align: right;
-    }
-
-    .download-usage-note {
-      margin: 0 0 24px;
-      padding: 20px 22px;
-      border-left: 4px solid var(--yellow);
-      background: rgba(255, 214, 56, 0.08);
-      color: var(--cream);
-      line-height: 1.75;
-      white-space: pre-line;
     }
 
     .download-link-panel {
@@ -1777,10 +1764,6 @@
         grid-column: auto;
       }
 
-      .asset-guidelines {
-        grid-template-columns: 1fr;
-      }
-
       .download-head {
         display: block;
       }
@@ -2222,7 +2205,7 @@
 
         <article class="trailer-card">
           <div class="trailer-embed">
-            <iframe src="https://www.youtube-nocookie.com/embed/ul-CM7RlaXo?rel=0&amp;playsinline=1" title="Watch the official BRAWLZERK gameplay trailer on YouTube" data-i18n-title="media.trailerAria" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/ul-CM7RlaXo?rel=0&amp;playsinline=1" title="Watch the official BRAWLZERK gameplay trailer on YouTube" data-i18n-title="media.trailerAria" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
           <div class="trailer-copy">
             <div>
@@ -2420,20 +2403,6 @@ Within one continuous run, combat, leveling, passive rewards, and a deck of acti
           </div>
         </div>
 
-        <aside class="asset-guidelines" aria-labelledby="asset-guidelines-title">
-          <div>
-            <p class="eyebrow" data-i18n="media.guidelinesEyebrow">Usage guide</p>
-            <h3 id="asset-guidelines-title" data-i18n="media.guidelinesHeading">MEDIA USAGE</h3>
-            <p data-i18n="media.guidelinesUpdated">Guidance updated July 21, 2026</p>
-          </div>
-          <ul class="guideline-list">
-            <li data-guideline-index="0">Assets may be used for editorial coverage, reviews, event listings, and video thumbnails about BRAWLZERK.</li>
-            <li data-guideline-index="1">Preserve the logo’s proportions and colors. Do not distort, recolor, or redraw it.</li>
-            <li data-guideline-index="2">Gameplay screenshots and key art may be cropped as long as the main subject remains recognizable.</li>
-            <li data-guideline-index="3">Suggested credit: BRAWLZERK / Reforbli.</li>
-          </ul>
-        </aside>
-
         <div class="download-head" id="downloads">
           <h3 data-i18n="downloads.heading">Download center</h3>
         </div>
@@ -2447,9 +2416,16 @@ Within one continuous run, combat, leveling, passive rewards, and a deck of acti
           <p class="download-file-description" data-i18n="downloads.fileDescription">Includes the web-ready 720p official trailer, gameplay screenshots, clean and logo-included key art, a transparent logo, Steam assets, and icons organized by asset type.</p>
         </div>
 
-        <p class="download-usage-note" data-i18n="downloads.usageNote">The provided files may be uploaded to your website, YouTube, and social media, and edited as needed for game coverage and reporting.
-
-We would appreciate it if you include the game title and a link to the Steam store page.</p>
+        <aside class="asset-guidelines" aria-labelledby="asset-guidelines-title">
+          <h3 id="asset-guidelines-title" data-i18n="media.guidelinesHeading">Media usage guide</h3>
+          <p data-i18n="downloads.usageNote">The provided files may be used in articles, reviews, event listings, video thumbnails, websites, YouTube, and social media for coverage of BRAWLZERK, and may be edited as needed.</p>
+          <ul class="guideline-list">
+            <li data-guideline-index="0">Gameplay screenshots and key art may be cropped as long as the main subject remains recognizable.</li>
+            <li data-guideline-index="1">Preserve the logo’s original proportions and colors.</li>
+            <li data-guideline-index="2">We would appreciate it if you include the game title and a link to the Steam store page.</li>
+            <li data-guideline-index="3">Suggested credit: BRAWLZERK / Reforbli.</li>
+          </ul>
+        </aside>
 
       </div>
     </section>

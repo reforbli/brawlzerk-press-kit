@@ -163,13 +163,11 @@
       screenshot3Alt: "BRAWLZERK 玩法画面，在昏暗竞技场中进行近身攻防",
       screenshot4Alt: "BRAWLZERK 玩法画面，玩家在密集敌群中进行格挡",
       screenshot5Alt: "BRAWLZERK 玩法画面，与强化敌人展开狂热战斗",
-      guidelinesEyebrow: "使用说明",
       guidelinesHeading: "媒体素材使用说明",
-      guidelinesUpdated: "更新于2026年7月21日",
       guidelines: [
-        "可用于与 BRAWLZERK 相关的报道、评测、活动介绍和视频缩略图。",
-        "请保持标志的比例和颜色，不要拉伸、改色或重新绘制。",
-        "游戏截图和主视觉图可以裁剪，但应确保主要角色仍可辨认。",
+        "可在主要对象仍清晰可辨的前提下裁剪游戏截图和主视觉图。",
+        "请保持标志原始比例和颜色。",
+        "如能同时标注游戏名称与 Steam 商店页面链接，我们将不胜感激。",
         "建议署名：BRAWLZERK / Reforbli。"
       ]
     },
@@ -177,7 +175,7 @@
       heading: "下载中心",
       linkLabel: "Google Drive 链接准备中",
       fileDescription: "按素材类型整理了网页用720p官方预告片、游戏截图、无标志与含标志主视觉图、透明背景标志、Steam 素材和图标。",
-      usageNote: "所提供文件可用于游戏介绍与报道，并可在贵方网站、YouTube 和社交媒体上上传，或在必要范围内进行编辑。\n\n如能同时标注游戏名称与 Steam 商店页面链接，我们将不胜感激。"
+      usageNote: "所提供的文件可用于 BRAWLZERK 的游戏介绍与报道，包括文章、评测、活动介绍、视频缩略图、网站、YouTube 和社交媒体，并可在必要范围内进行编辑。"
     },
     facts: {
       eyebrow: "一览",
@@ -372,13 +370,11 @@
       screenshot3Alt: "BRAWLZERK 玩法畫面，在昏暗競技場中進行近身攻防",
       screenshot4Alt: "BRAWLZERK 玩法畫面，玩家在密集敵群中進行格擋",
       screenshot5Alt: "BRAWLZERK 玩法畫面，與強化敵人展開狂熱戰鬥",
-      guidelinesEyebrow: "使用說明",
       guidelinesHeading: "媒體素材使用說明",
-      guidelinesUpdated: "更新於2026年7月21日",
       guidelines: [
-        "可用於與 BRAWLZERK 相關的報導、評測、活動介紹與影片縮圖。",
-        "請維持標誌的比例與顏色，不要拉伸、改色或重新繪製。",
-        "遊戲截圖與主視覺圖可以裁切，但應確保主要角色仍可辨識。",
+        "可在主要對象仍清晰可辨的前提下裁切遊戲截圖與主視覺圖。",
+        "請維持標誌原始比例與顏色。",
+        "若能同時標註遊戲名稱與 Steam 商店頁面連結，我們將不勝感激。",
         "建議署名：BRAWLZERK / Reforbli。"
       ]
     },
@@ -386,7 +382,7 @@
       heading: "下載中心",
       linkLabel: "Google Drive 連結準備中",
       fileDescription: "依素材類型整理了網頁用720p官方預告片、遊戲截圖、無標誌與含標誌主視覺圖、透明背景標誌、Steam 素材與圖示。",
-      usageNote: "所提供的檔案可用於遊戲介紹與報導，並可在貴方網站、YouTube 與社群媒體上傳，或在必要範圍內進行編輯。\n\n若能同時標註遊戲名稱與 Steam 商店頁面連結，我們將不勝感激。"
+      usageNote: "所提供的檔案可用於 BRAWLZERK 的遊戲介紹與報導，包括文章、評測、活動介紹、影片縮圖、網站、YouTube 與社群媒體，並可在必要範圍內進行編輯。"
     },
     facts: {
       eyebrow: "一覽",

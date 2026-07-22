@@ -148,13 +148,11 @@
             screenshot3Alt: "어두운 아레나에서 근접 공방을 펼치는 BRAWLZERK 게임플레이",
             screenshot4Alt: "적 무리 한가운데서 가드하는 BRAWLZERK 게임플레이",
             screenshot5Alt: "강화된 적들과 싸우는 BRAWLZERK 프렌지 전투",
-            guidelinesEyebrow: "사용 안내",
-            guidelinesHeading: "미디어 사용 지침",
-            guidelinesUpdated: "2026년 7월 21일 기준",
+            guidelinesHeading: "미디어 사용 안내",
             guidelines: [
-              "BRAWLZERK 관련 기사·리뷰·행사 소개·영상 썸네일에 사용할 수 있습니다.",
-              "로고의 비율과 색상을 유지하고 왜곡·재채색·재작업하지 마세요.",
-              "게임플레이 스크린샷과 키 아트는 핵심 피사체가 식별되는 범위에서 크롭할 수 있습니다.",
+              "스크린샷과 키아트는 주요 피사체가 식별되는 범위에서 자를 수 있습니다.",
+              "로고는 원본 비율과 색상을 유지해 주세요.",
+              "게임명과 Steam 상점 링크를 함께 표기해 주시면 감사하겠습니다.",
               "권장 크레딧: BRAWLZERK / Reforbli."
             ]
           },
@@ -162,7 +160,7 @@
             heading: "다운로드 센터",
             linkLabel: "Google Drive 링크 준비 중",
             fileDescription: "웹용 720p 공식 트레일러, 게임플레이 스크린샷, 무로고·로고 포함 키아트, 투명 로고, Steam 에셋과 아이콘을 용도별 폴더로 정리했습니다.",
-            usageNote: "제공된 파일은 게임 소개 및 보도 목적으로 귀사의 웹사이트, YouTube 및 SNS에 업로드하거나 필요한 범위에서 편집하여 사용할 수 있습니다.\n\n게임명과 Steam 상점 링크를 함께 표기해주시면 감사하겠습니다."
+            usageNote: "제공된 파일은 BRAWLZERK의 게임 소개 및 보도를 위해 기사, 리뷰, 행사 소개, 영상 썸네일, 웹사이트, YouTube 및 SNS에 사용하거나 필요한 범위에서 편집할 수 있습니다."
           },
           facts: {
             eyebrow: "한눈에 보기",
@@ -345,13 +343,11 @@
             screenshot3Alt: "BRAWLZERK gameplay showing a close combat exchange in a dark arena",
             screenshot4Alt: "BRAWLZERK gameplay showing the player guarding in a dense enemy crowd",
             screenshot5Alt: "BRAWLZERK gameplay showing a Frenzy encounter with empowered enemies",
-            guidelinesEyebrow: "Usage guide",
-            guidelinesHeading: "MEDIA USAGE",
-            guidelinesUpdated: "Guidance updated July 21, 2026",
+            guidelinesHeading: "Media usage guide",
             guidelines: [
-              "Assets may be used for editorial coverage, reviews, event listings, and video thumbnails about BRAWLZERK.",
-              "Preserve the logo’s proportions and colors. Do not distort, recolor, or redraw it.",
               "Gameplay screenshots and key art may be cropped as long as the main subject remains recognizable.",
+              "Preserve the logo’s original proportions and colors.",
+              "We would appreciate it if you include the game title and a link to the Steam store page.",
               "Suggested credit: BRAWLZERK / Reforbli."
             ]
           },
@@ -359,7 +355,7 @@
             heading: "Download center",
             linkLabel: "Google Drive link coming soon",
             fileDescription: "Includes the web-ready 720p official trailer, gameplay screenshots, clean and logo-included key art, a transparent logo, Steam assets, and icons organized by asset type.",
-            usageNote: "The provided files may be uploaded to your website, YouTube, and social media, and edited as needed for game coverage and reporting.\n\nWe would appreciate it if you include the game title and a link to the Steam store page."
+            usageNote: "The provided files may be used in articles, reviews, event listings, video thumbnails, websites, YouTube, and social media for coverage of BRAWLZERK, and may be edited as needed."
           },
           facts: {
             eyebrow: "At a glance",
@@ -542,13 +538,11 @@
             screenshot3Alt: "暗いアリーナで近接攻防を繰り広げるBRAWLZERKのゲームプレイ",
             screenshot4Alt: "敵集団の中でガードするBRAWLZERKのゲームプレイ",
             screenshot5Alt: "強化された敵と戦うBRAWLZERKのフレンジー戦闘",
-            guidelinesEyebrow: "使用ガイド",
-            guidelinesHeading: "メディア使用ガイド",
-            guidelinesUpdated: "2026年7月21日更新",
+            guidelinesHeading: "メディア素材の使用について",
             guidelines: [
-              "BRAWLZERKに関する記事、レビュー、イベント紹介、動画サムネイルに使用できます。",
-              "ロゴの比率と色を維持し、変形、色変更、描き直しは行わないでください。",
               "ゲームプレイスクリーンショットとキーアートは、主な被写体を判別できる範囲でトリミングできます。",
+              "ロゴは元の比率と色を維持してください。",
+              "ゲーム名とSteamストアページへのリンクを併記していただけますと幸いです。",
               "推奨クレジット：BRAWLZERK / Reforbli。"
             ]
           },
@@ -556,7 +550,7 @@
             heading: "ダウンロードセンター",
             linkLabel: "Google Driveリンク準備中",
             fileDescription: "ウェブ用720p公式トレーラー、ゲームプレイスクリーンショット、ロゴなし・ロゴ入りキーアート、透過ロゴ、Steam素材、アイコンを用途別フォルダーに整理しています。",
-            usageNote: "提供ファイルは、ゲーム紹介および報道を目的として、貴社のウェブサイト、YouTube、SNSへアップロードし、必要な範囲で編集してご利用いただけます。\n\nゲーム名とSteamストアページへのリンクを併記していただけますと幸いです。"
+            usageNote: "提供ファイルは、BRAWLZERKの紹介・報道を目的として、記事、レビュー、イベント紹介、動画サムネイル、ウェブサイト、YouTube、SNSで使用し、必要な範囲で編集していただけます。"
           },
           facts: {
             eyebrow: "概要",

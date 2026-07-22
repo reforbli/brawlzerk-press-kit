@@ -53,7 +53,11 @@
     embed.replaceChildren();
 
     const iframe = document.createElement("iframe");
-    iframe.src = "https://www.youtube-nocookie.com/embed/ul-CM7RlaXo?rel=0&playsinline=1";
+    const videoUrl = new URL("https://www.youtube.com/embed/ul-CM7RlaXo?rel=0&playsinline=1");
+    if (window.location.protocol === "http:" || window.location.protocol === "https:") {
+      videoUrl.searchParams.set("origin", window.location.origin);
+    }
+    iframe.src = videoUrl.toString();
     iframe.loading = "lazy";
     iframe.referrerPolicy = "strict-origin-when-cross-origin";
     iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
