@@ -57,7 +57,7 @@
             eyebrow: "1인 게임 개발자",
             since: "전투 시스템 프로토타입 · 2015년부터",
             origin: "저는 2015년부터 2025년까지 워크래프트 3 에디터로 쿼터뷰 격투게임 전투 시스템을 개발했습니다.",
-            game: "BRAWLZERK는 뱀서라이크에 그동안 개발해 온 전투 시스템을 더 발전시켜 결합한 게임입니다.",
+            game: "BRAWLZERK는 뱀서라이크에 그동안 개발해 온 전투 시스템을 더 발전시켜 결합한 게임입니다. 이전 프로토타입과 달리, 이 게임은 Unity를 사용해 새로 개발하고 있습니다.",
             movement: "이 게임의 조작에서 가장 특이한 점은 이동 방식입니다.",
             movementContrast: "보통 게임은 WASD를 누르거나 마우스를 클릭해야 움직이지만, 이 게임은 그렇지 않습니다.",
             reasonsIntro: "이렇게 한 이유는 두 가지가 있는데요.",
@@ -198,7 +198,8 @@
               { label: "예정 출시일", value: "2026. 11. 10" },
               { label: "프레스 문의", value: "reforbli@gmail.com" },
               { label: "지원 예정 언어", value: "한국어 · 영어 · 일본어 · 중국어(간체·번체) · 독일어 · 프랑스어 · 이탈리아어 · 스페인어(스페인) · 러시아어 · 포르투갈어(포르투갈·브라질)" },
-              { label: "플레이 형태", value: "싱글 플레이" }
+              { label: "플레이 형태", value: "싱글 플레이" },
+              { label: "개발 엔진", value: "Unity" }
             ]
           },
           contact: {
@@ -273,7 +274,7 @@
             eyebrow: "Solo game developer",
             since: "Combat prototypes · Since 2015",
             origin: "From 2015 through 2025, I developed an isometric fighting-game combat system using the Warcraft III editor.",
-            game: "BRAWLZERK takes the survivors-like format and combines it with a further-developed version of the combat system I worked on during those years.",
+            game: "BRAWLZERK takes the survivors-like format and combines it with a further-developed version of the combat system I worked on during those years. Unlike the earlier prototypes, this game is being developed from the ground up in Unity.",
             movement: "The most distinctive part of this game's controls is its movement system.",
             movementContrast: "Most games require you to press WASD or click the mouse to move, but this game works differently.",
             reasonsIntro: "There are two reasons for this.",
@@ -414,7 +415,8 @@
               { label: "Planned release date", value: "November 10, 2026" },
               { label: "Press contact", value: "reforbli@gmail.com" },
               { label: "Planned language support", value: "Korean · English · Japanese · Chinese (Simplified/Traditional) · German · French · Italian · Spanish (Spain) · Russian · Portuguese (Portugal/Brazil)" },
-              { label: "Player mode", value: "Single-player" }
+              { label: "Player mode", value: "Single-player" },
+              { label: "Engine", value: "Unity" }
             ]
           },
           contact: {
@@ -489,7 +491,7 @@
             eyebrow: "個人ゲーム開発者",
             since: "戦闘システムのプロトタイプ · 2015年から",
             origin: "私は2015年から2025年まで、『Warcraft III』のエディターを使い、アイソメトリック視点の格闘ゲーム型戦闘システムを開発してきました。",
-            game: "『BRAWLZERK』は、ヴァンサバライクに、これまで開発してきた戦闘システムをさらに発展させて組み合わせたゲームです。",
+            game: "『BRAWLZERK』は、ヴァンサバライクに、これまで開発してきた戦闘システムをさらに発展させて組み合わせたゲームです。以前のプロトタイプとは異なり、本作はUnityを使用して新たに開発しています。",
             movement: "このゲームの操作で最も特徴的なのは、移動方式です。",
             movementContrast: "一般的なゲームではWASDキーを押すか、マウスをクリックして移動しますが、本作は違います。",
             reasonsIntro: "こうした方式にした理由は2つあります。",
@@ -630,7 +632,8 @@
               { label: "発売予定日", value: "2026年11月10日" },
               { label: "プレス窓口", value: "reforbli@gmail.com" },
               { label: "対応予定言語", value: "韓国語・英語・日本語・中国語（簡体字・繁体字）・ドイツ語・フランス語・イタリア語・スペイン語（スペイン）・ロシア語・ポルトガル語（ポルトガル・ブラジル）" },
-              { label: "プレイモード", value: "シングルプレイヤー" }
+              { label: "プレイモード", value: "シングルプレイヤー" },
+              { label: "ゲームエンジン", value: "Unity" }
             ]
           },
           contact: {
