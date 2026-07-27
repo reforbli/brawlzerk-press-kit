@@ -161,7 +161,7 @@
           downloads: {
             heading: "다운로드 센터",
             linkLabel: "Google Drive에서 프레스킷 다운로드 ↗",
-            fileDescription: "웹용 720p 공식 트레일러, 게임플레이 스크린샷, 무로고·로고 포함 키아트, 투명 로고, Steam 에셋과 아이콘을 용도별 폴더로 정리했습니다.",
+            fileDescription: "웹용 1080p 공식 트레일러, 게임플레이 스크린샷, 무로고·로고 포함 키아트, 투명 로고, Steam 에셋과 아이콘을 용도별 폴더로 정리했습니다.",
             usageNote: "제공된 파일은 BRAWLZERK의 게임 소개 및 보도를 위해 기사, 리뷰, 행사 소개, 영상 썸네일, 웹사이트, YouTube 및 SNS에 사용하거나 필요한 범위에서 편집할 수 있습니다."
           },
           facts: {
@@ -363,7 +363,7 @@
           downloads: {
             heading: "Download center",
             linkLabel: "Download the press kit from Google Drive ↗",
-            fileDescription: "Includes the web-ready 720p official trailer, gameplay screenshots, clean and logo-included key art, a transparent logo, Steam assets, and icons organized by asset type.",
+            fileDescription: "Includes the web-ready 1080p official trailer, gameplay screenshots, clean and logo-included key art, a transparent logo, Steam assets, and icons organized by asset type.",
             usageNote: "The provided files may be used in articles, reviews, event listings, video thumbnails, websites, YouTube, and social media for coverage of BRAWLZERK, and may be edited as needed."
           },
           facts: {
@@ -565,7 +565,7 @@
           downloads: {
             heading: "ダウンロードセンター",
             linkLabel: "Google Driveからプレスキットをダウンロード ↗",
-            fileDescription: "ウェブ用720p公式トレーラー、ゲームプレイスクリーンショット、ロゴなし・ロゴ入りキーアート、透過ロゴ、Steam素材、アイコンを用途別フォルダーに整理しています。",
+            fileDescription: "ウェブ用1080p公式トレーラー、ゲームプレイスクリーンショット、ロゴなし・ロゴ入りキーアート、透過ロゴ、Steam素材、アイコンを用途別フォルダーに整理しています。",
             usageNote: "提供ファイルは、BRAWLZERKの紹介・報道を目的として、記事、レビュー、イベント紹介、動画サムネイル、ウェブサイト、YouTube、SNSで使用し、必要な範囲で編集していただけます。"
           },
           facts: {
