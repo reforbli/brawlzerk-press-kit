@@ -186,11 +186,18 @@
         { label: "平台", value: "Windows PC · Steam" },
         { label: "核心战斗系统", value: "轻重攻击 · 战斗技能 · 空中/墙边连招 · 格挡/完美格挡 · 翻滚/完美闪避 · 逆转技" },
         { label: "单局成长", value: "升级 · 被动奖励 · 主动技能卡牌组 · 永久强化与解锁" },
-        { label: "Steam 商店页面", value: "临时链接 · 准备中", href: "#", placeholder: true, ariaLabel: "Steam 商店页面临时链接，准备中" },
-        null,
+        {
+          label: "官方链接",
+          links: [
+            { value: "Steam", href: "#", placeholder: true, ariaLabel: "BRAWLZERK Steam 商店页面" },
+            { value: "YouTube", href: "https://youtu.be/ul-CM7RlaXo", external: true, ariaLabel: "在 YouTube 观看 BRAWLZERK 官方玩法预告片" }
+          ]
+        },
+        { label: "发行商", value: "Reforbli（自主发行）" },
         { label: "预计发售日期", value: "2026年11月10日" },
         { label: "媒体联系", value: "reforbli@gmail.com" },
-        { label: "计划支持语言", value: "韩语 · 英语 · 日语 · 简体中文 · 繁体中文 · 德语 · 法语 · 意大利语 · 西班牙语（西班牙） · 俄语 · 葡萄牙语（葡萄牙/巴西）" }
+        { label: "计划支持语言", value: "韩语 · 英语 · 日语 · 简体中文 · 繁体中文 · 德语 · 法语 · 意大利语 · 西班牙语（西班牙） · 俄语 · 葡萄牙语（葡萄牙/巴西）" },
+        { label: "游戏模式", value: "单人游戏" }
       ]
     },
     contact: {
@@ -393,11 +400,18 @@
         { label: "平台", value: "Windows PC · Steam" },
         { label: "核心戰鬥系統", value: "輕重攻擊 · 戰鬥技能 · 空中/牆邊連段 · 格擋/完美格擋 · 翻滾/完美閃避 · 逆轉技" },
         { label: "單局成長", value: "升級 · 被動獎勵 · 主動技能卡牌組 · 永久強化與解鎖" },
-        { label: "Steam 商店頁面", value: "暫用連結 · 準備中", href: "#", placeholder: true, ariaLabel: "Steam 商店頁面暫用連結，準備中" },
-        null,
+        {
+          label: "官方連結",
+          links: [
+            { value: "Steam", href: "#", placeholder: true, ariaLabel: "BRAWLZERK Steam 商店頁面" },
+            { value: "YouTube", href: "https://youtu.be/ul-CM7RlaXo", external: true, ariaLabel: "在 YouTube 觀看 BRAWLZERK 官方玩法預告片" }
+          ]
+        },
+        { label: "發行商", value: "Reforbli（自主發行）" },
         { label: "預計發售日期", value: "2026年11月10日" },
         { label: "媒體聯絡", value: "reforbli@gmail.com" },
-        { label: "預計支援語言", value: "韓文 · 英文 · 日文 · 簡體中文 · 繁體中文 · 德文 · 法文 · 義大利文 · 西班牙文（西班牙） · 俄文 · 葡萄牙文（葡萄牙／巴西）" }
+        { label: "預計支援語言", value: "韓文 · 英文 · 日文 · 簡體中文 · 繁體中文 · 德文 · 法文 · 義大利文 · 西班牙文（西班牙） · 俄文 · 葡萄牙文（葡萄牙／巴西）" },
+        { label: "遊戲模式", value: "單人遊戲" }
       ]
     },
     contact: {

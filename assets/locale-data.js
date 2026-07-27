@@ -171,11 +171,18 @@
               { label: "플랫폼", value: "Windows PC · Steam" },
               { label: "핵심 전투 시스템", value: "강·약 공격 · 전투 스킬 · 공중/벽 콤보 · 가드/퍼펙트 가드 · 구르기/저스트 회피 · 리버설" },
               { label: "런 성장", value: "레벨업 · 패시브 보상 · 액티브 카드 획득 · 영구 업그레이드와 해금" },
-              { label: "Steam 상점 페이지", value: "임시 링크 · 준비 중", href: "#", placeholder: true, ariaLabel: "Steam 상점 페이지 임시 링크, 준비 중" },
-              null,
+              {
+                label: "공식 링크",
+                links: [
+                  { value: "Steam", href: "#", placeholder: true, ariaLabel: "BRAWLZERK Steam 상점 페이지" },
+                  { value: "YouTube", href: "https://youtu.be/ul-CM7RlaXo", external: true, ariaLabel: "YouTube에서 BRAWLZERK 공식 게임플레이 트레일러 보기" }
+                ]
+              },
+              { label: "퍼블리셔", value: "Reforbli (자체 퍼블리싱)" },
               { label: "예정 출시일", value: "2026. 11. 10" },
               { label: "프레스 문의", value: "reforbli@gmail.com" },
-              { label: "지원 예정 언어", value: "한국어 · 영어 · 일본어 · 중국어(간체·번체) · 독일어 · 프랑스어 · 이탈리아어 · 스페인어(스페인) · 러시아어 · 포르투갈어(포르투갈·브라질)" }
+              { label: "지원 예정 언어", value: "한국어 · 영어 · 일본어 · 중국어(간체·번체) · 독일어 · 프랑스어 · 이탈리아어 · 스페인어(스페인) · 러시아어 · 포르투갈어(포르투갈·브라질)" },
+              { label: "플레이 형태", value: "싱글 플레이" }
             ]
           },
           contact: {
@@ -366,11 +373,18 @@
               { label: "Platform", value: "Windows PC · Steam" },
               { label: "Core combat system", value: "Light/heavy attacks · Combat skills · Air/wall combos · Guard/perfect guard · Roll/just evade · Reversal" },
               { label: "Run progression", value: "Leveling · Passive rewards · Active card deck · Permanent upgrades and unlocks" },
-              { label: "Steam store page", value: "Temporary link · Coming soon", href: "#", placeholder: true, ariaLabel: "Steam store page temporary link, coming soon" },
-              null,
+              {
+                label: "Official links",
+                links: [
+                  { value: "Steam", href: "#", placeholder: true, ariaLabel: "BRAWLZERK Steam store page" },
+                  { value: "YouTube", href: "https://youtu.be/ul-CM7RlaXo", external: true, ariaLabel: "Watch the official BRAWLZERK gameplay trailer on YouTube" }
+                ]
+              },
+              { label: "Publisher", value: "Reforbli (self-published)" },
               { label: "Planned release date", value: "November 10, 2026" },
               { label: "Press contact", value: "reforbli@gmail.com" },
-              { label: "Planned language support", value: "Korean · English · Japanese · Chinese (Simplified/Traditional) · German · French · Italian · Spanish (Spain) · Russian · Portuguese (Portugal/Brazil)" }
+              { label: "Planned language support", value: "Korean · English · Japanese · Chinese (Simplified/Traditional) · German · French · Italian · Spanish (Spain) · Russian · Portuguese (Portugal/Brazil)" },
+              { label: "Player mode", value: "Single-player" }
             ]
           },
           contact: {
@@ -561,11 +575,18 @@
               { label: "プラットフォーム", value: "Windows PC · Steam" },
               { label: "コア戦闘システム", value: "弱・強攻撃 · コンバットスキル · 空中/壁コンボ · ガード/パーフェクトガード · ローリング/ジャスト回避 · リバーサル" },
               { label: "ラン内成長", value: "レベルアップ · パッシブ報酬 · アクティブカードデッキ · 恒久強化とアンロック" },
-              { label: "Steamストアページ", value: "仮リンク · 準備中", href: "#", placeholder: true, ariaLabel: "Steamストアページの仮リンク、準備中" },
-              null,
+              {
+                label: "公式リンク",
+                links: [
+                  { value: "Steam", href: "#", placeholder: true, ariaLabel: "BRAWLZERKのSteamストアページ" },
+                  { value: "YouTube", href: "https://youtu.be/ul-CM7RlaXo", external: true, ariaLabel: "YouTubeでBRAWLZERK公式ゲームプレイトレーラーを見る" }
+                ]
+              },
+              { label: "パブリッシャー", value: "Reforbli（セルフパブリッシング）" },
               { label: "発売予定日", value: "2026年11月10日" },
               { label: "プレス窓口", value: "reforbli@gmail.com" },
-              { label: "対応予定言語", value: "韓国語・英語・日本語・中国語（簡体字・繁体字）・ドイツ語・フランス語・イタリア語・スペイン語（スペイン）・ロシア語・ポルトガル語（ポルトガル・ブラジル）" }
+              { label: "対応予定言語", value: "韓国語・英語・日本語・中国語（簡体字・繁体字）・ドイツ語・フランス語・イタリア語・スペイン語（スペイン）・ロシア語・ポルトガル語（ポルトガル・ブラジル）" },
+              { label: "プレイモード", value: "シングルプレイヤー" }
             ]
           },
           contact: {
