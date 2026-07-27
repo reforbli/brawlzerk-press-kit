@@ -176,7 +176,7 @@
     downloads: {
       heading: "下载中心",
       linkLabel: "从 Google Drive 下载媒体资料包 ↗",
-      fileDescription: "按素材类型整理了网页用1080p官方预告片、游戏截图、无标志与含标志主视觉图、透明背景标志、Steam 素材和图标。",
+      fileDescription: "按素材类型整理了1080p官方预告片、游戏截图、无标志与含标志主视觉图、透明背景标志、Steam 素材和图标。",
       usageNote: "所提供的文件可用于 BRAWLZERK 的游戏介绍与报道，包括文章、评测、活动介绍、视频缩略图、网站、YouTube 和社交媒体，并可在必要范围内进行编辑。"
     },
     facts: {
@@ -390,7 +390,7 @@
     downloads: {
       heading: "下載中心",
       linkLabel: "從 Google Drive 下載媒體資料包 ↗",
-      fileDescription: "依素材類型整理了網頁用1080p官方預告片、遊戲截圖、無標誌與含標誌主視覺圖、透明背景標誌、Steam 素材與圖示。",
+      fileDescription: "依素材類型整理了1080p官方預告片、遊戲截圖、無標誌與含標誌主視覺圖、透明背景標誌、Steam 素材與圖示。",
       usageNote: "所提供的檔案可用於 BRAWLZERK 的遊戲介紹與報導，包括文章、評測、活動介紹、影片縮圖、網站、YouTube 與社群媒體，並可在必要範圍內進行編輯。"
     },
     facts: {

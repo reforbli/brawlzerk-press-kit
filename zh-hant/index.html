@@ -2438,7 +2438,7 @@ Within one continuous run, combat, leveling, passive rewards, and a deck of acti
             <span data-i18n="downloads.linkLabel">Download the press kit from Google Drive</span>
             <span aria-hidden="true">↗</span>
           </a>
-          <p class="download-file-description" data-i18n="downloads.fileDescription">Includes the web-ready 1080p official trailer, gameplay screenshots, clean and logo-included key art, a transparent logo, Steam assets, and icons organized by asset type.</p>
+          <p class="download-file-description" data-i18n="downloads.fileDescription">Includes the 1080p official trailer, gameplay screenshots, clean and logo-included key art, a transparent logo, Steam assets, and icons organized by asset type.</p>
         </div>
 
         <aside class="asset-guidelines" aria-labelledby="asset-guidelines-title">
@@ -2604,7 +2604,7 @@ Within one continuous run, combat, leveling, passive rewards, and a deck of acti
         });
       };
 
-      const setLocale = (locale, updateUrl) => {
+      const setLocale = (locale) => {
         if (!supportedLocales.includes(locale)) locale = "en";
         const data = translations[locale];
         currentLocale = locale;
@@ -2659,28 +2659,16 @@ Within one continuous run, combat, leveling, passive rewards, and a deck of acti
           else button.removeAttribute("aria-current");
         });
 
-        if (updateUrl) {
-          try {
-            const localeRoutes = { en: "en/", ja: "ja/", ko: "ko/", "zh-Hans": "zh-hans/", "zh-Hant": "zh-hant/" };
-            const url = new URL(localeRoutes[locale] || "en/", document.baseURI);
-            url.hash = window.location.hash;
-            window.history.replaceState({}, "", url);
-          } catch (error) {
-            // file:// previews may not allow history updates.
-          }
-        }
       };
 
       localeButtons.forEach((link) => {
-        link.addEventListener("click", (event) => {
-          event.preventDefault();
+        link.addEventListener("click", () => {
           const locale = link.dataset.locale;
           try {
             window.localStorage.setItem("brawlzerk-presskit-v6-locale", locale);
           } catch (error) {
-            // 저장소를 사용할 수 없어도 현재 페이지에서 언어를 전환합니다.
+            // 저장소를 사용할 수 없어도 링크가 해당 언어 페이지로 이동합니다.
           }
-          setLocale(locale, true);
         });
       });
 
@@ -2766,7 +2754,7 @@ Within one continuous run, combat, leveling, passive rewards, and a deck of acti
             ? storedLocale
             : "en";
 
-      setLocale(initialLocale, false);
+      setLocale(initialLocale);
     })();
   </script>
 
