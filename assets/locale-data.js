@@ -1,4 +1,6 @@
 (() => {
+  const STEAM_URL = "https://store.steampowered.com/app/4983810/BRAWLZERK/";
+
   window.BRAWLZERK_PRESSKIT_TRANSLATIONS = {
         ko: {
           meta: {
@@ -24,7 +26,7 @@
             eyebrow: "BRAWLZERK · 공식 프레스킷",
             title: "도망치지 말고,<br><span>받아쳐라.</span>",
             lead: "뱀서라이크의 군중 압박에 격투게임식 공격·방어·리버설을 결합한 쿼터뷰 액션 로그라이트.",
-            wishlistAria: "Steam 위시리스트 페이지 임시 링크, 준비 중",
+            wishlistAria: "BRAWLZERK Steam 상점 페이지 새 탭에서 열기",
             aboutButton: "게임 소개 보기",
             featuresButton: "핵심 특징 보기"
           },
@@ -39,7 +41,7 @@
             { label: "Platform", value: "Windows PC · Steam" },
             { label: "Release", value: "2026. 11. 10" },
             { label: "프레스 문의", value: "reforbli@gmail.com" },
-            { label: "Steam 페이지", value: "임시 링크 · 준비 중", href: "#", placeholder: true, ariaLabel: "Steam 페이지 임시 링크, 준비 중" },
+            { label: "Steam 페이지", value: "Steam 상점 페이지 ↗", href: STEAM_URL, external: true, ariaLabel: "BRAWLZERK Steam 상점 페이지 새 탭에서 열기" },
             { label: "개발자 X / Twitter", value: "@Reforbli ↗", href: "https://x.com/Reforbli", external: true, ariaLabel: "개발자 X / Twitter @Reforbli 새 탭에서 열기" }
           ],
           about: {
@@ -158,7 +160,7 @@
           },
           downloads: {
             heading: "다운로드 센터",
-            linkLabel: "Google Drive 링크 준비 중",
+            linkLabel: "Google Drive에서 프레스킷 다운로드 ↗",
             fileDescription: "웹용 720p 공식 트레일러, 게임플레이 스크린샷, 무로고·로고 포함 키아트, 투명 로고, Steam 에셋과 아이콘을 용도별 폴더로 정리했습니다.",
             usageNote: "제공된 파일은 BRAWLZERK의 게임 소개 및 보도를 위해 기사, 리뷰, 행사 소개, 영상 썸네일, 웹사이트, YouTube 및 SNS에 사용하거나 필요한 범위에서 편집할 수 있습니다."
           },
@@ -174,7 +176,7 @@
               {
                 label: "공식 링크",
                 links: [
-                  { value: "Steam", href: "#", placeholder: true, ariaLabel: "BRAWLZERK Steam 상점 페이지" },
+                  { value: "Steam", href: STEAM_URL, external: true, ariaLabel: "BRAWLZERK Steam 상점 페이지 새 탭에서 열기" },
                   { value: "YouTube", href: "https://youtu.be/ul-CM7RlaXo", external: true, ariaLabel: "YouTube에서 BRAWLZERK 공식 게임플레이 트레일러 보기" }
                 ]
               },
@@ -191,8 +193,8 @@
             body: "인터뷰 요청, 리뷰 및 기사, 행사 소개, 미디어 에셋과 기타 언론 관련 문의는 Reforbli에 직접 연락해 주세요.",
             emailLabel: "이메일",
             steamLabel: "Steam 페이지",
-            steamValue: "임시 링크 · 준비 중",
-            steamAria: "Steam 페이지 임시 링크, 준비 중",
+            steamValue: "Steam 상점 페이지 ↗",
+            steamAria: "BRAWLZERK Steam 상점 페이지 새 탭에서 열기",
             twitterLabel: "개발자 X / Twitter",
             twitterAria: "개발자 X / Twitter @Reforbli 새 탭에서 열기",
             releaseLabel: "출시",
@@ -226,7 +228,7 @@
             eyebrow: "BRAWLZERK · Official press kit",
             title: "DON’T JUST RUN.<br><span>FIGHT BACK.</span>",
             lead: "An isometric action roguelite that combines survivor-like gameplay with fighting-game-style offense, defense, and reversals.",
-            wishlistAria: "Steam wishlist page temporary link, coming soon",
+            wishlistAria: "Open the BRAWLZERK Steam store page in a new tab",
             aboutButton: "Game overview",
             featuresButton: "View key features"
           },
@@ -241,7 +243,7 @@
             { label: "Platform", value: "Windows PC · Steam" },
             { label: "Release", value: "November 10, 2026" },
             { label: "Press contact", value: "reforbli@gmail.com" },
-            { label: "Steam page", value: "Temporary link · Coming soon", href: "#", placeholder: true, ariaLabel: "Steam page temporary link, coming soon" },
+            { label: "Steam page", value: "Steam store page ↗", href: STEAM_URL, external: true, ariaLabel: "Open the BRAWLZERK Steam store page in a new tab" },
             { label: "Developer X / Twitter", value: "@Reforbli ↗", href: "https://x.com/Reforbli", external: true, ariaLabel: "Open developer X / Twitter @Reforbli in a new tab" }
           ],
           about: {
@@ -360,7 +362,7 @@
           },
           downloads: {
             heading: "Download center",
-            linkLabel: "Google Drive link coming soon",
+            linkLabel: "Download the press kit from Google Drive ↗",
             fileDescription: "Includes the web-ready 720p official trailer, gameplay screenshots, clean and logo-included key art, a transparent logo, Steam assets, and icons organized by asset type.",
             usageNote: "The provided files may be used in articles, reviews, event listings, video thumbnails, websites, YouTube, and social media for coverage of BRAWLZERK, and may be edited as needed."
           },
@@ -376,7 +378,7 @@
               {
                 label: "Official links",
                 links: [
-                  { value: "Steam", href: "#", placeholder: true, ariaLabel: "BRAWLZERK Steam store page" },
+                  { value: "Steam", href: STEAM_URL, external: true, ariaLabel: "Open the BRAWLZERK Steam store page in a new tab" },
                   { value: "YouTube", href: "https://youtu.be/ul-CM7RlaXo", external: true, ariaLabel: "Watch the official BRAWLZERK gameplay trailer on YouTube" }
                 ]
               },
@@ -393,8 +395,8 @@
             body: "For interview requests, reviews and editorial coverage, event listings, media assets, and other press inquiries, contact Reforbli directly.",
             emailLabel: "Email",
             steamLabel: "Steam page",
-            steamValue: "Temporary link · Coming soon",
-            steamAria: "Steam page temporary link, coming soon",
+            steamValue: "Steam store page ↗",
+            steamAria: "Open the BRAWLZERK Steam store page in a new tab",
             twitterLabel: "Developer X / Twitter",
             twitterAria: "Open developer X / Twitter @Reforbli in a new tab",
             releaseLabel: "Release",
@@ -428,7 +430,7 @@
             eyebrow: "BRAWLZERK · 公式プレスキット",
             title: "逃げるだけじゃない。<br><span>迎え撃て。</span>",
             lead: "ヴァンサバライクに、格闘ゲーム式の攻撃・防御・リバーサルを融合したアイソメトリックのアクションローグライト。",
-            wishlistAria: "Steamウィッシュリストページの仮リンク、準備中",
+            wishlistAria: "BRAWLZERKのSteamストアページを新しいタブで開く",
             aboutButton: "ゲーム紹介を見る",
             featuresButton: "主な特徴を見る"
           },
@@ -443,7 +445,7 @@
             { label: "プラットフォーム", value: "Windows PC · Steam" },
             { label: "発売日", value: "2026年11月10日" },
             { label: "プレス窓口", value: "reforbli@gmail.com" },
-            { label: "Steamページ", value: "仮リンク · 準備中", href: "#", placeholder: true, ariaLabel: "Steamページの仮リンク、準備中" },
+            { label: "Steamページ", value: "Steamストアページ ↗", href: STEAM_URL, external: true, ariaLabel: "BRAWLZERKのSteamストアページを新しいタブで開く" },
             { label: "開発者X / Twitter", value: "@Reforbli ↗", href: "https://x.com/Reforbli", external: true, ariaLabel: "開発者X / Twitterの@Reforbliを新しいタブで開く" }
           ],
           about: {
@@ -562,7 +564,7 @@
           },
           downloads: {
             heading: "ダウンロードセンター",
-            linkLabel: "Google Driveリンク準備中",
+            linkLabel: "Google Driveからプレスキットをダウンロード ↗",
             fileDescription: "ウェブ用720p公式トレーラー、ゲームプレイスクリーンショット、ロゴなし・ロゴ入りキーアート、透過ロゴ、Steam素材、アイコンを用途別フォルダーに整理しています。",
             usageNote: "提供ファイルは、BRAWLZERKの紹介・報道を目的として、記事、レビュー、イベント紹介、動画サムネイル、ウェブサイト、YouTube、SNSで使用し、必要な範囲で編集していただけます。"
           },
@@ -578,7 +580,7 @@
               {
                 label: "公式リンク",
                 links: [
-                  { value: "Steam", href: "#", placeholder: true, ariaLabel: "BRAWLZERKのSteamストアページ" },
+                  { value: "Steam", href: STEAM_URL, external: true, ariaLabel: "BRAWLZERKのSteamストアページを新しいタブで開く" },
                   { value: "YouTube", href: "https://youtu.be/ul-CM7RlaXo", external: true, ariaLabel: "YouTubeでBRAWLZERK公式ゲームプレイトレーラーを見る" }
                 ]
               },
@@ -595,8 +597,8 @@
             body: "インタビュー、レビューや記事掲載、イベント紹介、メディア素材、その他のプレスに関するお問い合わせは、Reforbliまで直接ご連絡ください。",
             emailLabel: "メール",
             steamLabel: "Steamページ",
-            steamValue: "仮リンク · 準備中",
-            steamAria: "Steamページの仮リンク、準備中",
+            steamValue: "Steamストアページ ↗",
+            steamAria: "BRAWLZERKのSteamストアページを新しいタブで開く",
             twitterLabel: "開発者X / Twitter",
             twitterAria: "開発者X / Twitterの@Reforbliを新しいタブで開く",
             releaseLabel: "発売日",

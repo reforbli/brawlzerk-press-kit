@@ -1,4 +1,6 @@
 (() => {
+  const STEAM_URL = "https://store.steampowered.com/app/4983810/BRAWLZERK/";
+
   const translations = window.BRAWLZERK_PRESSKIT_TRANSLATIONS;
   const runtimeCopy = window.BRAWLZERK_PRESSKIT_RUNTIME_COPY;
 
@@ -39,7 +41,7 @@
       eyebrow: "BRAWLZERK · 官方媒体资料包",
       title: "别只顾着逃跑，<br><span>打回去。</span>",
       lead: "将幸存者类玩法与格斗游戏式攻防、逆转技相结合的等距视角动作 Roguelite。",
-      wishlistAria: "Steam 愿望单页面临时链接，准备中",
+      wishlistAria: "在新标签页中打开 BRAWLZERK Steam 商店页面",
       aboutButton: "查看游戏简介",
       featuresButton: "查看核心特色"
     },
@@ -54,7 +56,7 @@
       { label: "平台", value: "Windows PC · Steam" },
       { label: "发售日期", value: "2026年11月10日" },
       { label: "媒体联系", value: "reforbli@gmail.com" },
-      { label: "Steam 商店页面", value: "临时链接 · 准备中", href: "#", placeholder: true, ariaLabel: "Steam 商店页面临时链接，准备中" },
+      { label: "Steam 商店页面", value: "Steam 商店页面 ↗", href: STEAM_URL, external: true, ariaLabel: "在新标签页中打开 BRAWLZERK Steam 商店页面" },
       { label: "开发者 X / Twitter", value: "@Reforbli ↗", href: "https://x.com/Reforbli", external: true, ariaLabel: "在新标签页打开开发者 X / Twitter @Reforbli" }
     ],
     about: {
@@ -173,7 +175,7 @@
     },
     downloads: {
       heading: "下载中心",
-      linkLabel: "Google Drive 链接准备中",
+      linkLabel: "从 Google Drive 下载媒体资料包 ↗",
       fileDescription: "按素材类型整理了网页用720p官方预告片、游戏截图、无标志与含标志主视觉图、透明背景标志、Steam 素材和图标。",
       usageNote: "所提供的文件可用于 BRAWLZERK 的游戏介绍与报道，包括文章、评测、活动介绍、视频缩略图、网站、YouTube 和社交媒体，并可在必要范围内进行编辑。"
     },
@@ -189,7 +191,7 @@
         {
           label: "官方链接",
           links: [
-            { value: "Steam", href: "#", placeholder: true, ariaLabel: "BRAWLZERK Steam 商店页面" },
+            { value: "Steam", href: STEAM_URL, external: true, ariaLabel: "在新标签页中打开 BRAWLZERK Steam 商店页面" },
             { value: "YouTube", href: "https://youtu.be/ul-CM7RlaXo", external: true, ariaLabel: "在 YouTube 观看 BRAWLZERK 官方玩法预告片" }
           ]
         },
@@ -206,8 +208,8 @@
       body: "如需采访、评测与报道、活动介绍、媒体素材或其他媒体相关信息，请直接联系 Reforbli。",
       emailLabel: "电子邮箱",
       steamLabel: "Steam 商店页面",
-      steamValue: "临时链接 · 准备中",
-      steamAria: "Steam 商店页面临时链接，准备中",
+      steamValue: "Steam 商店页面 ↗",
+      steamAria: "在新标签页中打开 BRAWLZERK Steam 商店页面",
       twitterLabel: "开发者 X / Twitter",
       twitterAria: "在新标签页打开开发者 X / Twitter @Reforbli",
       releaseLabel: "发售日期",
@@ -253,7 +255,7 @@
       eyebrow: "BRAWLZERK · 官方媒體資料包",
       title: "別只顧著逃跑，<br><span>打回去。</span>",
       lead: "將倖存者類玩法與格鬥遊戲式攻防、逆轉技結合的等距視角動作 Roguelite。",
-      wishlistAria: "Steam 願望清單頁面暫用連結，準備中",
+      wishlistAria: "在新分頁中開啟 BRAWLZERK Steam 商店頁面",
       aboutButton: "查看遊戲介紹",
       featuresButton: "查看核心特色"
     },
@@ -268,7 +270,7 @@
       { label: "平台", value: "Windows PC · Steam" },
       { label: "發售日期", value: "2026年11月10日" },
       { label: "媒體聯絡", value: "reforbli@gmail.com" },
-      { label: "Steam 商店頁面", value: "暫用連結 · 準備中", href: "#", placeholder: true, ariaLabel: "Steam 商店頁面暫用連結，準備中" },
+      { label: "Steam 商店頁面", value: "Steam 商店頁面 ↗", href: STEAM_URL, external: true, ariaLabel: "在新分頁中開啟 BRAWLZERK Steam 商店頁面" },
       { label: "開發者 X / Twitter", value: "@Reforbli ↗", href: "https://x.com/Reforbli", external: true, ariaLabel: "在新分頁開啟開發者 X / Twitter @Reforbli" }
     ],
     about: {
@@ -387,7 +389,7 @@
     },
     downloads: {
       heading: "下載中心",
-      linkLabel: "Google Drive 連結準備中",
+      linkLabel: "從 Google Drive 下載媒體資料包 ↗",
       fileDescription: "依素材類型整理了網頁用720p官方預告片、遊戲截圖、無標誌與含標誌主視覺圖、透明背景標誌、Steam 素材與圖示。",
       usageNote: "所提供的檔案可用於 BRAWLZERK 的遊戲介紹與報導，包括文章、評測、活動介紹、影片縮圖、網站、YouTube 與社群媒體，並可在必要範圍內進行編輯。"
     },
@@ -403,7 +405,7 @@
         {
           label: "官方連結",
           links: [
-            { value: "Steam", href: "#", placeholder: true, ariaLabel: "BRAWLZERK Steam 商店頁面" },
+            { value: "Steam", href: STEAM_URL, external: true, ariaLabel: "在新分頁中開啟 BRAWLZERK Steam 商店頁面" },
             { value: "YouTube", href: "https://youtu.be/ul-CM7RlaXo", external: true, ariaLabel: "在 YouTube 觀看 BRAWLZERK 官方玩法預告片" }
           ]
         },
@@ -420,8 +422,8 @@
       body: "如需採訪、評測與報導、活動介紹、媒體素材或其他媒體相關資訊，請直接聯絡 Reforbli。",
       emailLabel: "電子郵件",
       steamLabel: "Steam 商店頁面",
-      steamValue: "暫用連結 · 準備中",
-      steamAria: "Steam 商店頁面暫用連結，準備中",
+      steamValue: "Steam 商店頁面 ↗",
+      steamAria: "在新分頁中開啟 BRAWLZERK Steam 商店頁面",
       twitterLabel: "開發者 X / Twitter",
       twitterAria: "在新分頁開啟開發者 X / Twitter @Reforbli",
       releaseLabel: "發售日期",
