@@ -5,7 +5,7 @@
         ko: {
           meta: {
             title: "BRAWLZERK — 공식 프레스킷",
-            description: "직접 때리고, 막고, 피하고, 반격하는 쿼터뷰 뱀서라이크 액션 게임 BRAWLZERK의 공식 프레스킷입니다.",
+            description: "뱀서라이크에 격투게임식 공방을 결합한 쿼터뷰 액션 로그라이트 BRAWLZERK의 공식 프레스킷입니다.",
             ogDescription: "도망치기만 하지 말고, 받아치세요. 격투게임식 공방과 액티브 스킬 카드 빌드를 결합한 쿼터뷰 액션 게임.",
             ogImageAlt: "BRAWLZERK 로고와 전투 키 아트",
             ogLocale: "ko_KR"
@@ -25,7 +25,7 @@
           hero: {
             eyebrow: "BRAWLZERK · 공식 프레스킷",
             title: "도망치지 말고,<br><span>받아쳐라.</span>",
-            lead: "뱀서라이크의 군중 압박에 격투게임식 공격·방어·리버설을 결합한 쿼터뷰 액션 로그라이트.",
+            lead: "뱀서라이크에 격투게임식 공방을 결합한 쿼터뷰 액션 로그라이트.",
             wishlistAria: "BRAWLZERK Steam 상점 페이지 새 탭에서 열기",
             aboutButton: "게임 소개 보기",
             featuresButton: "핵심 특징 보기"
@@ -56,9 +56,23 @@
           developer: {
             eyebrow: "1인 게임 개발자",
             since: "전투 시스템 프로토타입 · 2015년부터",
-            origin: "2015년부터 Warcraft III World Editor를 활용해 쿼터뷰에서 격투게임식 공방을 구현하는 개인 프로토타입을 제작해 왔습니다. 이 과정에서 전투·이동·적 행동 시스템을 반복적으로 설계하고 검증했습니다.",
-            current: "현재는 그 경험을 바탕으로 격투게임식 공방과 뱀서라이크의 성장 구조를 결합한 1인 개발 액션 게임 BRAWLZERK를 개발하고 있습니다.",
-            career: "10년 이상 쿼터뷰 전투 시스템을 집중적으로 개발해 온 1인 게임 개발자 Reforbli 입니다."
+            origin: "저는 2015년부터 2025년까지 워크래프트 3 에디터로 쿼터뷰 격투게임 전투 시스템을 개발했습니다.",
+            game: "BRAWLZERK는 뱀서라이크에 그동안 개발해 온 전투 시스템을 더 발전시켜 결합한 게임입니다.",
+            movement: "이 게임의 조작에서 가장 특이한 점은 이동 방식입니다.",
+            movementContrast: "보통 게임은 WASD를 누르거나 마우스를 클릭해야 움직이지만, 이 게임은 그렇지 않습니다.",
+            reasonsIntro: "이렇게 한 이유는 두 가지가 있는데요.",
+            skillFrequency: "우선 스킬을 사용하는 빈도가 굉장히 높습니다.",
+            skillCooldown: "물론 쿨타임이 있는 스킬도 있지만, 대부분은 개별 쿨타임이 없습니다. 그러다 보니 전투 내내 스킬을 계속 사용하게 되고, 스킬을 쓸 때마다 이동도 잠시 끊깁니다.",
+            clickFatigue: "만약 이런 게임에 클릭 이동을 적용하면 스킬이 끝날 때마다 다시 우클릭을 눌러야 하는데, 그 빈도가 높으니, 조작 피로가 감당하기 어렵게 됩니다.",
+            manySkills: "10개 이상의 스킬을 편하게 사용하기 위해서입니다.",
+            oneHand: "이 정도로 많은 스킬을 편하게 쓰려면 한 손으로 대부분의 스킬을 사용할 수 있어야 합니다.",
+            wasdTradeoff: "그런데 WASD 이동을 사용하면 왼손 가까이에 있는 키 네 개와 여러 손가락이 이동에 묶입니다. 그러면 편하게 사용할 수 있는 스킬 키가 크게 줄어들고, 많은 스킬을 자유롭게 쓰는 조작 시스템을 만들기가 어렵게 되죠.",
+            solution: "그래서 캐릭터는 아예 자동으로 움직이게 하고, 플레이어는 마우스로 이동 방향만 조절하게 만들었습니다. 이동을 위해 반복적으로 클릭할 필요도 없으면서, 왼손은 스킬 사용에 집중할 수 있습니다.",
+            playtest: "아직 외부 플레이테스트 경험은 없습니다.",
+            confidence: "그래도 이 조작 방식이라면 생각만큼 복잡하거나 피곤하지 않을 거라는 자신감이 있습니다.",
+            vision: "쿼터뷰에서 새로운 액션 게임을 보여드리고 싶습니다.",
+            wishlist: "BRAWLZERK를 위시리스트에 추가해 주시면 큰 도움이 됩니다.",
+            steamLink: "Steam 페이지 링크 ↗"
           },
           featuresHead: {
             eyebrow: "핵심 특징",
@@ -126,8 +140,8 @@
             title: "필요에 맞게 활용하는<br><em>언론용 참고 문안.</em>",
             intro: "기사, 영상 설명과 행사 소개에 참고할 수 있도록 세 가지 길이로 정리했습니다. 그대로 인용하거나 매체의 문체에 맞게 자유롭게 편집해도 됩니다. 복사 버튼은 편의를 위한 선택 기능입니다.",
             cards: [
-              { title: "한 줄 소개", length: "Short", text: "BRAWLZERK는 직접 때리고, 막고, 피하고, 반격해 공격권을 되찾는 쿼터뷰 뱀서라이크 액션 게임이다.", button: "한 줄 복사" },
-              { title: "짧은 소개", length: "Store / Article", text: "도망치기만 하지 말고, 받아치세요. BRAWLZERK는 직접 때리고, 막고, 피하고, 반격까지 가능한 쿼터뷰 뱀서라이크 액션 게임입니다. 콤보와 액티브 스킬 카드로 몰려드는 적들의 흐름을 끊고, 매 런 자신만의 전투 빌드를 완성하세요.", button: "짧은 소개 복사" },
+              { title: "한 줄 소개", length: "Short", text: "BRAWLZERK는 뱀서라이크에 격투게임식 공방을 결합한 쿼터뷰 액션 로그라이트다.", button: "한 줄 복사" },
+              { title: "짧은 소개", length: "Store / Article", text: "도망치기만 하지 말고, 받아치세요. BRAWLZERK는 뱀서라이크에 격투게임식 공방을 결합한 쿼터뷰 액션 로그라이트입니다. 직접 공격하고 막고 피하며 콤보를 이어가고, 액티브 스킬 카드와 패시브 보상으로 매 런 새로운 전투 스타일을 완성하세요.", button: "짧은 소개 복사" },
               { title: "보도자료용 소개", length: "Boilerplate", text: "BRAWLZERK는 몰려드는 적을 상대하는 뱀서라이크의 압박과, 타이밍에 따라 공격권을 주고받는 격투게임식 공방을 결합한 쿼터뷰 액션 게임이다.\n\n플레이어는 강·약 기본 공격과 다양한 전투 스킬을 직접 이어가고, 가드와 퍼펙트 가드, 구르기와 저스트 회피, 리버설을 사용해 적의 흐름을 끊는다. 지상 연계는 적을 띄우는 공중 콤보와 벽 바운드로 확장되며, 돌진·사격·가드 등 서로 다른 행동을 사용하는 적들은 상황에 맞는 대응을 요구한다.\n\n한 번의 연속된 런 안에서는 전투와 레벨업, 패시브 보상, 액티브 카드 획득이 함께 이어진다. 매 런 달라지는 패시브와 카드 조합은 같은 전투 시스템 위에 서로 다른 플레이 스타일을 만든다.", button: "전체 문안 복사" }
             ]
           },
@@ -207,7 +221,7 @@
         en: {
           meta: {
             title: "BRAWLZERK — Official Press Kit",
-            description: "The official press kit for BRAWLZERK, an isometric survivor-like action game built around hands-on attacks, defense, evasion, and reversals.",
+            description: "The official press kit for BRAWLZERK, an isometric action roguelite that combines the survivors-like formula with fighting game-style offense and defense.",
             ogDescription: "Do not just run. Fight back. An isometric action game combining fighting-game exchanges with active skill cards.",
             ogImageAlt: "BRAWLZERK logo and combat key art",
             ogLocale: "en_US"
@@ -227,7 +241,7 @@
           hero: {
             eyebrow: "BRAWLZERK · Official press kit",
             title: "DON’T JUST RUN.<br><span>FIGHT BACK.</span>",
-            lead: "An isometric action roguelite that combines survivor-like gameplay with fighting-game-style offense, defense, and reversals.",
+            lead: "An isometric action roguelite that combines the survivors-like formula with fighting game-style offense and defense.",
             wishlistAria: "Open the BRAWLZERK Steam store page in a new tab",
             aboutButton: "Game overview",
             featuresButton: "View key features"
@@ -258,9 +272,23 @@
           developer: {
             eyebrow: "Solo game developer",
             since: "Combat prototypes · Since 2015",
-            origin: "Since 2015, Reforbli has used the Warcraft III World Editor to build personal isometric combat prototypes inspired by fighting-game-style exchanges. Through that work, Reforbli has repeatedly designed and tested combat, movement, and enemy-behavior systems.",
-            current: "Today, Reforbli is drawing on that experience to develop BRAWLZERK, a solo-developed action game that combines fighting-game-style exchanges with survivor-like progression.",
-            career: "Reforbli is a solo game developer who has focused on developing isometric combat systems for over 10 years."
+            origin: "From 2015 through 2025, I developed an isometric fighting-game combat system using the Warcraft III editor.",
+            game: "BRAWLZERK takes the survivors-like format and combines it with a further-developed version of the combat system I worked on during those years.",
+            movement: "The most distinctive part of this game's controls is its movement system.",
+            movementContrast: "Most games require you to press WASD or click the mouse to move, but this game works differently.",
+            reasonsIntro: "There are two reasons for this.",
+            skillFrequency: "First, skills are used extremely frequently.",
+            skillCooldown: "Some skills do have cooldowns, but most do not have individual cooldowns. As a result, you keep using skills throughout combat, and movement briefly stops each time you use one.",
+            clickFatigue: "If click-to-move were used in a game like this, you would have to right-click again every time a skill ended. Because this happens so often, the input fatigue would become difficult to manage.",
+            manySkills: "The second reason is to make more than ten skills comfortable to use.",
+            oneHand: "To use this many skills comfortably, you need to be able to activate most of them with one hand.",
+            wasdTradeoff: "But with WASD movement, four nearby keys and several fingers on the left hand are tied up by movement. That greatly reduces the number of skill keys that are easy to reach and makes it difficult to create a control system that lets you use many skills freely.",
+            solution: "So I made the character move automatically, while the player controls only the direction of movement with the mouse. You do not need to click repeatedly just to keep moving, and your left hand can focus on using skills.",
+            playtest: "I have not yet had the opportunity to run an external playtest.",
+            confidence: "Even so, I am confident that this control scheme will not feel as complicated or tiring as it may sound.",
+            vision: "I want to show you a new kind of action game from an isometric perspective.",
+            wishlist: "Adding BRAWLZERK to your wishlist would be a huge help.",
+            steamLink: "Open the Steam page ↗"
           },
           featuresHead: {
             eyebrow: "Key features",
@@ -328,8 +356,8 @@
             title: "PRESS COPY,<br><em>READY TO ADAPT.</em>",
             intro: "Three lengths are provided as references for articles, video descriptions, and event listings. Quote them as written or adapt them to your publication’s voice. The copy buttons are optional shortcuts.",
             cards: [
-              { title: "One-line pitch", length: "Short", text: "BRAWLZERK is an isometric survivor-like action game about attacking, guarding, evading, and taking the turn back with a reversal.", button: "Copy one-liner" },
-              { title: "Short description", length: "Store / Article", text: "Do not just run. Fight back. BRAWLZERK is an isometric survivor-like action game where you attack, guard, evade, and reverse the flow yourself. Break through the crowd with player-driven combos and active skill cards, then shape a different combat build every run.", button: "Copy short description" },
+              { title: "One-line pitch", length: "Short", text: "BRAWLZERK is an isometric action roguelite that combines the survivors-like formula with fighting game-style offense and defense.", button: "Copy one-liner" },
+              { title: "Short description", length: "Store / Article", text: "Don't just run. Fight back. BRAWLZERK is an isometric action roguelite that combines the survivors-like formula with fighting game-style offense and defense. Attack, block, dodge, and keep your combos going, then combine Active Skill Cards with Passive Rewards to create a new fighting style every run.", button: "Copy short description" },
               { title: "Press boilerplate", length: "Boilerplate", text: "BRAWLZERK combines the crowd pressure of a survivor-like with the turn-taking tension of a fighting game in an isometric action format.\n\nPlayers directly chain light and heavy attacks with combat skills, then break enemy momentum through guards, perfect guards, rolls, just evasions, and reversals. Ground routes extend into air combos and wall bounces, while enemies that charge, shoot, or guard demand different answers.\n\nWithin one continuous run, combat, leveling, passive rewards, and a deck of active skill cards grow together. Changing card and passive combinations create distinct playstyles on top of the same hands-on combat system.", button: "Copy boilerplate" }
             ]
           },
@@ -409,7 +437,7 @@
         ja: {
           meta: {
             title: "BRAWLZERK — 公式プレスキット",
-            description: "攻撃、ガード、回避、リバーサルを自ら操作するアイソメトリックのヴァンサバライク・アクション『BRAWLZERK』公式プレスキット。",
+            description: "ヴァンサバライクに格闘ゲーム式の攻防を組み合わせたアイソメトリック・アクションローグライト『BRAWLZERK』公式プレスキット。",
             ogDescription: "逃げるだけではなく、迎え撃て。格闘ゲームのような攻防とアクティブスキルカードを組み合わせたアイソメトリック・アクション。",
             ogImageAlt: "BRAWLZERKのロゴと戦闘キーアート",
             ogLocale: "ja_JP"
@@ -429,7 +457,7 @@
           hero: {
             eyebrow: "BRAWLZERK · 公式プレスキット",
             title: "逃げるだけじゃない。<br><span>迎え撃て。</span>",
-            lead: "ヴァンサバライクに、格闘ゲーム式の攻撃・防御・リバーサルを融合したアイソメトリックのアクションローグライト。",
+            lead: "ヴァンサバライクに格闘ゲーム式の攻防を組み合わせたアイソメトリックのアクションローグライト。",
             wishlistAria: "BRAWLZERKのSteamストアページを新しいタブで開く",
             aboutButton: "ゲーム紹介を見る",
             featuresButton: "主な特徴を見る"
@@ -460,9 +488,23 @@
           developer: {
             eyebrow: "個人ゲーム開発者",
             since: "戦闘システムのプロトタイプ · 2015年から",
-            origin: "2015年からWarcraft III World Editorを使い、アイソメトリック視点で格闘ゲーム式の攻防を取り入れた個人プロトタイプを制作してきました。その過程で、戦闘・移動・敵行動システムの設計と検証を繰り返してきました。",
-            current: "現在はその経験をもとに、格闘ゲーム式の攻防とサバイバーライクの成長構造を組み合わせた個人開発のアクションゲーム『BRAWLZERK』を開発しています。",
-            career: "Reforbliは、10年以上にわたりアイソメトリック戦闘システムの開発に注力してきた個人ゲーム開発者です。"
+            origin: "私は2015年から2025年まで、『Warcraft III』のエディターを使い、アイソメトリック視点の格闘ゲーム型戦闘システムを開発してきました。",
+            game: "『BRAWLZERK』は、ヴァンサバライクに、これまで開発してきた戦闘システムをさらに発展させて組み合わせたゲームです。",
+            movement: "このゲームの操作で最も特徴的なのは、移動方式です。",
+            movementContrast: "一般的なゲームではWASDキーを押すか、マウスをクリックして移動しますが、本作は違います。",
+            reasonsIntro: "こうした方式にした理由は2つあります。",
+            skillFrequency: "まず、スキルを使う頻度が非常に高いからです。",
+            skillCooldown: "もちろんクールダウンのあるスキルもありますが、ほとんどのスキルには個別のクールダウンがありません。そのため、戦闘中は絶えずスキルを使い続けることになり、スキルを使うたびに移動も一時的に止まります。",
+            clickFatigue: "このようなゲームにクリック移動を採用すると、スキルが終わるたびに再び右クリックしなければなりません。その頻度が高いため、操作の負担が耐え難いものになってしまいます。",
+            manySkills: "10種類以上のスキルを快適に使えるようにするためです。",
+            oneHand: "これだけ多くのスキルを快適に使うには、ほとんどのスキルを片手で操作できる必要があります。",
+            wasdTradeoff: "しかしWASD移動を使うと、左手の近くにある4つのキーと複数の指が移動に使われます。そうすると快適に使えるスキルキーが大幅に減り、多くのスキルを自由に使える操作システムを作るのが難しくなります。",
+            solution: "そこでキャラクターは自動で移動し、プレイヤーはマウスで移動方向だけを調整する方式にしました。移動のために何度もクリックする必要がなく、左手はスキル操作に集中できます。",
+            playtest: "まだ外部プレイテストの経験はありません。",
+            confidence: "それでも、この操作方式なら想像するほど複雑でも疲れるものでもないという自信があります。",
+            vision: "アイソメトリック視点で、新しいアクションゲームをお見せしたいと思っています。",
+            wishlist: "『BRAWLZERK』をウィッシュリストに追加していただけると、大きな力になります。",
+            steamLink: "Steamページを見る ↗"
           },
           featuresHead: {
             eyebrow: "主な特徴",
@@ -530,8 +572,8 @@
             title: "用途に合わせて使える<br><em>プレス向け参考文。</em>",
             intro: "記事、動画説明、イベント紹介の参考として、3種類の長さで用意しています。そのまま引用しても、媒体の文体に合わせて自由に編集しても構いません。コピーボタンは任意のショートカットです。",
             cards: [
-              { title: "一行紹介", length: "Short", text: "BRAWLZERKは、攻撃、ガード、回避、リバーサルで主導権を奪い返すアイソメトリックのヴァンサバライク・アクションです。", button: "一行紹介をコピー" },
-              { title: "短い紹介", length: "Store / Article", text: "逃げるだけではなく、迎え撃て。BRAWLZERKは、攻撃、ガード、回避、リバーサルを自ら操作するアイソメトリックのヴァンサバライク・アクションです。コンボとアクティブスキルカードで敵の流れを断ち切り、ランごとに自分だけの戦闘ビルドを完成させてください。", button: "短い紹介をコピー" },
+              { title: "一行紹介", length: "Short", text: "BRAWLZERKは、ヴァンサバライクに格闘ゲーム式の攻防を組み合わせたアイソメトリックのアクションローグライトです。", button: "一行紹介をコピー" },
+              { title: "短い紹介", length: "Store / Article", text: "逃げるだけではなく、迎え撃て。BRAWLZERKは、ヴァンサバライクに格闘ゲーム式の攻防を組み合わせたアイソメトリックのアクションローグライトです。自ら攻撃し、ガードし、かわしながらコンボをつなぎ、アクティブスキルカードとパッシブ報酬で、ランごとに新たな戦闘スタイルを完成させましょう。", button: "短い紹介をコピー" },
               { title: "プレスリリース用紹介", length: "Boilerplate", text: "BRAWLZERKは、押し寄せる敵を相手にするヴァンサバライクの圧力と、タイミングによって攻撃の主導権を奪い合う格闘ゲームのような攻防を組み合わせたアイソメトリック・アクションです。\n\nプレイヤーは弱・強攻撃と多彩なコンバットスキルを直接つなぎ、ガード、パーフェクトガード、ローリング、ジャスト回避、リバーサルで敵の流れを断ち切ります。地上コンボは空中コンボや壁バウンドへ発展し、突進、射撃、ガードなど異なる行動を取る敵には状況に応じた対応が必要です。\n\nひと続きのランでは、戦闘、レベルアップ、パッシブ報酬、アクティブカードのデッキ成長が同時に進みます。ランごとに変化するカードとパッシブの組み合わせが、同じ戦闘システムの上に異なるプレイスタイルを生み出します。", button: "全文をコピー" }
             ]
           },
@@ -611,7 +653,7 @@
       };
   window.BRAWLZERK_PRESSKIT_RUNTIME_COPY = {
     en: {
-      heroLead: "An isometric action roguelite that combines survivor-like gameplay with fighting-game-style offense, defense, and reversals.",
+      heroLead: "An isometric action roguelite that combines the survivors-like formula with fighting game-style offense and defense.",
       trailerIntro: "See hands-on offense and defense, active skill cards, and varied enemy patterns in the official gameplay trailer.",
       mediaIntro: "Download them from the <a class='inline-scroll-link' href='#google-drive-download'>Google Drive link below</a>.",
       featureVideoFallback: "Your browser does not support HTML5 video.",
@@ -654,6 +696,7 @@
         }
       ],
       carousel: "BRAWLZERK gameplay screenshots",
+      screenshotAlt: "BRAWLZERK gameplay screenshot",
       carouselRole: "carousel",
       picker: "Choose a screenshot",
       previous: "Previous screenshot",
@@ -681,7 +724,7 @@
       }
     },
     ja: {
-      heroLead: "ヴァンサバライクに、格闘ゲーム式の攻撃・防御・リバーサルを融合したアイソメトリックのアクションローグライト。",
+      heroLead: "ヴァンサバライクに格闘ゲーム式の攻防を組み合わせたアイソメトリックのアクションローグライト。",
       trailerIntro: "自ら攻撃し、ガードし、回避する戦闘から、アクティブスキルカードや多彩な敵の行動まで、実際のプレイ映像を公式ゲームプレイトレーラーでご覧ください。",
       mediaIntro: "ダウンロードは、<a class='inline-scroll-link' href='#google-drive-download'>下記のGoogle Driveリンク</a>をご利用ください。",
       featureVideoFallback: "お使いのブラウザはHTML5動画に対応していません。",
@@ -724,6 +767,7 @@
         }
       ],
       carousel: "BRAWLZERK ゲームプレイスクリーンショット",
+      screenshotAlt: "BRAWLZERK ゲームプレイスクリーンショット",
       carouselRole: "カルーセル",
       picker: "スクリーンショットを選択",
       previous: "前のスクリーンショット",
@@ -751,7 +795,7 @@
       }
     },
     ko: {
-      heroLead: "뱀서라이크에 격투게임식 공방과 리버설을 결합한 쿼터뷰 액션 로그라이트.",
+      heroLead: "뱀서라이크에 격투게임식 공방을 결합한 쿼터뷰 액션 로그라이트.",
       trailerIntro: "직접 공격하고 막고 피하는 전투부터 액티브 스킬 카드와 다양한 적 패턴까지, 실제 플레이 모습을 공식 게임플레이 트레일러에서 확인하세요.",
       mediaIntro: "다운로드는 <a class='inline-scroll-link' href='#google-drive-download'>아래 Google Drive</a> 링크에서 해주세요.",
       featureVideoFallback: "브라우저가 HTML5 영상을 지원하지 않습니다.",
@@ -794,6 +838,7 @@
         }
       ],
       carousel: "BRAWLZERK 게임플레이 스크린샷",
+      screenshotAlt: "BRAWLZERK 게임플레이 스크린샷",
       carouselRole: "캐러셀",
       picker: "스크린샷 선택",
       previous: "이전 스크린샷",

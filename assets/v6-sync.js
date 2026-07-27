@@ -5,11 +5,20 @@
   const copy = window.BRAWLZERK_PRESSKIT_RUNTIME_COPY;
 
   const screenshots = [
-    ["BRAWLZERK_Screenshot_01b.png", "media.screenshot1Alt", "shot1"],
-    ["BRAWLZERK_Screenshot_02.png", "media.screenshot2Alt", "shot2"],
-    ["BRAWLZERK_Screenshot_03.png", "media.screenshot3Alt", "shot3"],
-    ["BRAWLZERK_Screenshot_06.png", "media.screenshot4Alt", "shot4"],
-    ["BRAWLZERK_Screenshot_12.png", "media.screenshot5Alt", "shot5"]
+    ["BRAWLZERK_PressKit_Screenshot_01.png", "shot1"],
+    ["BRAWLZERK_PressKit_Screenshot_02.png", "shot1"],
+    ["BRAWLZERK_PressKit_Screenshot_03.png", "shot2"],
+    ["BRAWLZERK_PressKit_Screenshot_04.png", "shot3"],
+    ["BRAWLZERK_PressKit_Screenshot_05.png", "shot3"],
+    ["BRAWLZERK_PressKit_Screenshot_06.png", "shot3"],
+    ["BRAWLZERK_PressKit_Screenshot_07.png", "shot4"],
+    ["BRAWLZERK_PressKit_Screenshot_08.png", "shot4"],
+    ["BRAWLZERK_PressKit_Screenshot_09.png", "shot2"],
+    ["BRAWLZERK_PressKit_Screenshot_10.png", "shot2"],
+    ["BRAWLZERK_PressKit_Screenshot_11.png", "shot4"],
+    ["BRAWLZERK_PressKit_Screenshot_12.png", "shot5"],
+    ["BRAWLZERK_PressKit_Screenshot_13.png", "shot3"],
+    ["BRAWLZERK_PressKit_Screenshot_14.png", "shot3"]
   ];
 
   const getLocale = () => {
@@ -167,17 +176,20 @@
     stage.className = "screenshot-stage";
     stage.setAttribute("aria-live", "polite");
 
-    screenshots.forEach(([fileName, altKey, fallbackKey], index) => {
+    screenshots.forEach(([fileName, fallbackKey], index) => {
       const slide = document.createElement("div");
       slide.className = `screenshot-slide${index === 0 ? " is-active" : ""}`;
       slide.dataset.carouselSlide = "";
       if (index !== 0) slide.hidden = true;
       const image = document.createElement("img");
-      image.src = mediaUrl(fileName);
+      const imageUrl = mediaUrl(fileName);
+      if (index === 0) image.src = imageUrl;
+      else image.dataset.src = imageUrl;
       image.width = 1920;
       image.height = 1080;
-      image.loading = index === 0 ? "eager" : "lazy";
-      image.dataset.i18nAlt = altKey;
+      image.loading = "lazy";
+      image.alt = `BRAWLZERK gameplay screenshot ${index + 1}`;
+      image.dataset.screenshotIndex = String(index + 1);
       image.dataset.inlineFallback = fallbackKey;
       slide.append(image);
       stage.append(slide);
@@ -292,6 +304,11 @@
 
     const showSlide = (requestedIndex) => {
       currentIndex = (requestedIndex + slides.length) % slides.length;
+      const activeImage = slides[currentIndex].querySelector("img[data-src]");
+      if (activeImage) {
+        activeImage.src = activeImage.dataset.src;
+        activeImage.removeAttribute("data-src");
+      }
       slides.forEach((slide, index) => {
         const active = index === currentIndex;
         slide.hidden = !active;
@@ -337,6 +354,9 @@
 
     const carousel = document.querySelector("[data-screenshot-carousel]");
     if (!carousel) return;
+    carousel.querySelectorAll("[data-screenshot-index]").forEach((image) => {
+      image.alt = `${localeCopy.screenshotAlt || "BRAWLZERK gameplay screenshot"} ${image.dataset.screenshotIndex}`;
+    });
     carousel.setAttribute("aria-roledescription", localeCopy.carouselRole);
     carousel.setAttribute("aria-label", localeCopy.carousel);
     carousel.querySelector(".screenshot-dots").setAttribute("aria-label", localeCopy.picker);

@@ -13,7 +13,7 @@
   <base href="../">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="theme-color" content="#0b0907">
-  <meta name="description" content="직접 때리고, 막고, 피하고, 반격하는 쿼터뷰 뱀서라이크 액션 게임 BRAWLZERK의 공식 프레스킷입니다.">
+  <meta name="description" content="뱀서라이크에 격투게임식 공방을 결합한 쿼터뷰 액션 로그라이트 BRAWLZERK의 공식 프레스킷입니다.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="BRAWLZERK — 공식 프레스킷">
   <meta property="og:description" content="도망치기만 하지 말고, 받아치세요. 격투게임식 공방과 액티브 스킬 카드 빌드를 결합한 쿼터뷰 액션 게임.">
@@ -759,6 +759,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      max-width: 960px;
+      margin: 0 auto;
       padding: clamp(31px, 5vw, 64px);
       border: 1px solid var(--line);
       background: var(--panel);
@@ -766,31 +768,89 @@
     }
 
     .creator-story p {
-      margin: 0 0 19px;
+      margin: 0;
       color: var(--paper-soft);
       font-size: 1rem;
       line-height: 1.82;
     }
 
-    .creator-story p:first-child {
+    .creator-story-group {
+      display: grid;
+      gap: 13px;
+    }
+
+    .creator-story-group + .creator-story-group,
+    .creator-closing {
+      margin-top: 28px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+    }
+
+    .creator-story .creator-lead {
       color: var(--paper);
       font-size: clamp(1.17rem, 1.8vw, 1.42rem);
       font-weight: 850;
       line-height: 1.58;
     }
 
-    .creator-career {
+    .creator-reasons {
+      display: grid;
+      gap: 24px;
+      margin: 18px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .creator-reasons > li {
+      position: relative;
+      display: grid;
+      gap: 12px;
+      padding-left: 22px;
+    }
+
+    .creator-reasons > li::before {
+      content: "—";
+      position: absolute;
+      top: 0.1em;
+      left: 0;
+      color: var(--gold);
+      font-weight: 950;
+    }
+
+    .creator-story .creator-reason-title {
+      color: var(--paper);
+      font-weight: 850;
+    }
+
+    .creator-closing {
+      display: grid;
+      gap: 13px;
+    }
+
+    .creator-steam-link {
       align-self: flex-start;
       max-width: 100%;
-      margin: 13px 0 0;
-      padding: 9px 12px;
+      margin-top: 7px;
+      padding: 11px 14px;
       color: var(--gold);
       border: 1px solid rgba(255, 212, 61, 0.36);
       background: rgba(255, 212, 61, 0.055);
-      font-size: 0.72rem;
+      font-size: 0.82rem;
       font-weight: 950;
       letter-spacing: 0.045em;
       line-height: 1.55;
+      text-decoration: none;
+      transition:
+        color 150ms ease,
+        border-color 150ms ease,
+        background 150ms ease;
+    }
+
+    .creator-steam-link:hover,
+    .creator-steam-link:focus-visible {
+      color: var(--ink);
+      border-color: var(--gold);
+      background: var(--gold);
     }
 
     .features-section {
@@ -2212,7 +2272,7 @@
           <h1 class="hero-logo-title" id="hero-title">
             <img src="assets/media/BRAWLZERK_Hero_Logo.png" width="1676" height="326" alt="BRAWLZERK">
           </h1>
-          <p class="hero-lead" data-i18n="hero.lead">An isometric action roguelite that combines survivor-like gameplay with fighting-game-style offense, defense, and reversals.</p>
+          <p class="hero-lead" data-i18n="hero.lead">An isometric action roguelite that combines the survivors-like formula with fighting game-style offense and defense.</p>
           <a class="hero-wishlist-badge" href="https://store.steampowered.com/app/4983810/BRAWLZERK/" target="_blank" rel="noopener noreferrer" data-i18n-aria-label="hero.wishlistAria" aria-label="Open the BRAWLZERK Steam store page">
             <img src="assets/media/BRAWLZERK_Steam_Wishlist_Badge.png" width="1480" height="170" alt="">
           </a>
@@ -2372,7 +2432,7 @@
               <h3 data-copy-title="">One-line pitch</h3>
               <span class="copy-length" data-copy-length="">Short</span>
             </div>
-            <div class="copy-text" id="v4-copy-short" data-copy-text="">BRAWLZERK is an isometric survivor-like action game about attacking, guarding, evading, and taking the turn back with a reversal.</div>
+            <div class="copy-text" id="v4-copy-short" data-copy-text="">BRAWLZERK is an isometric action roguelite that combines the survivors-like formula with fighting game-style offense and defense.</div>
             <button class="button button-ghost copy-button" type="button" data-copy-target="v4-copy-short"><span data-copy-button="">Copy one-liner</span><span aria-hidden="true">⧉</span></button>
           </article>
 
@@ -2381,7 +2441,7 @@
               <h3 data-copy-title="">Short description</h3>
               <span class="copy-length" data-copy-length="">Store / Article</span>
             </div>
-            <div class="copy-text" id="v4-copy-medium" data-copy-text="">Do not just run. Fight back. BRAWLZERK is an isometric survivor-like action game where you attack, guard, evade, and reverse the flow yourself. Break through the crowd with player-driven combos and active skill cards, then shape a different combat build every run.</div>
+            <div class="copy-text" id="v4-copy-medium" data-copy-text="">Don't just run. Fight back. BRAWLZERK is an isometric action roguelite that combines the survivors-like formula with fighting game-style offense and defense. Attack, block, dodge, and keep your combos going, then combine Active Skill Cards with Passive Rewards to create a new fighting style every run.</div>
             <button class="button button-ghost copy-button" type="button" data-copy-target="v4-copy-medium"><span data-copy-button="">Copy short description</span><span aria-hidden="true">⧉</span></button>
           </article>
 
@@ -2413,19 +2473,46 @@ Within one continuous run, combat, leveling, passive rewards, and a deck of acti
 
         <div class="media-gallery">
           <div class="media-tile media-tile-main">
-            <img src="assets/media/BRAWLZERK_Screenshot_01b.png" width="1920" height="1080" loading="lazy" data-i18n-alt="media.screenshot1Alt" alt="BRAWLZERK gameplay showing a large area attack hitting a crowd">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_01.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 1">
           </div>
           <div class="media-tile">
-            <img src="assets/media/BRAWLZERK_Screenshot_02.png" width="1920" height="1080" loading="lazy" data-i18n-alt="media.screenshot2Alt" alt="BRAWLZERK gameplay showing a powered-up area attack among enemies">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_02.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 2">
           </div>
           <div class="media-tile">
-            <img src="assets/media/BRAWLZERK_Screenshot_03.png" width="1920" height="1080" loading="lazy" data-i18n-alt="media.screenshot3Alt" alt="BRAWLZERK gameplay showing a close combat exchange in a dark arena">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_03.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 3">
           </div>
           <div class="media-tile">
-            <img src="assets/media/BRAWLZERK_Screenshot_06.png" width="1920" height="1080" loading="lazy" data-i18n-alt="media.screenshot4Alt" alt="BRAWLZERK gameplay showing the player guarding in a dense enemy crowd">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_04.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 4">
           </div>
           <div class="media-tile">
-            <img src="assets/media/BRAWLZERK_Screenshot_12.png" width="1920" height="1080" loading="lazy" data-i18n-alt="media.screenshot5Alt" alt="BRAWLZERK gameplay showing a Frenzy encounter with empowered enemies">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_05.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 5">
+          </div>
+          <div class="media-tile">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_06.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 6">
+          </div>
+          <div class="media-tile">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_07.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 7">
+          </div>
+          <div class="media-tile">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_08.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 8">
+          </div>
+          <div class="media-tile">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_09.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 9">
+          </div>
+          <div class="media-tile">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_10.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 10">
+          </div>
+          <div class="media-tile">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_11.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 11">
+          </div>
+          <div class="media-tile">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_12.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 12">
+          </div>
+          <div class="media-tile">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_13.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 13">
+          </div>
+          <div class="media-tile">
+            <img src="assets/media/BRAWLZERK_PressKit_Screenshot_14.png" width="1920" height="1080" loading="lazy" alt="BRAWLZERK gameplay screenshot 14">
           </div>
         </div>
 
@@ -2459,9 +2546,44 @@ Within one continuous run, combat, leveling, passive rewards, and a deck of acti
       <div class="container creator-layout">
         <div class="creator-story">
           <h2 class="sr-only" id="developer-title">Reforbli</h2>
-          <p data-i18n="developer.origin">Since 2015, Reforbli has used the Warcraft III World Editor to build personal isometric combat prototypes inspired by fighting-game-style exchanges. Through that work, Reforbli has repeatedly designed and tested combat, movement, and enemy-behavior systems.</p>
-          <p data-i18n="developer.current">Today, Reforbli is drawing on that experience to develop BRAWLZERK, a solo-developed action game that combines fighting-game-style exchanges with survivor-like progression.</p>
-          <p class="creator-career" data-i18n="developer.career">Reforbli is a solo game developer who has focused on developing isometric combat systems for over 10 years.</p>
+          <div class="creator-story-group">
+            <p class="creator-lead" data-i18n="developer.origin">From 2015 through 2025, I developed an isometric fighting-game combat system using the Warcraft III editor.</p>
+            <p data-i18n="developer.game">BRAWLZERK takes the survivors-like format and combines it with a further-developed version of the combat system I worked on during those years.</p>
+          </div>
+
+          <div class="creator-story-group">
+            <p class="creator-lead" data-i18n="developer.movement">The most distinctive part of this game's controls is its movement system.</p>
+            <p data-i18n="developer.movementContrast">Most games require you to press WASD or click the mouse to move, but this game works differently.</p>
+            <p data-i18n="developer.reasonsIntro">There are two reasons for this.</p>
+
+            <ul class="creator-reasons">
+              <li>
+                <p class="creator-reason-title" data-i18n="developer.skillFrequency">First, skills are used extremely frequently.</p>
+                <p data-i18n="developer.skillCooldown">Some skills do have cooldowns, but most do not have individual cooldowns. As a result, you keep using skills throughout combat, and movement briefly stops each time you use one.</p>
+                <p data-i18n="developer.clickFatigue">If click-to-move were used in a game like this, you would have to right-click again every time a skill ended. Because this happens so often, the input fatigue would become difficult to manage.</p>
+              </li>
+              <li>
+                <p class="creator-reason-title" data-i18n="developer.manySkills">The second reason is to make more than ten skills comfortable to use.</p>
+                <p data-i18n="developer.oneHand">To use this many skills comfortably, you need to be able to activate most of them with one hand.</p>
+                <p data-i18n="developer.wasdTradeoff">But with WASD movement, four nearby keys and several fingers on the left hand are tied up by movement. That greatly reduces the number of skill keys that are easy to reach and makes it difficult to create a control system that lets you use many skills freely.</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="creator-story-group">
+            <p data-i18n="developer.solution">So I made the character move automatically, while the player controls only the direction of movement with the mouse. You do not need to click repeatedly just to keep moving, and your left hand can focus on using skills.</p>
+          </div>
+
+          <div class="creator-story-group">
+            <p data-i18n="developer.playtest">I have not yet had the opportunity to run an external playtest.</p>
+            <p data-i18n="developer.confidence">Even so, I am confident that this control scheme will not feel as complicated or tiring as it may sound.</p>
+          </div>
+
+          <div class="creator-closing">
+            <p class="creator-lead" data-i18n="developer.vision">I want to show you a new kind of action game from an isometric perspective.</p>
+            <p data-i18n="developer.wishlist">Adding BRAWLZERK to your wishlist would be a huge help.</p>
+            <a class="creator-steam-link" href="https://store.steampowered.com/app/4983810/BRAWLZERK/" target="_blank" rel="noopener noreferrer" data-i18n="developer.steamLink">Open the Steam page ↗</a>
+          </div>
         </div>
       </div>
     </section>

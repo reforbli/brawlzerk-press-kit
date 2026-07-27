@@ -9,7 +9,7 @@
   translations["zh-Hans"] = {
     meta: {
       title: "BRAWLZERK — 官方媒体资料包",
-      description: "BRAWLZERK 官方媒体资料包。游戏采用等距视角，玩家需要亲自攻击、格挡、闪避，并用逆转技夺回主动权。",
+      description: "BRAWLZERK 官方媒体资料包。这是一款将幸存者类玩法与格斗游戏式攻防相结合的等距视角动作类 Roguelite 游戏。",
       ogDescription: "别只顾着逃跑，打回去。将格斗游戏式攻防与主动技能卡流派相结合的等距视角动作游戏。",
       ogImageAlt: "BRAWLZERK 标志与战斗主视觉图",
       ogLocale: "zh_CN"
@@ -40,7 +40,7 @@
     hero: {
       eyebrow: "BRAWLZERK · 官方媒体资料包",
       title: "别只顾着逃跑，<br><span>打回去。</span>",
-      lead: "将幸存者类玩法与格斗游戏式攻防、逆转技相结合的等距视角动作 Roguelite。",
+      lead: "将幸存者类玩法与格斗游戏式攻防相结合的等距视角动作类 Roguelite 游戏。",
       wishlistAria: "在新标签页中打开 BRAWLZERK Steam 商店页面",
       aboutButton: "查看游戏简介",
       featuresButton: "查看核心特色"
@@ -71,9 +71,23 @@
     developer: {
       eyebrow: "个人游戏开发者",
       since: "战斗系统原型 · 始于2015年",
-      origin: "自2015年起，Reforbli 使用 Warcraft III World Editor 制作个人原型，在等距视角下探索格斗游戏式攻防。在此过程中，持续设计并验证战斗、移动与敌人行为系统。",
-      current: "目前，Reforbli 正将这些经验用于开发 BRAWLZERK——一款由一人制作、融合格斗游戏式攻防与幸存者类成长结构的动作游戏。",
-      career: "Reforbli 是一名专注于等距视角战斗系统开发超过10年的个人游戏开发者。"
+      origin: "从2015年到2025年，我一直使用《Warcraft III》编辑器开发等距视角的格斗游戏式战斗系统。",
+      game: "BRAWLZERK 是一款将幸存者类玩法与我多年来开发、并进一步完善的战斗系统相结合的游戏。",
+      movement: "本作操作上最特别的地方，是移动方式。",
+      movementContrast: "一般游戏需要按下WASD或点击鼠标才能移动，但本作并非如此。",
+      reasonsIntro: "这样设计有两个原因。",
+      skillFrequency: "首先，技能的使用频率非常高。",
+      skillCooldown: "当然，有些技能存在冷却时间，但大多数技能没有各自独立的冷却时间。因此，玩家会在整场战斗中持续使用技能，而每次使用技能时，移动也会短暂停顿。",
+      clickFatigue: "如果为这样的游戏采用点击移动，每次技能结束后都必须再次点击鼠标右键。由于这种操作发生得非常频繁，操作疲劳会变得难以承受。",
+      manySkills: "另一个原因，是为了让玩家能够舒适地使用十种以上的技能。",
+      oneHand: "要舒适地使用如此多的技能，就需要用一只手操作其中的大部分技能。",
+      wasdTradeoff: "但如果使用WASD移动，左手附近的四个按键和数根手指都会被移动操作占用。这样一来，能够舒适使用的技能键会大幅减少，也很难设计出可以自由使用大量技能的操作系统。",
+      solution: "因此，我让角色自动移动，玩家只需用鼠标调整移动方向。这样既不必为了移动而反复点击，也能让左手专注于使用技能。",
+      playtest: "目前还没有进行外部试玩测试的经验。",
+      confidence: "即便如此，我相信这种操作方式不会像想象中那样复杂或容易令人疲劳。",
+      vision: "我希望能在等距视角下，为大家带来一款全新的动作游戏。",
+      wishlist: "如果您愿意将 BRAWLZERK 加入愿望单，将会给我带来很大的帮助。",
+      steamLink: "前往Steam页面 ↗"
     },
     featuresHead: {
       eyebrow: "核心特色",
@@ -141,8 +155,8 @@
       title: "可按需要使用的<br><em>媒体参考文案。</em>",
       intro: "提供三种长度，供报道、视频简介和活动介绍参考。您可以直接引用，也可以根据媒体风格自由调整。复制按钮仅作为快捷功能。",
       cards: [
-        { title: "一句话介绍", length: "简短", text: "BRAWLZERK 是一款等距视角幸存者类动作游戏，玩家需要亲自攻击、格挡、闪避，并用逆转技夺回主动权。", button: "复制一句话介绍" },
-        { title: "简短介绍", length: "商店 / 报道", text: "别只顾着逃跑，打回去。BRAWLZERK 是一款等距视角幸存者类动作游戏，玩家需要亲自攻击、格挡、闪避，并用逆转技扭转战局。用手动连招与主动技能卡突破敌群，再在每一局中打造不同的战斗流派。", button: "复制简短介绍" },
+        { title: "一句话介绍", length: "简短", text: "BRAWLZERK 是一款将幸存者类玩法与格斗游戏式攻防相结合的等距视角动作类 Roguelite 游戏。", button: "复制一句话介绍" },
+        { title: "简短介绍", length: "商店 / 报道", text: "别只顾着逃跑，打回去。BRAWLZERK 是一款将幸存者类玩法与格斗游戏式攻防相结合的等距视角动作类 Roguelite 游戏。亲自攻击、格挡、闪避并延续连招，再通过主动技能卡和被动奖励，在每一局中打造全新的战斗风格。", button: "复制简短介绍" },
         { title: "媒体通稿介绍", length: "标准介绍", text: "BRAWLZERK 将幸存者类游戏中蜂拥而来的敌群，与格斗游戏中通过时机争夺主动权的攻防，融合为一款等距视角动作游戏。\n\n玩家可以直接衔接轻重攻击与战斗技能，并通过格挡、完美格挡、翻滚、完美闪避和逆转技打断敌人的攻势。地面连招能够延伸为空中连招和撞墙追击，而面对会冲锋、射击或格挡的敌人时，也需要采取不同应对。\n\n在连续进行的一局中，战斗、升级、被动奖励与主动技能卡牌组会同步成长。每局变化的卡牌和被动组合，会在同一套手动战斗系统上形成截然不同的玩法。", button: "复制完整文案" }
       ]
     },
@@ -223,7 +237,7 @@
   translations["zh-Hant"] = {
     meta: {
       title: "BRAWLZERK — 官方媒體資料包",
-      description: "BRAWLZERK 官方媒體資料包。遊戲採用等距視角，玩家需要親自攻擊、格擋、閃避，並以逆轉技奪回主導權。",
+      description: "BRAWLZERK 官方媒體資料包。這是一款將倖存者類玩法與格鬥遊戲式攻防結合的等距視角動作 Roguelite。",
       ogDescription: "別只顧著逃跑，打回去。將格鬥遊戲式攻防與主動技能卡流派結合的等距視角動作遊戲。",
       ogImageAlt: "BRAWLZERK 標誌與戰鬥主視覺圖",
       ogLocale: "zh_TW"
@@ -254,7 +268,7 @@
     hero: {
       eyebrow: "BRAWLZERK · 官方媒體資料包",
       title: "別只顧著逃跑，<br><span>打回去。</span>",
-      lead: "將倖存者類玩法與格鬥遊戲式攻防、逆轉技結合的等距視角動作 Roguelite。",
+      lead: "將倖存者類玩法與格鬥遊戲式攻防結合的等距視角動作 Roguelite。",
       wishlistAria: "在新分頁中開啟 BRAWLZERK Steam 商店頁面",
       aboutButton: "查看遊戲介紹",
       featuresButton: "查看核心特色"
@@ -285,9 +299,23 @@
     developer: {
       eyebrow: "個人遊戲開發者",
       since: "戰鬥系統原型 · 始於2015年",
-      origin: "自2015年起，Reforbli 使用 Warcraft III World Editor 製作個人原型，在等距視角下探索格鬥遊戲式攻防。在此過程中，持續設計並驗證戰鬥、移動與敵人行為系統。",
-      current: "目前，Reforbli 正將這些經驗用於開發 BRAWLZERK——一款由一人製作、融合格鬥遊戲式攻防與倖存者類成長結構的動作遊戲。",
-      career: "Reforbli 是一名專注於等距視角戰鬥系統開發超過10年的個人遊戲開發者。"
+      origin: "從2015年到2025年，我一直使用《Warcraft III》編輯器開發等距視角的格鬥遊戲式戰鬥系統。",
+      game: "BRAWLZERK 是一款將倖存者類玩法與我多年來開發、並進一步完善的戰鬥系統結合而成的遊戲。",
+      movement: "本作操作上最特別的地方，是移動方式。",
+      movementContrast: "一般遊戲需要按下WASD或點擊滑鼠才能移動，但本作並非如此。",
+      reasonsIntro: "這樣設計有兩個原因。",
+      skillFrequency: "首先，技能的使用頻率非常高。",
+      skillCooldown: "當然，有些技能具有冷卻時間，但大多數技能沒有各自獨立的冷卻時間。因此，玩家會在整場戰鬥中持續使用技能，而每次使用技能時，移動也會短暫中斷。",
+      clickFatigue: "如果為這樣的遊戲採用點擊移動，每次技能結束後都必須再次點擊滑鼠右鍵。由於這種操作發生得非常頻繁，操作疲勞會變得難以承受。",
+      manySkills: "另一個原因，是為了讓玩家能夠舒適地使用十種以上的技能。",
+      oneHand: "要舒適地使用這麼多技能，就需要用一隻手操作其中的大部分技能。",
+      wasdTradeoff: "但如果使用WASD移動，左手附近的四個按鍵與多根手指都會被移動操作占用。這樣一來，能夠舒適使用的技能鍵會大幅減少，也很難設計出可以自由使用大量技能的操作系統。",
+      solution: "因此，我讓角色自動移動，玩家只需用滑鼠調整移動方向。這樣既不必為了移動而反覆點擊，也能讓左手專注於使用技能。",
+      playtest: "目前還沒有進行外部遊玩測試的經驗。",
+      confidence: "即便如此，我相信這種操作方式不會像想像中那樣複雜或容易令人疲勞。",
+      vision: "我希望能在等距視角下，為大家帶來一款全新的動作遊戲。",
+      wishlist: "如果您願意將 BRAWLZERK 加入願望清單，將會給我帶來很大的幫助。",
+      steamLink: "前往Steam頁面 ↗"
     },
     featuresHead: {
       eyebrow: "核心特色",
@@ -355,8 +383,8 @@
       title: "可依需要使用的<br><em>媒體參考文案。</em>",
       intro: "提供三種長度，供報導、影片簡介與活動介紹參考。您可以直接引用，也可以依媒體風格自由調整。複製按鈕僅作為快捷功能。",
       cards: [
-        { title: "一句話介紹", length: "簡短", text: "BRAWLZERK 是一款等距視角倖存者類動作遊戲，玩家需要親自攻擊、格擋、閃避，並以逆轉技奪回主導權。", button: "複製一句話介紹" },
-        { title: "簡短介紹", length: "商店 / 報導", text: "別只顧著逃跑，打回去。BRAWLZERK 是一款等距視角倖存者類動作遊戲，玩家需要親自攻擊、格擋、閃避，並以逆轉技扭轉戰局。用手動連段與主動技能卡突破敵群，再在每一局中打造不同的戰鬥流派。", button: "複製簡短介紹" },
+        { title: "一句話介紹", length: "簡短", text: "BRAWLZERK 是一款將倖存者類玩法與格鬥遊戲式攻防結合的等距視角動作 Roguelite。", button: "複製一句話介紹" },
+        { title: "簡短介紹", length: "商店 / 報導", text: "別只顧著逃跑，打回去。BRAWLZERK 是一款將倖存者類玩法與格鬥遊戲式攻防結合的等距視角動作 Roguelite。親自進攻、格擋、閃避並延續連段，再運用主動技能卡與被動獎勵，在每局遊戲中打造全新的戰鬥風格。", button: "複製簡短介紹" },
         { title: "媒體通稿介紹", length: "標準介紹", text: "BRAWLZERK 將倖存者類遊戲中蜂擁而來的敵群，與格鬥遊戲中透過時機爭奪主導權的攻防，融合為一款等距視角動作遊戲。\n\n玩家可以直接串連輕重攻擊與戰鬥技能，並透過格擋、完美格擋、翻滾、完美閃避與逆轉技打斷敵人的攻勢。地面連段能夠延伸為空中連段與撞牆追擊，而面對會衝鋒、射擊或格擋的敵人時，也需要採取不同應對。\n\n在連續進行的一局中，戰鬥、升級、被動獎勵與主動技能卡牌組會同步成長。每局變化的卡牌與被動組合，會在同一套手動戰鬥系統上形成截然不同的玩法。", button: "複製完整文案" }
       ]
     },
@@ -435,7 +463,7 @@
   };
 
   runtimeCopy["zh-Hans"] = {
-    heroLead: "将幸存者类玩法与格斗游戏式攻防、逆转技相结合的等距视角动作 Roguelite。",
+    heroLead: "将幸存者类玩法与格斗游戏式攻防相结合的等距视角动作类 Roguelite 游戏。",
     trailerIntro: "从亲自攻击、格挡与闪避的战斗，到主动技能卡和多样化的敌人行动，都可在官方玩法预告片中查看。",
     mediaIntro: "请从<a class='inline-scroll-link' href='#google-drive-download'>下方 Google Drive 链接</a>下载。",
     featureVideoFallback: "您的浏览器不支持 HTML5 视频。",
@@ -478,6 +506,7 @@
       }
     ],
     carousel: "BRAWLZERK 游戏截图",
+    screenshotAlt: "BRAWLZERK 游戏截图",
     carouselRole: "轮播图",
     picker: "选择游戏截图",
     previous: "上一张游戏截图",
@@ -506,7 +535,7 @@
   };
 
   runtimeCopy["zh-Hant"] = {
-    heroLead: "將倖存者類玩法與格鬥遊戲式攻防、逆轉技結合的等距視角動作 Roguelite。",
+    heroLead: "將倖存者類玩法與格鬥遊戲式攻防結合的等距視角動作 Roguelite。",
     trailerIntro: "從親自攻擊、格擋與閃避的戰鬥，到主動技能卡與多樣化的敵人行動，都可在官方玩法預告片中查看。",
     mediaIntro: "請從<a class='inline-scroll-link' href='#google-drive-download'>下方 Google Drive 連結</a>下載。",
     featureVideoFallback: "您的瀏覽器不支援 HTML5 影片。",
@@ -549,6 +578,7 @@
       }
     ],
     carousel: "BRAWLZERK 遊戲截圖",
+    screenshotAlt: "BRAWLZERK 遊戲截圖",
     carouselRole: "輪播圖",
     picker: "選擇遊戲截圖",
     previous: "上一張遊戲截圖",
