@@ -87,6 +87,7 @@
       confidence: "即便如此，我相信这种操作方式不会像想象中那样复杂或容易令人疲劳。",
       vision: "我希望能在等距视角下，为大家带来一款全新的动作游戏。",
       wishlist: "如果您愿意将 BRAWLZERK 加入愿望单，将会给我带来很大的帮助。",
+      thanks: "谢谢。",
       steamLink: "前往Steam页面 ↗"
     },
     featuresHead: {
@@ -316,6 +317,7 @@
       confidence: "即便如此，我相信這種操作方式不會像想像中那樣複雜或容易令人疲勞。",
       vision: "我希望能在等距視角下，為大家帶來一款全新的動作遊戲。",
       wishlist: "如果您願意將 BRAWLZERK 加入願望清單，將會給我帶來很大的幫助。",
+      thanks: "謝謝。",
       steamLink: "前往Steam頁面 ↗"
     },
     featuresHead: {

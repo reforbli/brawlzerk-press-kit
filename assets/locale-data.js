@@ -72,6 +72,7 @@
             confidence: "그래도 이 조작 방식이라면 생각만큼 복잡하거나 피곤하지 않을 거라는 자신감이 있습니다.",
             vision: "쿼터뷰에서 새로운 액션 게임을 보여드리고 싶습니다.",
             wishlist: "BRAWLZERK를 위시리스트에 추가해 주시면 큰 도움이 됩니다.",
+            thanks: "감사합니다.",
             steamLink: "Steam 페이지 링크 ↗"
           },
           featuresHead: {
@@ -289,6 +290,7 @@
             confidence: "Even so, I am confident that this control scheme will not feel as complicated or tiring as it may sound.",
             vision: "I want to show you a new kind of action game from an isometric perspective.",
             wishlist: "Adding BRAWLZERK to your wishlist would be a huge help.",
+            thanks: "Thank you.",
             steamLink: "Open the Steam page ↗"
           },
           featuresHead: {
@@ -506,6 +508,7 @@
             confidence: "それでも、この操作方式なら想像するほど複雑でも疲れるものでもないという自信があります。",
             vision: "アイソメトリック視点で、新しいアクションゲームをお見せしたいと思っています。",
             wishlist: "『BRAWLZERK』をウィッシュリストに追加していただけると、大きな力になります。",
+            thanks: "ありがとうございます。",
             steamLink: "Steamページを見る ↗"
           },
           featuresHead: {
