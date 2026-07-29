@@ -833,6 +833,23 @@
       gap: 13px;
     }
 
+    .creator-ending-media {
+      width: 100%;
+      margin: 8px 0 0;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: #000;
+      box-shadow: var(--shadow);
+    }
+
+    .creator-ending-video {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      background: #000;
+    }
+
     .creator-steam-link {
       align-self: flex-start;
       max-width: 100%;
@@ -2589,8 +2606,14 @@ Within one continuous run, combat, leveling, passive rewards, and a deck of acti
           <div class="creator-closing">
             <p class="creator-lead" data-i18n="developer.vision">I want to show you a new kind of action game from an isometric perspective.</p>
             <p data-i18n="developer.wishlist">Adding BRAWLZERK to your wishlist would be a huge help.</p>
-            <p data-i18n="developer.thanks">Thank you.</p>
             <a class="creator-steam-link" href="https://store.steampowered.com/app/4983810/BRAWLZERK/" target="_blank" rel="noopener noreferrer" data-i18n="developer.steamLink">Open the Steam page ↗</a>
+            <p data-i18n="developer.thanks">Thank you.</p>
+            <figure class="creator-ending-media">
+              <video class="creator-ending-video" autoplay muted loop playsinline controls preload="metadata" aria-label="BRAWLZERK gameplay clip">
+                <source src="assets/media/BRAWLZERK_Energy_Blast_Combo.webm" type="video/webm">
+                Your browser does not support HTML5 video.
+              </video>
+            </figure>
           </div>
         </div>
       </div>
