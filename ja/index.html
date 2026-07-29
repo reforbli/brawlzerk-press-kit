@@ -2755,7 +2755,13 @@ Within one continuous run, combat, leveling, passive rewards, and a deck of acti
 
         document.querySelectorAll("[data-i18n]").forEach((element) => {
           const value = getValue(data, element.dataset.i18n);
-          if (typeof value === "string") element.textContent = value;
+          if (typeof value === "string") {
+            element.textContent = value;
+            if (element.dataset.i18n === "developer.solution") {
+              const group = element.closest(".creator-story-group");
+              if (group) group.hidden = value.trim().length === 0;
+            }
+          }
         });
 
         document.querySelectorAll("[data-i18n-html]").forEach((element) => {
